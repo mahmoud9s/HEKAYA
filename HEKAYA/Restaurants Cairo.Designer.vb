@@ -133,9 +133,9 @@ Partial Class Restaurants_Cairo
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label2.Location = New Point(1453, 174)
         Label2.Name = "Label2"
-        Label2.Size = New Size(364, 32)
+        Label2.Size = New Size(62, 32)
         Label2.TabIndex = 74
-        Label2.Text = "Mosque of Muhammed Ali"
+        Label2.Text = "mm"
         ' 
         ' Label5
         ' 
@@ -220,7 +220,6 @@ Partial Class Restaurants_Cairo
         ' PictureBox4
         ' 
         PictureBox4.Anchor = AnchorStyles.Left
-        PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
         PictureBox4.Cursor = Cursors.Hand
@@ -234,7 +233,6 @@ Partial Class Restaurants_Cairo
         ' PictureBox3
         ' 
         PictureBox3.Anchor = AnchorStyles.Right
-        PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.Cursor = Cursors.Hand
         PictureBox3.Location = New Point(966, 174)
