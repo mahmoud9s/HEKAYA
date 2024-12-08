@@ -133,9 +133,9 @@ Partial Class Restaurants_Cairo
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label2.Location = New Point(1453, 174)
         Label2.Name = "Label2"
-        Label2.Size = New Size(62, 32)
+        Label2.Size = New Size(172, 32)
         Label2.TabIndex = 74
-        Label2.Text = "mm"
+        Label2.Text = "Nile Maxim "
         ' 
         ' Label5
         ' 
@@ -207,7 +207,6 @@ Partial Class Restaurants_Cairo
         ' PictureBox6
         ' 
         PictureBox6.Anchor = AnchorStyles.Right
-        PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.Cursor = Cursors.Hand
         PictureBox6.Location = New Point(966, 596)
