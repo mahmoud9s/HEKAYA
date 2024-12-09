@@ -58,8 +58,9 @@ Partial Class Restaurants_Cairo
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label9.Location = New Point(576, 643)
         Label9.Name = "Label9"
-        Label9.Size = New Size(363, 147)
+        Label9.Size = New Size(363, 224)
         Label9.TabIndex = 80
+        Label9.Text = resources.GetString("Label9.Text")
         ' 
         ' Label8
         ' 
@@ -69,7 +70,7 @@ Partial Class Restaurants_Cairo
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label8.Location = New Point(1453, 269)
         Label8.Name = "Label8"
-        Label8.Size = New Size(363, 101)
+        Label8.Size = New Size(363, 199)
         Label8.TabIndex = 79
         Label8.Text = "The Grill is a luxury steakhouse at Cairo's JW Marriott, offering premium meats, seafood, and fine wines in an elegant setting." & vbLf
         ' 
@@ -81,7 +82,7 @@ Partial Class Restaurants_Cairo
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label7.Location = New Point(1453, 643)
         Label7.Name = "Label7"
-        Label7.Size = New Size(363, 101)
+        Label7.Size = New Size(363, 216)
         Label7.TabIndex = 78
         Label7.Text = "Sequoia is a luxurious Nile-side restaurant in Cairo, offering Mediterranean and Middle Eastern cuisine in an elegant, relaxed atmosphere with stunning river views." & vbLf
         ' 
@@ -208,6 +209,7 @@ Partial Class Restaurants_Cairo
         PictureBox6.Anchor = AnchorStyles.Right
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.Cursor = Cursors.Hand
+        PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), Image)
         PictureBox6.Location = New Point(976, 554)
         PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
@@ -221,6 +223,7 @@ Partial Class Restaurants_Cairo
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
         PictureBox4.Cursor = Cursors.Hand
+        PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
         PictureBox4.Location = New Point(99, 554)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
@@ -233,6 +236,7 @@ Partial Class Restaurants_Cairo
         PictureBox3.Anchor = AnchorStyles.Right
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.Cursor = Cursors.Hand
+        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
         PictureBox3.Location = New Point(976, 194)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"

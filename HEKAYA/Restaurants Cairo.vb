@@ -24,7 +24,8 @@
     End Sub
 
     Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
-
+        Restaurants_Cairo_The_Grill.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -43,6 +44,46 @@
 
     Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
         User_Profile.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+        Restaurants_Cairo_Mori_Sushi.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+        Restaurants_Cairo_Mori_Sushi.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        Restaurants_Cairo_Mori_Sushi.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        Restaurants_Cairo_The_Grill.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+        Restaurants_Cairo_The_Grill.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+        Restaurants_Cairo_Sequoia.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        Restaurants_Cairo_Sequoia.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+        Restaurants_Cairo_Sequoia.Show()
         Me.Hide()
     End Sub
 End Class
