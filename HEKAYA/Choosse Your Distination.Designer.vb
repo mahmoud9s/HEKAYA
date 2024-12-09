@@ -89,11 +89,11 @@ Partial Class Choosse_Your_Distination
         ' 
         LinkLabel3.Anchor = AnchorStyles.Right
         LinkLabel3.AutoSize = True
-        LinkLabel3.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
+        LinkLabel3.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel3.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         LinkLabel3.Location = New Point(1239, 505)
         LinkLabel3.Name = "LinkLabel3"
-        LinkLabel3.Size = New Size(84, 31)
+        LinkLabel3.Size = New Size(79, 29)
         LinkLabel3.TabIndex = 13
         LinkLabel3.TabStop = True
         LinkLabel3.Text = "Cairo"
@@ -102,11 +102,11 @@ Partial Class Choosse_Your_Distination
         ' 
         LinkLabel5.Anchor = AnchorStyles.None
         LinkLabel5.AutoSize = True
-        LinkLabel5.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
+        LinkLabel5.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel5.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         LinkLabel5.Location = New Point(268, 893)
         LinkLabel5.Name = "LinkLabel5"
-        LinkLabel5.Size = New Size(141, 31)
+        LinkLabel5.Size = New Size(130, 29)
         LinkLabel5.TabIndex = 15
         LinkLabel5.TabStop = True
         LinkLabel5.Text = "Hurghada"
@@ -115,11 +115,11 @@ Partial Class Choosse_Your_Distination
         ' 
         LinkLabel6.Anchor = AnchorStyles.Right
         LinkLabel6.AutoSize = True
-        LinkLabel6.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
+        LinkLabel6.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel6.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         LinkLabel6.Location = New Point(1239, 893)
         LinkLabel6.Name = "LinkLabel6"
-        LinkLabel6.Size = New Size(77, 31)
+        LinkLabel6.Size = New Size(72, 29)
         LinkLabel6.TabIndex = 16
         LinkLabel6.TabStop = True
         LinkLabel6.Text = "Siwa"
