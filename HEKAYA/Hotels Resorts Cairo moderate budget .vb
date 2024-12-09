@@ -1,7 +1,7 @@
 ﻿Public Class Hotels_Resorts_Cairo
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-        Hotels_Resorts_Cairo_Small_budget.Show()
-        Me.Hide()
+    Private Sub Label2_Click(sender As Object, e As EventArgs)
+        Hotels_Resorts_Cairo_Small_budget.Show
+        Hide
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs)
@@ -14,19 +14,19 @@
         Hide
     End Sub
 
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
-        Hotels_Resorts_Cairo_Small_budget.Show()
-        Me.Hide()
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs)
+        Hotels_Resorts_Cairo_Small_budget.Show
+        Hide
     End Sub
 
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-        Hotels_Resorts_Cairo_Large_budget.Show()
-        Me.Hide()
+    Private Sub Label4_Click(sender As Object, e As EventArgs)
+        Hotels_Resorts_Cairo_Large_budget.Show
+        Hide
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        Hotels_Resorts_Cairo_Large_budget.Show()
-        Me.Hide()
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
+        Hotels_Resorts_Cairo_Large_budget.Show
+        Hide
     End Sub
 
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click

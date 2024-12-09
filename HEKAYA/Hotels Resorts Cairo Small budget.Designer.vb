@@ -45,9 +45,9 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         Label13 = New Label()
         PictureBox9 = New PictureBox()
         PictureBox11 = New PictureBox()
-        Label14 = New Label()
-        PictureBox12 = New PictureBox()
         PictureBox8 = New PictureBox()
+        PictureBox12 = New PictureBox()
+        Label14 = New Label()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -58,8 +58,8 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label4
@@ -107,7 +107,7 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         ' PictureBox2
         ' 
         PictureBox2.Anchor = AnchorStyles.None
-        PictureBox2.BackColor = Color.LemonChiffon
+        PictureBox2.BackColor = Color.Transparent
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox2.Cursor = Cursors.Hand
@@ -148,7 +148,7 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         ' 
         Label1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
         Label1.AutoSize = True
-        Label1.BackColor = Color.LemonChiffon
+        Label1.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         Label1.Font = New Font("Mongolian Baiti", 60F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label1.Location = New Point(720, 70)
@@ -354,19 +354,18 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         PictureBox11.TabIndex = 64
         PictureBox11.TabStop = False
         ' 
-        ' Label14
+        ' PictureBox8
         ' 
-        Label14.Anchor = AnchorStyles.Left
-        Label14.AutoSize = True
-        Label14.BackColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Cursor = Cursors.Hand
-        Label14.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
-        Label14.ForeColor = Color.White
-        Label14.Location = New Point(410, 211)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(96, 29)
-        Label14.TabIndex = 71
-        Label14.Text = "Budget"
+        PictureBox8.BackColor = Color.Transparent
+        PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
+        PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox8.Cursor = Cursors.Hand
+        PictureBox8.Location = New Point(12, 12)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
+        PictureBox8.Name = "PictureBox8"
+        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.TabIndex = 53
+        PictureBox8.TabStop = False
         ' 
         ' PictureBox12
         ' 
@@ -381,24 +380,25 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         PictureBox12.TabIndex = 70
         PictureBox12.TabStop = False
         ' 
-        ' PictureBox8
+        ' Label14
         ' 
-        PictureBox8.BackColor = Color.Transparent
-        PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
-        PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
-        PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(12, 12)
-        PictureBox8.Margin = New Padding(3, 2, 3, 2)
-        PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(70, 39)
-        PictureBox8.TabIndex = 53
-        PictureBox8.TabStop = False
+        Label14.Anchor = AnchorStyles.Left
+        Label14.AutoSize = True
+        Label14.BackColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label14.Cursor = Cursors.Hand
+        Label14.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
+        Label14.ForeColor = Color.White
+        Label14.Location = New Point(410, 211)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(96, 29)
+        Label14.TabIndex = 71
+        Label14.Text = "Budget"
         ' 
         ' Hotels_Resorts_Cairo_Small_budget
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.LemonChiffon
+        BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
         Controls.Add(Label14)
         Controls.Add(PictureBox12)
@@ -440,8 +440,8 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -467,7 +467,7 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
     Friend WithEvents Label13 As Label
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents PictureBox11 As PictureBox
-    Friend WithEvents Label14 As Label
-    Friend WithEvents PictureBox12 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents Label14 As Label
 End Class

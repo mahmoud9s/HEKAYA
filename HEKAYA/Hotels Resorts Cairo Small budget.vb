@@ -124,4 +124,9 @@
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        Hotels_Resorts_Cairo.Show()
+        Me.Hide()
+    End Sub
 End Class

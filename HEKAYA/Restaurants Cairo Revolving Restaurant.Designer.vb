@@ -44,6 +44,10 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         PictureBox7 = New PictureBox()
         PictureBox9 = New PictureBox()
         PictureBox10 = New PictureBox()
+        Label13 = New Label()
+        PictureBox4 = New PictureBox()
+        PictureBox2 = New PictureBox()
+        PictureBox3 = New PictureBox()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -51,6 +55,9 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label16
@@ -310,12 +317,69 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         PictureBox10.TabIndex = 127
         PictureBox10.TabStop = False
         ' 
+        ' Label13
+        ' 
+        Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Label13.AutoSize = True
+        Label13.BackColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label13.Cursor = Cursors.Hand
+        Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
+        Label13.ForeColor = Color.White
+        Label13.Location = New Point(1788, 125)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(87, 20)
+        Label13.TabIndex = 342
+        Label13.Text = "Book now"
+        ' 
+        ' PictureBox4
+        ' 
+        PictureBox4.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
+        PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox4.Cursor = Cursors.Hand
+        PictureBox4.Location = New Point(1768, 113)
+        PictureBox4.Margin = New Padding(3, 2, 3, 2)
+        PictureBox4.Name = "PictureBox4"
+        PictureBox4.Size = New Size(124, 49)
+        PictureBox4.TabIndex = 341
+        PictureBox4.TabStop = False
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
+        PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox2.Cursor = Cursors.Hand
+        PictureBox2.Location = New Point(1645, 120)
+        PictureBox2.Margin = New Padding(3, 2, 3, 2)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(46, 32)
+        PictureBox2.TabIndex = 340
+        PictureBox2.TabStop = False
+        ' 
+        ' PictureBox3
+        ' 
+        PictureBox3.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
+        PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox3.Cursor = Cursors.Hand
+        PictureBox3.Location = New Point(1707, 118)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(45, 38)
+        PictureBox3.TabIndex = 339
+        PictureBox3.TabStop = False
+        ' 
         ' Restaurants_Cairo_Revolving_Restaurant
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
+        Controls.Add(Label13)
+        Controls.Add(PictureBox4)
+        Controls.Add(PictureBox2)
+        Controls.Add(PictureBox3)
         Controls.Add(Label16)
         Controls.Add(Label15)
         Controls.Add(Label14)
@@ -349,6 +413,9 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -377,4 +444,5 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents Label13 As Label
 End Class
