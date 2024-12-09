@@ -55,76 +55,76 @@ Partial Class User_Profile
         PictureBox1.BackColor = Color.Transparent
         PictureBox1.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
-        PictureBox1.Location = New Point(10, 70)
+        PictureBox1.Location = New Point(45, 121)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(143, 112)
+        PictureBox1.Size = New Size(200, 176)
         PictureBox1.TabIndex = 10
         PictureBox1.TabStop = False
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
+        Label1.Font = New Font("Segoe UI", 36F, FontStyle.Bold)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(166, 112)
+        Label1.Location = New Point(251, 168)
         Label1.Name = "Label1"
-        Label1.Size = New Size(223, 41)
+        Label1.Size = New Size(267, 65)
         Label1.TabIndex = 11
-        Label1.Text = "HI : Username "
+        Label1.Text = "Username "
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
+        Label2.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(10, 209)
+        Label2.Location = New Point(47, 326)
         Label2.Name = "Label2"
-        Label2.Size = New Size(133, 41)
+        Label2.Size = New Size(144, 45)
         Label2.TabIndex = 12
         Label2.Text = "EMAIL : "
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
+        Label3.Font = New Font("Segoe UI", 24F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(10, 262)
+        Label3.Location = New Point(47, 379)
         Label3.Name = "Label3"
-        Label3.Size = New Size(258, 41)
+        Label3.Size = New Size(276, 45)
         Label3.TabIndex = 13
         Label3.Text = "Mobile Number :"
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 22F)
+        Label4.Font = New Font("Segoe UI", 24F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(145, 209)
+        Label4.Location = New Point(174, 326)
         Label4.Name = "Label4"
-        Label4.Size = New Size(241, 41)
+        Label4.Size = New Size(259, 45)
         Label4.TabIndex = 14
         Label4.Text = "user@gmail.com"
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 22F)
+        Label5.Font = New Font("Segoe UI", 24F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(294, 262)
+        Label5.Location = New Point(313, 379)
         Label5.Name = "Label5"
-        Label5.Size = New Size(194, 41)
+        Label5.Size = New Size(207, 45)
         Label5.TabIndex = 15
         Label5.Text = "01012345678" & vbCrLf
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
+        Label6.Font = New Font("Segoe UI", 26F, FontStyle.Bold)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(10, 321)
+        Label6.Location = New Point(50, 482)
         Label6.Name = "Label6"
-        Label6.Size = New Size(250, 41)
+        Label6.Size = New Size(292, 47)
         Label6.TabIndex = 16
         Label6.Text = "Recently Viewed"
         ' 
@@ -133,7 +133,7 @@ Partial Class User_Profile
         Label7.AutoSize = True
         Label7.Font = New Font("Segoe UI", 19F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(864, 602)
+        Label7.Location = New Point(1480, 812)
         Label7.Name = "Label7"
         Label7.Size = New Size(159, 36)
         Label7.TabIndex = 17
@@ -144,7 +144,7 @@ Partial Class User_Profile
         Label8.AutoSize = True
         Label8.Font = New Font("Segoe UI", 19F, FontStyle.Bold)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(478, 602)
+        Label8.Location = New Point(863, 812)
         Label8.Name = "Label8"
         Label8.Size = New Size(111, 36)
         Label8.TabIndex = 18
@@ -155,7 +155,7 @@ Partial Class User_Profile
         Label9.AutoSize = True
         Label9.Font = New Font("Segoe UI", 19F, FontStyle.Bold)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(13, 602)
+        Label9.Location = New Point(137, 812)
         Label9.Name = "Label9"
         Label9.Size = New Size(273, 36)
         Label9.TabIndex = 19
@@ -166,10 +166,11 @@ Partial Class User_Profile
         PictureBox2.BackColor = Color.Transparent
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox2.Location = New Point(814, 423)
+        PictureBox2.BorderStyle = BorderStyle.FixedSingle
+        PictureBox2.Location = New Point(1336, 538)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(262, 142)
+        PictureBox2.Size = New Size(447, 245)
         PictureBox2.TabIndex = 20
         PictureBox2.TabStop = False
         ' 
@@ -178,10 +179,11 @@ Partial Class User_Profile
         PictureBox3.BackColor = Color.Transparent
         PictureBox3.BackgroundImage = My.Resources.Resources.Masa
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox3.Location = New Point(423, 423)
+        PictureBox3.BorderStyle = BorderStyle.FixedSingle
+        PictureBox3.Location = New Point(695, 538)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(262, 142)
+        PictureBox3.Size = New Size(447, 245)
         PictureBox3.TabIndex = 21
         PictureBox3.TabStop = False
         ' 
@@ -190,10 +192,11 @@ Partial Class User_Profile
         PictureBox4.BackColor = Color.Transparent
         PictureBox4.BackgroundImage = My.Resources.Resources.revolving_restaurant_F_875x323
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox4.Location = New Point(26, 423)
+        PictureBox4.BorderStyle = BorderStyle.FixedSingle
+        PictureBox4.Location = New Point(50, 538)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(262, 142)
+        PictureBox4.Size = New Size(447, 245)
         PictureBox4.TabIndex = 22
         PictureBox4.TabStop = False
         ' 
@@ -204,7 +207,7 @@ Partial Class User_Profile
         PictureBox5.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox5.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(1021, 14)
+        PictureBox5.Location = New Point(1841, 14)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(55, 39)
@@ -218,7 +221,7 @@ Partial Class User_Profile
         PictureBox7.BackgroundImage = My.Resources.Resources.love
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(946, 14)
+        PictureBox7.Location = New Point(1766, 14)
         PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(60, 39)
@@ -256,7 +259,7 @@ Partial Class User_Profile
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1104, 791)
+        ClientSize = New Size(1924, 1061)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox6)
         Controls.Add(PictureBox7)

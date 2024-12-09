@@ -75,7 +75,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(62, 848)
+        Label10.Location = New Point(34, 848)
         Label10.Name = "Label10"
         Label10.Size = New Size(202, 37)
         Label10.TabIndex = 145
@@ -86,7 +86,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label9.Font = New Font("Microsoft Sans Serif", 20F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(474, 606)
+        Label9.Location = New Point(446, 606)
         Label9.Name = "Label9"
         Label9.Size = New Size(408, 192)
         Label9.TabIndex = 144
@@ -97,7 +97,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(62, 606)
+        Label8.Location = New Point(34, 606)
         Label8.Name = "Label8"
         Label8.Size = New Size(373, 226)
         Label8.TabIndex = 143
@@ -109,7 +109,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(53, 556)
+        Label7.Location = New Point(25, 556)
         Label7.Name = "Label7"
         Label7.Size = New Size(348, 37)
         Label7.TabIndex = 142
@@ -119,7 +119,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         ' 
         Label6.Font = New Font("Microsoft Sans Serif", 22F)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(53, 266)
+        Label6.Location = New Point(25, 266)
         Label6.Name = "Label6"
         Label6.Size = New Size(681, 290)
         Label6.TabIndex = 141
@@ -129,7 +129,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         ' 
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
-        LinkLabel1.Location = New Point(93, 227)
+        LinkLabel1.Location = New Point(65, 227)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(616, 37)
         LinkLabel1.TabIndex = 140
@@ -142,7 +142,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(53, 227)
+        PictureBox6.Location = New Point(25, 227)
         PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(44, 37)
@@ -153,11 +153,11 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         ' 
         Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label5.AutoSize = True
-        Label5.Font = New Font("Microsoft Sans Serif", 60F)
+        Label5.Font = New Font("Mongolian Baiti", 60F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(38, 119)
+        Label5.Location = New Point(9, 134)
         Label5.Name = "Label5"
-        Label5.Size = New Size(799, 91)
+        Label5.Size = New Size(764, 85)
         Label5.TabIndex = 138
         Label5.Text = "Novotel Cairo El Borg"
         ' 
@@ -179,7 +179,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(78, 64)
+        Label4.Location = New Point(78, 108)
         Label4.Name = "Label4"
         Label4.Size = New Size(164, 20)
         Label4.TabIndex = 136
@@ -191,7 +191,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(249, 64)
+        Label3.Location = New Point(249, 108)
         Label3.Name = "Label3"
         Label3.Size = New Size(159, 20)
         Label3.TabIndex = 135
@@ -270,7 +270,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(12, 64)
+        Label1.Location = New Point(12, 108)
         Label1.Name = "Label1"
         Label1.Size = New Size(63, 20)
         Label1.TabIndex = 129
