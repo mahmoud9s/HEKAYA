@@ -387,7 +387,7 @@ Partial Class Hotels_Resorts_Cairo_Small_budget
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(98, 82)
+        PictureBox8.Location = New Point(12, 12)
         PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(70, 39)
