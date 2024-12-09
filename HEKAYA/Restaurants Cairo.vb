@@ -33,7 +33,7 @@
 
     Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
         Favorites_List.Show()
-        Me.Hide
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click

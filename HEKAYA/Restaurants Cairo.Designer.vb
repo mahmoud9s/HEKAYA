@@ -60,7 +60,6 @@ Partial Class Restaurants_Cairo
         Label9.Name = "Label9"
         Label9.Size = New Size(363, 147)
         Label9.TabIndex = 80
-        Label9.Text = resources.GetString("Label9.Text")
         ' 
         ' Label8
         ' 
@@ -293,6 +292,7 @@ Partial Class Restaurants_Cairo
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Restaurants_Cairo"
         Text = "Restaurants_Cairo"
+        WindowState = FormWindowState.Maximized
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()

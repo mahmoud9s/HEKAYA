@@ -58,9 +58,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(39, 747)
+        Label16.Location = New Point(34, 560)
         Label16.Name = "Label16"
-        Label16.Size = New Size(763, 61)
+        Label16.Size = New Size(668, 46)
         Label16.TabIndex = 171
         Label16.Text = "Steakhouse, International, Mediterranean"
         ' 
@@ -70,9 +70,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(12, 689)
+        Label15.Location = New Point(10, 517)
         Label15.Name = "Label15"
-        Label15.Size = New Size(181, 46)
+        Label15.Size = New Size(147, 37)
         Label15.TabIndex = 170
         Label15.Text = "Cuisines"
         ' 
@@ -82,9 +82,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label14.AutoSize = True
         Label14.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         Label14.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Location = New Point(50, 907)
+        Label14.Location = New Point(44, 680)
         Label14.Name = "Label14"
-        Label14.Size = New Size(0, 39)
+        Label14.Size = New Size(0, 31)
         Label14.TabIndex = 169
         ' 
         ' Label11
@@ -92,9 +92,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(50, 891)
+        Label11.Location = New Point(44, 668)
         Label11.Name = "Label11"
-        Label11.Size = New Size(686, 99)
+        Label11.Size = New Size(600, 74)
         Label11.TabIndex = 168
         Label11.Text = "Gluten-free, vegetarian options available"
         ' 
@@ -104,9 +104,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(18, 830)
+        Label10.Location = New Point(16, 622)
         Label10.Name = "Label10"
-        Label10.Size = New Size(267, 46)
+        Label10.Size = New Size(215, 37)
         Label10.TabIndex = 167
         Label10.Text = "Special Diets"
         ' 
@@ -116,9 +116,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(50, 624)
+        Label8.Location = New Point(44, 468)
         Label8.Name = "Label8"
-        Label8.Size = New Size(187, 39)
+        Label8.Size = New Size(149, 31)
         Label8.TabIndex = 166
         Label8.Text = "$9.90 – $30"
         ' 
@@ -128,9 +128,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(17, 560)
+        Label7.Location = New Point(15, 420)
         Label7.Name = "Label7"
-        Label7.Size = New Size(251, 46)
+        Label7.Size = New Size(202, 37)
         Label7.TabIndex = 165
         Label7.Text = "Price Range"
         ' 
@@ -140,9 +140,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(77, 109)
+        Label4.Location = New Point(67, 82)
         Label4.Name = "Label4"
-        Label4.Size = New Size(133, 25)
+        Label4.Size = New Size(110, 20)
         Label4.TabIndex = 164
         Label4.Text = "Restaurants >"
         ' 
@@ -152,9 +152,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(216, 109)
+        Label3.Location = New Point(189, 82)
         Label3.Name = "Label3"
-        Label3.Size = New Size(196, 25)
+        Label3.Size = New Size(161, 20)
         Label3.TabIndex = 163
         Label3.Text = "Revolving Restaurant"
         ' 
@@ -162,9 +162,9 @@ Partial Class Restaurants_Cairo_The_Grill
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(17, 337)
+        Label6.Location = New Point(15, 253)
         Label6.Name = "Label6"
-        Label6.Size = New Size(1023, 222)
+        Label6.Size = New Size(895, 166)
         Label6.TabIndex = 162
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -173,9 +173,9 @@ Partial Class Restaurants_Cairo_The_Grill
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
         LinkLabel1.LinkColor = SystemColors.HotTrack
-        LinkLabel1.Location = New Point(60, 264)
+        LinkLabel1.Location = New Point(52, 198)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(901, 46)
+        LinkLabel1.Size = New Size(721, 37)
         LinkLabel1.TabIndex = 161
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "JW Marriott Hotel Cairo, Heliopolis, Cairo, Egypt-show map"
@@ -186,9 +186,10 @@ Partial Class Restaurants_Cairo_The_Grill
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(2, 265)
+        PictureBox6.Location = New Point(2, 199)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(50, 48)
+        PictureBox6.Size = New Size(44, 36)
         PictureBox6.TabIndex = 160
         PictureBox6.TabStop = False
         ' 
@@ -198,9 +199,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label5.AutoSize = True
         Label5.Font = New Font("Mongolian Baiti", 46F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(18, 149)
+        Label5.Location = New Point(16, 112)
         Label5.Name = "Label5"
-        Label5.Size = New Size(344, 82)
+        Label5.Size = New Size(278, 66)
         Label5.TabIndex = 159
         Label5.Text = "The Grill "
         ' 
@@ -208,9 +209,10 @@ Partial Class Restaurants_Cairo_The_Grill
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(1046, 191)
+        PictureBox5.Location = New Point(915, 143)
+        PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(856, 864)
+        PictureBox5.Size = New Size(749, 648)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 158
         PictureBox5.TabStop = False
@@ -223,9 +225,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1770, 109)
+        Label2.Location = New Point(1549, 82)
         Label2.Name = "Label2"
-        Label2.Size = New Size(0, 25)
+        Label2.Size = New Size(0, 20)
         Label2.TabIndex = 157
         ' 
         ' PictureBox1
@@ -235,9 +237,10 @@ Partial Class Restaurants_Cairo_The_Grill
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1046, 134)
+        PictureBox1.Location = New Point(915, 100)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(179, 51)
+        PictureBox1.Size = New Size(157, 38)
         PictureBox1.TabIndex = 156
         PictureBox1.TabStop = False
         ' 
@@ -247,9 +250,9 @@ Partial Class Restaurants_Cairo_The_Grill
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(8, 109)
+        Label1.Location = New Point(7, 82)
         Label1.Name = "Label1"
-        Label1.Size = New Size(81, 25)
+        Label1.Size = New Size(63, 20)
         Label1.TabIndex = 155
         Label1.Text = "Cairo > "
         ' 
@@ -259,9 +262,10 @@ Partial Class Restaurants_Cairo_The_Grill
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(2, 12)
+        PictureBox8.Location = New Point(2, 9)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 51)
+        PictureBox8.Size = New Size(70, 38)
         PictureBox8.TabIndex = 154
         PictureBox8.TabStop = False
         ' 
@@ -271,9 +275,10 @@ Partial Class Restaurants_Cairo_The_Grill
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(101, 12)
+        PictureBox7.Location = New Point(88, 9)
+        PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(63, 51)
+        PictureBox7.Size = New Size(55, 38)
         PictureBox7.TabIndex = 153
         PictureBox7.TabStop = False
         ' 
@@ -284,9 +289,10 @@ Partial Class Restaurants_Cairo_The_Grill
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1733, 12)
+        PictureBox9.Location = New Point(1516, 9)
+        PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(69, 51)
+        PictureBox9.Size = New Size(60, 38)
         PictureBox9.TabIndex = 152
         PictureBox9.TabStop = False
         ' 
@@ -297,17 +303,18 @@ Partial Class Restaurants_Cairo_The_Grill
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1819, 12)
+        PictureBox10.Location = New Point(1592, 9)
+        PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(63, 51)
+        PictureBox10.Size = New Size(55, 38)
         PictureBox10.TabIndex = 151
         PictureBox10.TabStop = False
         ' 
         ' Restaurants_Cairo_The_Grill
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1902, 1055)
+        ClientSize = New Size(1664, 791)
         Controls.Add(Label16)
         Controls.Add(Label15)
         Controls.Add(Label14)
@@ -330,6 +337,7 @@ Partial Class Restaurants_Cairo_The_Grill
         Controls.Add(PictureBox9)
         Controls.Add(PictureBox10)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Restaurants_Cairo_The_Grill"
         Text = "Restaurants_Cairo_The_Grill"
         WindowState = FormWindowState.Maximized
