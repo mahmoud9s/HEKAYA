@@ -26,14 +26,10 @@ Partial Class Choosse_Your_Distination
         Label1 = New Label()
         PictureBox1 = New PictureBox()
         LinkLabel1 = New LinkLabel()
-        LinkLabel2 = New LinkLabel()
         LinkLabel3 = New LinkLabel()
-        LinkLabel4 = New LinkLabel()
         LinkLabel5 = New LinkLabel()
         LinkLabel6 = New LinkLabel()
-        PictureBox2 = New PictureBox()
         PictureBox3 = New PictureBox()
-        PictureBox4 = New PictureBox()
         PictureBox5 = New PictureBox()
         PictureBox6 = New PictureBox()
         PictureBox8 = New PictureBox()
@@ -41,9 +37,7 @@ Partial Class Choosse_Your_Distination
         PictureBox9 = New PictureBox()
         PictureBox10 = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
@@ -71,7 +65,7 @@ Partial Class Choosse_Your_Distination
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.BorderStyle = BorderStyle.FixedSingle
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(95, 178)
+        PictureBox1.Location = New Point(268, 210)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(353, 273)
@@ -84,25 +78,12 @@ Partial Class Choosse_Your_Distination
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Mongolian Baiti", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         LinkLabel1.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel1.Location = New Point(95, 473)
+        LinkLabel1.Location = New Point(268, 505)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(146, 29)
         LinkLabel1.TabIndex = 11
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Alexandria"
-        ' 
-        ' LinkLabel2
-        ' 
-        LinkLabel2.Anchor = AnchorStyles.None
-        LinkLabel2.AutoSize = True
-        LinkLabel2.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
-        LinkLabel2.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel2.Location = New Point(777, 473)
-        LinkLabel2.Name = "LinkLabel2"
-        LinkLabel2.Size = New Size(101, 31)
-        LinkLabel2.TabIndex = 12
-        LinkLabel2.TabStop = True
-        LinkLabel2.Text = "Aswan"
         ' 
         ' LinkLabel3
         ' 
@@ -110,25 +91,12 @@ Partial Class Choosse_Your_Distination
         LinkLabel3.AutoSize = True
         LinkLabel3.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         LinkLabel3.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel3.Location = New Point(1459, 473)
+        LinkLabel3.Location = New Point(1239, 505)
         LinkLabel3.Name = "LinkLabel3"
         LinkLabel3.Size = New Size(84, 31)
         LinkLabel3.TabIndex = 13
         LinkLabel3.TabStop = True
         LinkLabel3.Text = "Cairo"
-        ' 
-        ' LinkLabel4
-        ' 
-        LinkLabel4.Anchor = AnchorStyles.Left
-        LinkLabel4.AutoSize = True
-        LinkLabel4.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
-        LinkLabel4.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel4.Location = New Point(95, 893)
-        LinkLabel4.Name = "LinkLabel4"
-        LinkLabel4.Size = New Size(100, 31)
-        LinkLabel4.TabIndex = 14
-        LinkLabel4.TabStop = True
-        LinkLabel4.Text = "Gouna"
         ' 
         ' LinkLabel5
         ' 
@@ -136,7 +104,7 @@ Partial Class Choosse_Your_Distination
         LinkLabel5.AutoSize = True
         LinkLabel5.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         LinkLabel5.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel5.Location = New Point(777, 893)
+        LinkLabel5.Location = New Point(268, 893)
         LinkLabel5.Name = "LinkLabel5"
         LinkLabel5.Size = New Size(141, 31)
         LinkLabel5.TabIndex = 15
@@ -149,26 +117,12 @@ Partial Class Choosse_Your_Distination
         LinkLabel6.AutoSize = True
         LinkLabel6.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         LinkLabel6.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel6.Location = New Point(1459, 893)
+        LinkLabel6.Location = New Point(1239, 893)
         LinkLabel6.Name = "LinkLabel6"
         LinkLabel6.Size = New Size(77, 31)
         LinkLabel6.TabIndex = 16
         LinkLabel6.TabStop = True
         LinkLabel6.Text = "Siwa"
-        ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.Anchor = AnchorStyles.None
-        PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
-        PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox2.BorderStyle = BorderStyle.FixedSingle
-        PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(777, 178)
-        PictureBox2.Margin = New Padding(3, 2, 3, 2)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(353, 273)
-        PictureBox2.TabIndex = 17
-        PictureBox2.TabStop = False
         ' 
         ' PictureBox3
         ' 
@@ -177,26 +131,12 @@ Partial Class Choosse_Your_Distination
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1459, 178)
+        PictureBox3.Location = New Point(1239, 210)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(353, 273)
         PictureBox3.TabIndex = 18
         PictureBox3.TabStop = False
-        ' 
-        ' PictureBox4
-        ' 
-        PictureBox4.Anchor = AnchorStyles.Left
-        PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
-        PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox4.BorderStyle = BorderStyle.FixedSingle
-        PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(95, 600)
-        PictureBox4.Margin = New Padding(3, 2, 3, 2)
-        PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(353, 273)
-        PictureBox4.TabIndex = 19
-        PictureBox4.TabStop = False
         ' 
         ' PictureBox5
         ' 
@@ -205,7 +145,7 @@ Partial Class Choosse_Your_Distination
         PictureBox5.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox5.BorderStyle = BorderStyle.FixedSingle
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(777, 600)
+        PictureBox5.Location = New Point(268, 600)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(353, 273)
@@ -219,7 +159,7 @@ Partial Class Choosse_Your_Distination
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.BorderStyle = BorderStyle.FixedSingle
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(1460, 600)
+        PictureBox6.Location = New Point(1240, 600)
         PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(353, 273)
@@ -292,14 +232,10 @@ Partial Class Choosse_Your_Distination
         Controls.Add(PictureBox10)
         Controls.Add(PictureBox6)
         Controls.Add(PictureBox5)
-        Controls.Add(PictureBox4)
         Controls.Add(PictureBox3)
-        Controls.Add(PictureBox2)
         Controls.Add(LinkLabel6)
         Controls.Add(LinkLabel5)
-        Controls.Add(LinkLabel4)
         Controls.Add(LinkLabel3)
-        Controls.Add(LinkLabel2)
         Controls.Add(LinkLabel1)
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
@@ -309,9 +245,7 @@ Partial Class Choosse_Your_Distination
         Text = "Choosse_Your_Distination"
         WindowState = FormWindowState.Maximized
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
@@ -325,14 +259,10 @@ Partial Class Choosse_Your_Distination
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents LinkLabel1 As LinkLabel
-    Friend WithEvents LinkLabel2 As LinkLabel
     Friend WithEvents LinkLabel3 As LinkLabel
-    Friend WithEvents LinkLabel4 As LinkLabel
     Friend WithEvents LinkLabel5 As LinkLabel
     Friend WithEvents LinkLabel6 As LinkLabel
-    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
