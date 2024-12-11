@@ -159,7 +159,7 @@ Partial Class Landmarks_Cairo_Cairo_Tower
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1812, 101)
+        PictureBox2.Location = New Point(1555, 102)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(53, 51)
         PictureBox2.TabIndex = 87

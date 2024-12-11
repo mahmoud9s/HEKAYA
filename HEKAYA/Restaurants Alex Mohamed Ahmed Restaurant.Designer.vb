@@ -427,8 +427,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Controls.Add(PictureBox7)
         Controls.Add(PictureBox9)
         Controls.Add(PictureBox10)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Restaurants_Alex_Mohamed_Ahmed_Restaurant"
         Text = "Restaurants_Alex_Mohamed_Ahmed_Restaurant"
+        WindowState = FormWindowState.Maximized
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
