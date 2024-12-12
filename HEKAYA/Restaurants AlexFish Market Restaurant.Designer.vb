@@ -103,7 +103,7 @@ Partial Class Restaurants_AlexFish_Market_Restaurant
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 12F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(123, 131)
+        Label9.Location = New Point(137, 131)
         Label9.Name = "Label9"
         Label9.Size = New Size(133, 25)
         Label9.TabIndex = 341
@@ -115,7 +115,7 @@ Partial Class Restaurants_AlexFish_Market_Restaurant
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 12F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(243, 131)
+        Label11.Location = New Point(264, 131)
         Label11.Name = "Label11"
         Label11.Size = New Size(213, 25)
         Label11.TabIndex = 340
