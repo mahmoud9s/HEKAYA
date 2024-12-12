@@ -58,9 +58,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(38, 846)
+        Label16.Location = New Point(33, 634)
         Label16.Name = "Label16"
-        Label16.Size = New Size(763, 61)
+        Label16.Size = New Size(668, 46)
         Label16.TabIndex = 192
         Label16.Text = "Japanese, Sushi, Asian Fusion"
         ' 
@@ -70,9 +70,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(17, 782)
+        Label15.Location = New Point(15, 586)
         Label15.Name = "Label15"
-        Label15.Size = New Size(181, 46)
+        Label15.Size = New Size(147, 37)
         Label15.TabIndex = 191
         Label15.Text = "Cuisines"
         ' 
@@ -82,9 +82,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label14.AutoSize = True
         Label14.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         Label14.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Location = New Point(49, 896)
+        Label14.Location = New Point(43, 672)
         Label14.Name = "Label14"
-        Label14.Size = New Size(0, 39)
+        Label14.Size = New Size(0, 31)
         Label14.TabIndex = 190
         ' 
         ' Label11
@@ -92,9 +92,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(38, 963)
+        Label11.Location = New Point(33, 722)
         Label11.Name = "Label11"
-        Label11.Size = New Size(686, 69)
+        Label11.Size = New Size(600, 52)
         Label11.TabIndex = 189
         Label11.Text = "Vegetarian options, gluten-free"
         ' 
@@ -104,9 +104,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(17, 907)
+        Label10.Location = New Point(15, 680)
         Label10.Name = "Label10"
-        Label10.Size = New Size(267, 46)
+        Label10.Size = New Size(215, 37)
         Label10.TabIndex = 188
         Label10.Text = "Special Diets"
         ' 
@@ -116,9 +116,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(50, 731)
+        Label8.Location = New Point(44, 548)
         Label8.Name = "Label8"
-        Label8.Size = New Size(159, 39)
+        Label8.Size = New Size(126, 31)
         Label8.TabIndex = 187
         Label8.Text = "$15 – $60"
         ' 
@@ -128,9 +128,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(16, 671)
+        Label7.Location = New Point(14, 503)
         Label7.Name = "Label7"
-        Label7.Size = New Size(251, 46)
+        Label7.Size = New Size(202, 37)
         Label7.TabIndex = 186
         Label7.Text = "Price Range"
         ' 
@@ -140,9 +140,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(76, 98)
+        Label4.Location = New Point(66, 74)
         Label4.Name = "Label4"
-        Label4.Size = New Size(133, 25)
+        Label4.Size = New Size(110, 20)
         Label4.TabIndex = 185
         Label4.Text = "Restaurants >"
         ' 
@@ -152,9 +152,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(215, 98)
+        Label3.Location = New Point(188, 74)
         Label3.Name = "Label3"
-        Label3.Size = New Size(196, 25)
+        Label3.Size = New Size(161, 20)
         Label3.TabIndex = 184
         Label3.Text = "Revolving Restaurant"
         ' 
@@ -162,9 +162,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(16, 326)
+        Label6.Location = New Point(14, 244)
         Label6.Name = "Label6"
-        Label6.Size = New Size(1023, 326)
+        Label6.Size = New Size(895, 244)
         Label6.TabIndex = 183
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -173,9 +173,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
         LinkLabel1.LinkColor = SystemColors.HotTrack
-        LinkLabel1.Location = New Point(59, 253)
+        LinkLabel1.Location = New Point(52, 190)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(837, 46)
+        LinkLabel1.Size = New Size(668, 37)
         LinkLabel1.TabIndex = 182
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "7 Hassan Sabri Street, Zamalek, Cairo, Egypt-show map"
@@ -186,9 +186,10 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(1, 254)
+        PictureBox6.Location = New Point(1, 190)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(50, 48)
+        PictureBox6.Size = New Size(44, 36)
         PictureBox6.TabIndex = 181
         PictureBox6.TabStop = False
         ' 
@@ -198,9 +199,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label5.AutoSize = True
         Label5.Font = New Font("Mongolian Baiti", 46F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(17, 138)
+        Label5.Location = New Point(15, 104)
         Label5.Name = "Label5"
-        Label5.Size = New Size(385, 82)
+        Label5.Size = New Size(312, 66)
         Label5.TabIndex = 180
         Label5.Text = "Mori Sushi"
         ' 
@@ -208,9 +209,10 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(1045, 166)
+        PictureBox5.Location = New Point(914, 124)
+        PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(856, 866)
+        PictureBox5.Size = New Size(749, 650)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 179
         PictureBox5.TabStop = False
@@ -223,9 +225,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1769, 98)
+        Label2.Location = New Point(1548, 74)
         Label2.Name = "Label2"
-        Label2.Size = New Size(0, 25)
+        Label2.Size = New Size(0, 20)
         Label2.TabIndex = 178
         ' 
         ' PictureBox1
@@ -235,9 +237,10 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1045, 109)
+        PictureBox1.Location = New Point(914, 82)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(179, 51)
+        PictureBox1.Size = New Size(157, 38)
         PictureBox1.TabIndex = 177
         PictureBox1.TabStop = False
         ' 
@@ -247,9 +250,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(7, 98)
+        Label1.Location = New Point(6, 74)
         Label1.Name = "Label1"
-        Label1.Size = New Size(81, 25)
+        Label1.Size = New Size(63, 20)
         Label1.TabIndex = 176
         Label1.Text = "Cairo > "
         ' 
@@ -260,8 +263,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
         PictureBox8.Location = New Point(1, 1)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 51)
+        PictureBox8.Size = New Size(70, 38)
         PictureBox8.TabIndex = 175
         PictureBox8.TabStop = False
         ' 
@@ -271,9 +275,10 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(100, 1)
+        PictureBox7.Location = New Point(88, 1)
+        PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(63, 51)
+        PictureBox7.Size = New Size(55, 38)
         PictureBox7.TabIndex = 174
         PictureBox7.TabStop = False
         ' 
@@ -284,9 +289,10 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1732, 1)
+        PictureBox9.Location = New Point(1516, 1)
+        PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(69, 51)
+        PictureBox9.Size = New Size(60, 38)
         PictureBox9.TabIndex = 173
         PictureBox9.TabStop = False
         ' 
@@ -297,17 +303,19 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1818, 1)
+        PictureBox10.Location = New Point(1591, 1)
+        PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(63, 51)
+        PictureBox10.Size = New Size(55, 38)
         PictureBox10.TabIndex = 172
         PictureBox10.TabStop = False
         ' 
         ' Restaurants_Cairo_Mori_Sushi
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1902, 1033)
+        BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
+        ClientSize = New Size(1664, 775)
         Controls.Add(Label16)
         Controls.Add(Label15)
         Controls.Add(Label14)
@@ -330,6 +338,7 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Controls.Add(PictureBox9)
         Controls.Add(PictureBox10)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Restaurants_Cairo_Mori_Sushi"
         Text = "Restaurants_Cairo_Mori_Sushi"
         WindowState = FormWindowState.Maximized

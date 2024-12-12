@@ -156,7 +156,7 @@ Partial Class Landmarks_Alex
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(12, 11)
+        PictureBox8.Location = New Point(12, 27)
         PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(70, 39)
@@ -169,7 +169,7 @@ Partial Class Landmarks_Alex
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(98, 11)
+        PictureBox7.Location = New Point(98, 27)
         PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(55, 39)
@@ -183,7 +183,7 @@ Partial Class Landmarks_Alex
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1747, 11)
+        PictureBox9.Location = New Point(1747, 27)
         PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(60, 39)
@@ -197,7 +197,7 @@ Partial Class Landmarks_Alex
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1822, 11)
+        PictureBox10.Location = New Point(1822, 27)
         PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
         PictureBox10.Size = New Size(55, 39)
@@ -209,6 +209,7 @@ Partial Class Landmarks_Alex
         PictureBox6.Anchor = AnchorStyles.Right
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox6.BorderStyle = BorderStyle.FixedSingle
         PictureBox6.Cursor = Cursors.Hand
         PictureBox6.Location = New Point(966, 596)
         PictureBox6.Margin = New Padding(3, 2, 3, 2)
@@ -236,6 +237,7 @@ Partial Class Landmarks_Alex
         PictureBox3.Anchor = AnchorStyles.Right
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
         PictureBox3.Location = New Point(966, 174)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
@@ -249,7 +251,7 @@ Partial Class Landmarks_Alex
         PictureBox1.Anchor = AnchorStyles.Left
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox1.BorderStyle = BorderStyle.Fixed3D
+        PictureBox1.BorderStyle = BorderStyle.FixedSingle
         PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Location = New Point(89, 174)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)

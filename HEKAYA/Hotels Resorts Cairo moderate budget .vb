@@ -1,32 +1,34 @@
 ﻿Public Class Hotels_Resorts_Cairo
+
+
     Private Sub Label2_Click(sender As Object, e As EventArgs)
-        Hotels_Resorts_Cairo_Small_budget.Show
-        Hide
+        Hotels_Resorts_Cairo_Small_budget.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs)
-        User_Profile.Show
-        Hide
+        User_Profile.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs)
-        Choosse_Your_Distination.Show
-        Hide
+        Choosse_Your_Distination.Show()
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs)
-        Hotels_Resorts_Cairo_Small_budget.Show
-        Hide
+        Hotels_Resorts_Cairo_Small_budget.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Label4_Click(sender As Object, e As EventArgs)
-        Hotels_Resorts_Cairo_Large_budget.Show
-        Hide
+        Hotels_Resorts_Cairo_Large_budget.Show()
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
-        Hotels_Resorts_Cairo_Large_budget.Show
-        Hide
+        Hotels_Resorts_Cairo_Large_budget.Show()
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
@@ -105,6 +107,25 @@
 
     Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
         Moderate_Budget_Cairo_Hotels_Novotel_Cairo_El_Borg.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+
+    End Sub
+
+    Private Sub Label2_Click_1(sender As Object, e As EventArgs) Handles Label2.Click
+        Hotels_Resorts_Cairo_Small_budget.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
+    End Sub
+
+    Private Sub PictureBox1_Click_1(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Hotels_Resorts_Cairo_Large_budget.Show()
         Me.Hide()
     End Sub
 End Class

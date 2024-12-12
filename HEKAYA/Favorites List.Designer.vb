@@ -214,7 +214,7 @@ Partial Class Favorites_List
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.LemonChiffon
+        BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1181, 505)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox6)

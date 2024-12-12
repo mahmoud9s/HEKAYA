@@ -210,9 +210,9 @@ Partial Class Low_Budget_Cairo_Hotels_Miramar_Downtown
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label4.Location = New Point(78, 64)
         Label4.Name = "Label4"
-        Label4.Size = New Size(164, 20)
+        Label4.Size = New Size(159, 20)
         Label4.TabIndex = 47
-        Label4.Text = "Hotels & Restaurants >"
+        Label4.Text = "Hotels and Resorts >"
         ' 
         ' PictureBox5
         ' 

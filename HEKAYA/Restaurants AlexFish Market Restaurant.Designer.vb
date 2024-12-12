@@ -408,6 +408,7 @@ Partial Class Restaurants_AlexFish_Market_Restaurant
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
         Controls.Add(Label18)
         Controls.Add(Label4)
