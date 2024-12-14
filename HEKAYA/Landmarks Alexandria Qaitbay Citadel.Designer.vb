@@ -389,6 +389,7 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         Margin = New Padding(3, 2, 3, 2)
         Name = "Landmarks_Alexandria_Qaitbay_Citadel"
         Text = "Landmarks_Alexandria_Qaitbay_Citadel"
+        WindowState = FormWindowState.Maximized
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
