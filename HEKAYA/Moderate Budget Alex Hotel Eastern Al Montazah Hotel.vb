@@ -1,0 +1,3 @@
+﻿Public Class Moderate_Budget_Alex_Hotel_Eastern_Al_Montazah_Hotel
+
+End Class

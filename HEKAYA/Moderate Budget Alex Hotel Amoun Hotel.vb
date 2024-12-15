@@ -1,0 +1,3 @@
+﻿Public Class Moderate_Budget_Alex_Hotel_Amoun_Hotel
+
+End Class
