@@ -220,14 +220,14 @@ Partial Class Restaurants_Cairo
         ' PictureBox4
         ' 
         PictureBox4.Anchor = AnchorStyles.Left
-        PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox4.BackgroundImageLayout = ImageLayout.Center
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
         PictureBox4.Cursor = Cursors.Hand
         PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
         PictureBox4.Location = New Point(99, 554)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(471, 292)
+        PictureBox4.Size = New Size(471, 280)
         PictureBox4.TabIndex = 67
         PictureBox4.TabStop = False
         ' 

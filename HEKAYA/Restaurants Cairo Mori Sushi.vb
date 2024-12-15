@@ -16,7 +16,7 @@
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Restaurants_Cairo.Show()
-        Me.Show()
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click

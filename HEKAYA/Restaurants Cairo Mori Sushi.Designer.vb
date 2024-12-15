@@ -154,9 +154,9 @@ Partial Class Restaurants_Cairo_Mori_Sushi
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label3.Location = New Point(188, 74)
         Label3.Name = "Label3"
-        Label3.Size = New Size(161, 20)
+        Label3.Size = New Size(83, 20)
         Label3.TabIndex = 184
-        Label3.Text = "Revolving Restaurant"
+        Label3.Text = "Mori Sushi"
         ' 
         ' Label6
         ' 

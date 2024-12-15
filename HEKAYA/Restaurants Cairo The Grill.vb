@@ -20,7 +20,7 @@
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Restaurants_Cairo.Show()
-        Me.Show()
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
