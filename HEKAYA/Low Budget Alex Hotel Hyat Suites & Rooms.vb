@@ -1,0 +1,3 @@
+﻿Public Class Low_Budget_Alex_Hotel_Hyat_Suites___Rooms
+
+End Class
