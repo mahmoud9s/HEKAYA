@@ -128,4 +128,14 @@
         Hotels_Resorts_Cairo_Large_budget.Show()
         Me.Hide()
     End Sub
+
+    Private Sub PictureBox4_Click_1(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        Hotels_Resorts_Cairo_Small_budget.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label4_Click_1(sender As Object, e As EventArgs) Handles Label4.Click
+        Hotels_Resorts_Cairo_Large_budget.Show()
+        Me.Hide()
+    End Sub
 End Class

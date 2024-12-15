@@ -28,4 +28,8 @@
         Favorites_List.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Restaurants_Cairo_Mori_Sushi_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

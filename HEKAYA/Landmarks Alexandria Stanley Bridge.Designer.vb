@@ -63,7 +63,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label13.ForeColor = Color.White
-        Label13.Location = New Point(1538, 105)
+        Label13.Location = New Point(1778, 105)
         Label13.Name = "Label13"
         Label13.Size = New Size(87, 20)
         Label13.TabIndex = 296
@@ -75,7 +75,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1518, 92)
+        PictureBox4.Location = New Point(1758, 92)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(124, 49)
@@ -88,7 +88,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1395, 100)
+        PictureBox2.Location = New Point(1635, 100)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(46, 32)
@@ -101,7 +101,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1457, 98)
+        PictureBox3.Location = New Point(1697, 98)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(45, 38)
@@ -158,7 +158,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(9, 259)
+        Label6.Location = New Point(62, 262)
         Label6.Name = "Label6"
         Label6.Size = New Size(894, 382)
         Label6.TabIndex = 284
@@ -205,7 +205,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(746, 145)
+        PictureBox5.Location = New Point(986, 145)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(900, 792)
@@ -221,7 +221,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1544, 54)
+        Label2.Location = New Point(1784, 54)
         Label2.Name = "Label2"
         Label2.Size = New Size(0, 20)
         Label2.TabIndex = 279
@@ -233,7 +233,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(746, 105)
+        PictureBox1.Location = New Point(986, 105)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(157, 38)
@@ -285,7 +285,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1516, 12)
+        PictureBox9.Location = New Point(1756, 12)
         PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(60, 38)
@@ -299,7 +299,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1587, 12)
+        PictureBox10.Location = New Point(1827, 12)
         PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
         PictureBox10.Size = New Size(55, 38)
@@ -311,7 +311,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1664, 775)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(Label13)
         Controls.Add(PictureBox4)
         Controls.Add(PictureBox2)

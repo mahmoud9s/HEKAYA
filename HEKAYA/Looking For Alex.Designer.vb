@@ -50,7 +50,7 @@ Partial Class Looking_For_Alex
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(380, 164)
+        PictureBox1.Location = New Point(483, 164)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(990, 303)
         PictureBox1.TabIndex = 52
@@ -89,7 +89,7 @@ Partial Class Looking_For_Alex
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1541, 11)
+        PictureBox9.Location = New Point(1761, 11)
         PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(60, 39)
@@ -103,7 +103,7 @@ Partial Class Looking_For_Alex
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1617, 11)
+        PictureBox10.Location = New Point(1837, 11)
         PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
         PictureBox10.Size = New Size(55, 39)
@@ -117,7 +117,7 @@ Partial Class Looking_For_Alex
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(729, 674)
+        Label4.Location = New Point(771, 924)
         Label4.Name = "Label4"
         Label4.Size = New Size(157, 31)
         Label4.TabIndex = 47
@@ -130,7 +130,7 @@ Partial Class Looking_For_Alex
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(1245, 674)
+        Label3.Location = New Point(1313, 924)
         Label3.Name = "Label3"
         Label3.Size = New Size(173, 31)
         Label3.TabIndex = 46
@@ -143,7 +143,7 @@ Partial Class Looking_For_Alex
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(213, 674)
+        Label2.Location = New Point(225, 924)
         Label2.Name = "Label2"
         Label2.Size = New Size(208, 31)
         Label2.TabIndex = 45
@@ -155,7 +155,7 @@ Partial Class Looking_For_Alex
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(213, 300)
+        PictureBox4.Location = New Point(225, 550)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(414, 342)
@@ -168,7 +168,7 @@ Partial Class Looking_For_Alex
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(729, 300)
+        PictureBox3.Location = New Point(771, 550)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(414, 342)
@@ -181,7 +181,7 @@ Partial Class Looking_For_Alex
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1245, 300)
+        PictureBox2.Location = New Point(1313, 550)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(414, 342)
@@ -194,7 +194,7 @@ Partial Class Looking_For_Alex
         Label1.AutoSize = True
         Label1.Font = New Font("Mongolian Baiti", 45F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(571, 58)
+        Label1.Location = New Point(638, 58)
         Label1.Name = "Label1"
         Label1.Size = New Size(680, 64)
         Label1.TabIndex = 41
@@ -205,7 +205,7 @@ Partial Class Looking_For_Alex
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1684, 791)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox7)

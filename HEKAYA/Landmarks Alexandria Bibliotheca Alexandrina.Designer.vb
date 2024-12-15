@@ -25,7 +25,6 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Landmarks_Alexandria_Bibliotheca_Alexandrina))
         Label16 = New Label()
         Label15 = New Label()
-        Label14 = New Label()
         Label11 = New Label()
         Label10 = New Label()
         Label8 = New Label()
@@ -65,12 +64,13 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label16
         ' 
-        Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label16.Anchor = AnchorStyles.Left
+        Label16.AutoSize = True
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(43, 596)
+        Label16.Location = New Point(64, 610)
         Label16.Name = "Label16"
-        Label16.Size = New Size(563, 36)
+        Label16.Size = New Size(511, 31)
         Label16.TabIndex = 234
         Label16.Text = "Sunday to Thursday: 10:00 am – 7:00 pm."
         ' 
@@ -80,31 +80,20 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(24, 554)
+        Label15.Location = New Point(52, 559)
         Label15.Name = "Label15"
         Label15.Size = New Size(234, 37)
         Label15.TabIndex = 233
         Label15.Text = "Entry Tickets :"
-        ' 
-        ' Label14
-        ' 
-        Label14.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
-        Label14.AutoSize = True
-        Label14.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
-        Label14.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Location = New Point(43, 672)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(0, 31)
-        Label14.TabIndex = 232
         ' 
         ' Label11
         ' 
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(168, 722)
+        Label11.Location = New Point(183, 785)
         Label11.Name = "Label11"
-        Label11.Size = New Size(246, 45)
+        Label11.Size = New Size(246, 52)
         Label11.TabIndex = 231
         Label11.Text = "info@bibalex.org"
         ' 
@@ -114,7 +103,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(24, 672)
+        Label10.Location = New Point(52, 735)
         Label10.Name = "Label10"
         Label10.Size = New Size(272, 37)
         Label10.TabIndex = 230
@@ -126,7 +115,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(52, 508)
+        Label8.Location = New Point(69, 508)
         Label8.Name = "Label8"
         Label8.Size = New Size(217, 31)
         Label8.TabIndex = 229
@@ -138,7 +127,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(24, 461)
+        Label7.Location = New Point(52, 461)
         Label7.Name = "Label7"
         Label7.Size = New Size(234, 37)
         Label7.TabIndex = 228
@@ -172,9 +161,9 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(14, 244)
+        Label6.Location = New Point(52, 237)
         Label6.Name = "Label6"
-        Label6.Size = New Size(895, 209)
+        Label6.Size = New Size(844, 224)
         Label6.TabIndex = 225
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -219,7 +208,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(914, 124)
+        PictureBox5.Location = New Point(1154, 124)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(749, 650)
@@ -235,7 +224,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1548, 74)
+        Label2.Location = New Point(1788, 74)
         Label2.Name = "Label2"
         Label2.Size = New Size(0, 20)
         Label2.TabIndex = 220
@@ -247,7 +236,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(914, 82)
+        PictureBox1.Location = New Point(1154, 82)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(157, 38)
@@ -299,7 +288,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1516, 1)
+        PictureBox9.Location = New Point(1756, 1)
         PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(60, 38)
@@ -313,7 +302,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1591, 1)
+        PictureBox10.Location = New Point(1831, 1)
         PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
         PictureBox10.Size = New Size(55, 38)
@@ -322,12 +311,13 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label9
         ' 
-        Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label9.Anchor = AnchorStyles.Left
+        Label9.AutoSize = True
         Label9.Font = New Font("Microsoft Sans Serif", 20F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(48, 632)
+        Label9.Location = New Point(64, 652)
         Label9.Name = "Label9"
-        Label9.Size = New Size(450, 42)
+        Label9.Size = New Size(377, 31)
         Label9.TabIndex = 235
         Label9.Text = "Saturday: 10:00 am – 2:00 pm."
         ' 
@@ -337,7 +327,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label12.AutoSize = True
         Label12.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(43, 722)
+        Label12.Location = New Point(64, 782)
         Label12.Name = "Label12"
         Label12.Size = New Size(132, 37)
         Label12.TabIndex = 236
@@ -348,9 +338,9 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label13.Font = New Font("Microsoft Sans Serif", 20F)
         Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(305, 672)
+        Label13.Location = New Point(309, 735)
         Label13.Name = "Label13"
-        Label13.Size = New Size(231, 37)
+        Label13.Size = New Size(231, 50)
         Label13.TabIndex = 237
         Label13.Text = "+20 3 4839999 "
         ' 
@@ -362,7 +352,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label17.Cursor = Cursors.Hand
         Label17.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label17.ForeColor = Color.White
-        Label17.Location = New Point(1548, 82)
+        Label17.Location = New Point(1788, 82)
         Label17.Name = "Label17"
         Label17.Size = New Size(87, 20)
         Label17.TabIndex = 276
@@ -374,7 +364,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1528, 69)
+        PictureBox4.Location = New Point(1768, 69)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(124, 49)
@@ -387,7 +377,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1404, 76)
+        PictureBox2.Location = New Point(1644, 76)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(46, 32)
@@ -400,7 +390,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1466, 74)
+        PictureBox3.Location = New Point(1706, 74)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(45, 38)
@@ -412,7 +402,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1664, 775)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(Label17)
         Controls.Add(PictureBox4)
         Controls.Add(PictureBox2)
@@ -422,7 +412,6 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Controls.Add(Label9)
         Controls.Add(Label16)
         Controls.Add(Label15)
-        Controls.Add(Label14)
         Controls.Add(Label11)
         Controls.Add(Label10)
         Controls.Add(Label8)
@@ -462,7 +451,6 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
 
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label14 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label8 As Label

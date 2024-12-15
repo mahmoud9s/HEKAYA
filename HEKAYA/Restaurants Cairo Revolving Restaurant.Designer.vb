@@ -325,7 +325,7 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label13.ForeColor = Color.White
-        Label13.Location = New Point(1788, 125)
+        Label13.Location = New Point(1771, 127)
         Label13.Name = "Label13"
         Label13.Size = New Size(87, 20)
         Label13.TabIndex = 342
@@ -337,7 +337,7 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1768, 113)
+        PictureBox4.Location = New Point(1751, 115)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(124, 49)
@@ -350,7 +350,7 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1645, 120)
+        PictureBox2.Location = New Point(1628, 122)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(46, 32)
@@ -363,7 +363,7 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1707, 118)
+        PictureBox3.Location = New Point(1690, 120)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(45, 38)
