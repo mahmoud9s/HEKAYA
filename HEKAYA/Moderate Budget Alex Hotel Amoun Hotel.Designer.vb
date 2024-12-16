@@ -75,9 +75,9 @@ Partial Class Moderate_Budget_Alex_Hotel_Amoun_Hotel
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label11.Location = New Point(4, 898)
         Label11.Name = "Label11"
-        Label11.Size = New Size(407, 91)
+        Label11.Size = New Size(939, 91)
         Label11.TabIndex = 148
-        Label11.Text = "30–$70 per night"
+        Label11.Text = "$30–$70 per night"
         ' 
         ' Label10
         ' 

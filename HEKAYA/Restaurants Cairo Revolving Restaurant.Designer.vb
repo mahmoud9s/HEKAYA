@@ -161,9 +161,9 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label3.Location = New Point(203, 131)
         Label3.Name = "Label3"
-        Label3.Size = New Size(185, 25)
+        Label3.Size = New Size(196, 25)
         Label3.TabIndex = 142
-        Label3.Text = "Revolving Resturant"
+        Label3.Text = "Revolving Restaurant"
         ' 
         ' Label6
         ' 
@@ -207,9 +207,9 @@ Partial Class Restaurants_Cairo_Revolving_Restaurant
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label5.Location = New Point(11, 160)
         Label5.Name = "Label5"
-        Label5.Size = New Size(682, 82)
+        Label5.Size = New Size(702, 82)
         Label5.TabIndex = 138
-        Label5.Text = "Revolving Resturant"
+        Label5.Text = "Revolving Resturant "
         ' 
         ' PictureBox5
         ' 
