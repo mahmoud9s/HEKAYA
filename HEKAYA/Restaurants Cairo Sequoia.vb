@@ -15,7 +15,7 @@
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-        Landmarks_Alex.Show()
+        Restaurants_Cairo.Show()
         Me.Hide()
     End Sub
 
@@ -27,5 +27,9 @@
     Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
         User_Profile.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Restaurants_Cairo_Sequoia_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
