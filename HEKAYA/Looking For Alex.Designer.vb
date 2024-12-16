@@ -145,9 +145,9 @@ Partial Class Looking_For_Alex
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label2.Location = New Point(225, 924)
         Label2.Name = "Label2"
-        Label2.Size = New Size(208, 31)
+        Label2.Size = New Size(106, 31)
         Label2.TabIndex = 45
-        Label2.Text = "Hotels Resorts"
+        Label2.Text = "Hotels "
         ' 
         ' PictureBox4
         ' 

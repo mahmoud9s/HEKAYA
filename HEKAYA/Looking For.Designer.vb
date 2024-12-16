@@ -105,9 +105,9 @@ Partial Class Looking_For
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label2.Location = New Point(214, 913)
         Label2.Name = "Label2"
-        Label2.Size = New Size(208, 31)
+        Label2.Size = New Size(106, 31)
         Label2.TabIndex = 14
-        Label2.Text = "Hotels Resorts"
+        Label2.Text = "Hotels "
         ' 
         ' Label3
         ' 

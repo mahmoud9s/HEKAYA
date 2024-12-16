@@ -181,9 +181,9 @@ Partial Class Moderate_Budget_Cairo_Hotels_Barceló_Cairo_Pyramids
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label4.Location = New Point(78, 64)
         Label4.Name = "Label4"
-        Label4.Size = New Size(164, 20)
+        Label4.Size = New Size(60, 20)
         Label4.TabIndex = 136
-        Label4.Text = "Hotels & Restaurants >"
+        Label4.Text = "Hotel >"
         ' 
         ' Label3
         ' 
@@ -191,7 +191,7 @@ Partial Class Moderate_Budget_Cairo_Hotels_Barceló_Cairo_Pyramids
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(249, 64)
+        Label3.Location = New Point(136, 64)
         Label3.Name = "Label3"
         Label3.Size = New Size(172, 20)
         Label3.TabIndex = 135

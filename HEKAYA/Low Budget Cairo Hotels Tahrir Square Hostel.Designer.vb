@@ -179,11 +179,11 @@ Partial Class Low_Budget_Cairo_Hotels_Tahrir_Square_Hostel
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(78, 64)
+        Label4.Location = New Point(65, 64)
         Label4.Name = "Label4"
-        Label4.Size = New Size(164, 20)
+        Label4.Size = New Size(68, 20)
         Label4.TabIndex = 70
-        Label4.Text = "Hotels & Restaurants >"
+        Label4.Text = "Hotels >"
         ' 
         ' Label3
         ' 
@@ -191,7 +191,7 @@ Partial Class Low_Budget_Cairo_Hotels_Tahrir_Square_Hostel
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(249, 64)
+        Label3.Location = New Point(127, 64)
         Label3.Name = "Label3"
         Label3.Size = New Size(155, 20)
         Label3.TabIndex = 69
