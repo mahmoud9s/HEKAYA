@@ -25,7 +25,6 @@ Partial Class Restaurants_Cairo_Sequoia
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Restaurants_Cairo_Sequoia))
         Label16 = New Label()
         Label15 = New Label()
-        Label14 = New Label()
         Label11 = New Label()
         Label8 = New Label()
         Label7 = New Label()
@@ -65,7 +64,7 @@ Partial Class Restaurants_Cairo_Sequoia
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(32, 520)
+        Label16.Location = New Point(16, 516)
         Label16.Name = "Label16"
         Label16.Size = New Size(778, 69)
         Label16.TabIndex = 213
@@ -77,29 +76,18 @@ Partial Class Restaurants_Cairo_Sequoia
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(32, 461)
+        Label15.Location = New Point(16, 457)
         Label15.Name = "Label15"
         Label15.Size = New Size(184, 37)
         Label15.TabIndex = 212
         Label15.Text = "CUISINES:"
-        ' 
-        ' Label14
-        ' 
-        Label14.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
-        Label14.AutoSize = True
-        Label14.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
-        Label14.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Location = New Point(43, 672)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(0, 31)
-        Label14.TabIndex = 211
         ' 
         ' Label11
         ' 
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(43, 672)
+        Label11.Location = New Point(27, 668)
         Label11.Name = "Label11"
         Label11.Size = New Size(801, 55)
         Label11.TabIndex = 210
@@ -111,7 +99,7 @@ Partial Class Restaurants_Cairo_Sequoia
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(88, 411)
+        Label8.Location = New Point(72, 407)
         Label8.Name = "Label8"
         Label8.Size = New Size(111, 31)
         Label8.TabIndex = 208
@@ -122,7 +110,7 @@ Partial Class Restaurants_Cairo_Sequoia
         Label7.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(32, 358)
+        Label7.Location = New Point(16, 354)
         Label7.Name = "Label7"
         Label7.Size = New Size(360, 53)
         Label7.TabIndex = 207
@@ -156,9 +144,9 @@ Partial Class Restaurants_Cairo_Sequoia
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(10, 176)
+        Label6.Location = New Point(15, 175)
         Label6.Name = "Label6"
-        Label6.Size = New Size(1060, 182)
+        Label6.Size = New Size(955, 156)
         Label6.TabIndex = 204
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -203,10 +191,10 @@ Partial Class Restaurants_Cairo_Sequoia
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(1304, 167)
+        PictureBox5.Location = New Point(997, 166)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(603, 609)
+        PictureBox5.Size = New Size(900, 792)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 200
         PictureBox5.TabStop = False
@@ -231,7 +219,7 @@ Partial Class Restaurants_Cairo_Sequoia
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1304, 124)
+        PictureBox1.Location = New Point(997, 124)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(157, 38)
@@ -363,7 +351,7 @@ Partial Class Restaurants_Cairo_Sequoia
         Label9.AutoSize = True
         Label9.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(32, 616)
+        Label9.Location = New Point(16, 612)
         Label9.Name = "Label9"
         Label9.Size = New Size(225, 37)
         Label9.TabIndex = 222
@@ -382,7 +370,6 @@ Partial Class Restaurants_Cairo_Sequoia
         Controls.Add(PictureBox3)
         Controls.Add(Label16)
         Controls.Add(Label15)
-        Controls.Add(Label14)
         Controls.Add(Label11)
         Controls.Add(Label8)
         Controls.Add(Label7)
@@ -421,7 +408,6 @@ Partial Class Restaurants_Cairo_Sequoia
 
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label14 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label

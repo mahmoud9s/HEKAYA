@@ -1,8 +1,5 @@
 ﻿Public Class High_Budget_Cairo_Hotels_Waldorf_Astoria_Cairo_Heliopolis
-    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
-        Choosse_Your_Distination.Show()
-        Me.Hide()
-    End Sub
+
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
         Choosse_Your_Distination.Show()
@@ -20,20 +17,18 @@
         Me.Hide()
     End Sub
 
-
-
-    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
-        Favorites_List.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
+    Private Sub PictureBox15_Click(sender As Object, e As EventArgs) Handles PictureBox15.Click
         User_Profile.Show()
         Me.Hide()
-
     End Sub
 
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+    Private Sub PictureBox13_Click(sender As Object, e As EventArgs) Handles PictureBox13.Click
+        Choosse_Your_Distination.Show()
+        Me.Hide()
+    End Sub
 
+    Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
+        Favorites_List.Show()
+        Me.Hide()
     End Sub
 End Class

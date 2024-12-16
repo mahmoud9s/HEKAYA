@@ -216,10 +216,10 @@ Partial Class Restaurants_Cairo_The_Grill
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(1375, 143)
+        PictureBox5.Location = New Point(987, 142)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(749, 648)
+        PictureBox5.Size = New Size(900, 792)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 158
         PictureBox5.TabStop = False
@@ -244,7 +244,7 @@ Partial Class Restaurants_Cairo_The_Grill
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1375, 100)
+        PictureBox1.Location = New Point(987, 102)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(157, 38)
@@ -325,7 +325,7 @@ Partial Class Restaurants_Cairo_The_Grill
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label13.ForeColor = Color.White
-        Label13.Location = New Point(1796, 101)
+        Label13.Location = New Point(1780, 102)
         Label13.Name = "Label13"
         Label13.Size = New Size(87, 20)
         Label13.TabIndex = 346

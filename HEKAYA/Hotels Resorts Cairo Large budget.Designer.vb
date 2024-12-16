@@ -23,14 +23,12 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Hotels_Resorts_Cairo_Large_budget))
-        Label5 = New Label()
         Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         PictureBox2 = New PictureBox()
         PictureBox1 = New PictureBox()
         PictureBox4 = New PictureBox()
-        Label1 = New Label()
         PictureBox8 = New PictureBox()
         PictureBox6 = New PictureBox()
         PictureBox7 = New PictureBox()
@@ -49,6 +47,7 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         PictureBox3 = New PictureBox()
         Label14 = New Label()
         PictureBox12 = New PictureBox()
+        Label5 = New Label()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -62,19 +61,6 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' Label5
-        ' 
-        Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label5.AutoSize = True
-        Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
-        Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(880, 46)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(155, 29)
-        Label5.TabIndex = 45
-        Label5.Text = "High budget"
         ' 
         ' Label4
         ' 
@@ -157,18 +143,6 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         PictureBox4.TabIndex = 39
         PictureBox4.TabStop = False
         ' 
-        ' Label1
-        ' 
-        Label1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label1.AutoSize = True
-        Label1.Font = New Font("Microsoft Sans Serif", 45F)
-        Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(722, 74)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(438, 69)
-        Label1.TabIndex = 34
-        Label1.Text = "Hotels & Resorts"
-        ' 
         ' PictureBox8
         ' 
         PictureBox8.BackColor = Color.Transparent
@@ -231,7 +205,7 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label7.Location = New Point(1491, 704)
         Label7.Name = "Label7"
-        Label7.Size = New Size(402, 82)
+        Label7.Size = New Size(402, 209)
         Label7.TabIndex = 81
         Label7.Text = "The 5-star Westin Cairo offers scenic rooms, a heated pool, spa, fitness center, and dining, 26 miles from the Pyramids and 18 miles from Cairo Airport."
         ' 
@@ -243,7 +217,7 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label9.Location = New Point(513, 704)
         Label9.Name = "Label9"
-        Label9.Size = New Size(319, 82)
+        Label9.Size = New Size(471, 209)
         Label9.TabIndex = 80
         Label9.Text = "The Waldorf Astoria Cairo Heliopolis offers luxury rooms, concierge service, spa suites, four restaurants, and event spaces for up to 1600 guests."
         ' 
@@ -307,7 +281,7 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label11.Location = New Point(1482, 406)
         Label11.Name = "Label11"
-        Label11.Size = New Size(402, 104)
+        Label11.Size = New Size(402, 193)
         Label11.TabIndex = 75
         Label11.Text = "The St. Regis Cairo offers luxury rooms, a fitness center, hot tub, and a restaurant. It’s 2 miles from Tahrir Square and 11 miles from Cairo Airport."
         ' 
@@ -319,7 +293,7 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label10.Location = New Point(513, 406)
         Label10.Name = "Label10"
-        Label10.Size = New Size(319, 104)
+        Label10.Size = New Size(471, 193)
         Label10.TabIndex = 74
         Label10.Text = "Hilton Cairo Heliopolis, near Cairo Airport, offers pools, a fitness center, 13 restaurants, and a casino. Rooms feature Egyptian-themed decor and some have pool views."
         ' 
@@ -402,12 +376,26 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         PictureBox12.TabIndex = 82
         PictureBox12.TabStop = False
         ' 
+        ' Label5
+        ' 
+        Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
+        Label5.AutoSize = True
+        Label5.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
+        Label5.Font = New Font("Mongolian Baiti", 60F)
+        Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label5.Location = New Point(720, 69)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(642, 85)
+        Label5.TabIndex = 109
+        Label5.Text = "Hotels and Resorts"
+        ' 
         ' Hotels_Resorts_Cairo_Large_budget
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
+        Controls.Add(Label5)
         Controls.Add(Label14)
         Controls.Add(PictureBox12)
         Controls.Add(Label7)
@@ -426,14 +414,12 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         Controls.Add(PictureBox6)
         Controls.Add(PictureBox7)
         Controls.Add(PictureBox5)
-        Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(PictureBox2)
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox4)
-        Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(3, 2, 3, 2)
         Name = "Hotels_Resorts_Cairo_Large_budget"
@@ -454,15 +440,12 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
@@ -481,4 +464,5 @@ Partial Class Hotels_Resorts_Cairo_Large_budget
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label14 As Label
     Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents Label5 As Label
 End Class

@@ -23,8 +23,6 @@ Partial Class Hotels_Resorts_Cairo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Hotels_Resorts_Cairo))
-        Label1 = New Label()
-        Label5 = New Label()
         PictureBox8 = New PictureBox()
         PictureBox6 = New PictureBox()
         PictureBox7 = New PictureBox()
@@ -49,6 +47,7 @@ Partial Class Hotels_Resorts_Cairo
         Label3 = New Label()
         PictureBox4 = New PictureBox()
         Label2 = New Label()
+        Label5 = New Label()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
@@ -62,31 +61,6 @@ Partial Class Hotels_Resorts_Cairo
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        ' 
-        ' Label1
-        ' 
-        Label1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label1.AutoSize = True
-        Label1.Font = New Font("Microsoft Sans Serif", 45F)
-        Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(717, 72)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(438, 69)
-        Label1.TabIndex = 10
-        Label1.Text = "Hotels & Resorts"
-        ' 
-        ' Label5
-        ' 
-        Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label5.AutoSize = True
-        Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
-        Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(858, 45)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(212, 29)
-        Label5.TabIndex = 21
-        Label5.Text = "Moderate budget"
         ' 
         ' PictureBox8
         ' 
@@ -405,12 +379,26 @@ Partial Class Hotels_Resorts_Cairo
         Label2.TabIndex = 18
         Label2.Text = "Low budget"
         ' 
+        ' Label5
+        ' 
+        Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
+        Label5.AutoSize = True
+        Label5.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
+        Label5.Font = New Font("Mongolian Baiti", 60F)
+        Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label5.Location = New Point(720, 69)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(642, 85)
+        Label5.TabIndex = 109
+        Label5.Text = "Hotels and Resorts"
+        ' 
         ' Hotels_Resorts_Cairo
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
+        Controls.Add(Label5)
         Controls.Add(Label14)
         Controls.Add(PictureBox12)
         Controls.Add(Label7)
@@ -429,14 +417,12 @@ Partial Class Hotels_Resorts_Cairo
         Controls.Add(PictureBox6)
         Controls.Add(PictureBox7)
         Controls.Add(PictureBox5)
-        Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(PictureBox2)
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox4)
-        Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(3, 2, 3, 2)
         Name = "Hotels_Resorts_Cairo"
@@ -457,8 +443,6 @@ Partial Class Hotels_Resorts_Cairo
         ResumeLayout(False)
         PerformLayout()
     End Sub
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
@@ -483,4 +467,5 @@ Partial Class Hotels_Resorts_Cairo
     Friend WithEvents Label3 As Label
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label5 As Label
 End Class

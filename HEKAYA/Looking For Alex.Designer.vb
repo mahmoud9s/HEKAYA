@@ -192,7 +192,7 @@ Partial Class Looking_For_Alex
         ' 
         Label1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
         Label1.AutoSize = True
-        Label1.Font = New Font("Mongolian Baiti", 45.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Mongolian Baiti", 45F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label1.Location = New Point(638, 58)
         Label1.Name = "Label1"
@@ -202,7 +202,7 @@ Partial Class Looking_For_Alex
         ' 
         ' Looking_For_Alex
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)

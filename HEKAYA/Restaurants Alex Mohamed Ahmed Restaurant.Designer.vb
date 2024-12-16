@@ -45,7 +45,6 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox6 = New PictureBox()
         Label5 = New Label()
         PictureBox5 = New PictureBox()
-        Label2 = New Label()
         PictureBox1 = New PictureBox()
         PictureBox8 = New PictureBox()
         PictureBox7 = New PictureBox()
@@ -68,20 +67,21 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label18.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label18.Font = New Font("Microsoft Sans Serif", 20F)
         Label18.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label18.Location = New Point(12, 584)
+        Label18.Location = New Point(10, 445)
         Label18.Name = "Label18"
-        Label18.Size = New Size(1168, 202)
+        Label18.Size = New Size(944, 138)
         Label18.TabIndex = 374
         Label18.Text = resources.GetString("Label18.Text")
         ' 
         ' Label4
         ' 
         Label4.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label4.AutoSize = True
         Label4.Font = New Font("Microsoft Sans Serif", 20F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(15, 967)
+        Label4.Location = New Point(13, 759)
         Label4.Name = "Label4"
-        Label4.Size = New Size(377, 36)
+        Label4.Size = New Size(324, 31)
         Label4.TabIndex = 373
         Label4.Text = "Phone: +20 111 147 9471"
         ' 
@@ -91,20 +91,21 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label3.AutoSize = True
         Label3.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(15, 921)
+        Label3.Location = New Point(13, 714)
         Label3.Name = "Label3"
-        Label3.Size = New Size(412, 46)
+        Label3.Size = New Size(337, 37)
         Label3.TabIndex = 372
         Label3.Text = "Contact Information :"
         ' 
         ' Label1
         ' 
         Label1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label1.AutoSize = True
         Label1.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(5, 516)
+        Label1.Location = New Point(4, 394)
         Label1.Name = "Label1"
-        Label1.Size = New Size(399, 43)
+        Label1.Size = New Size(323, 37)
         Label1.TabIndex = 371
         Label1.Text = "Positive Feedback : "
         ' 
@@ -114,9 +115,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 12F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(132, 65)
+        Label9.Location = New Point(116, 49)
         Label9.Name = "Label9"
-        Label9.Size = New Size(133, 25)
+        Label9.Size = New Size(110, 20)
         Label9.TabIndex = 370
         Label9.Text = "Restaurants >"
         ' 
@@ -126,9 +127,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 12F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(261, 65)
+        Label11.Location = New Point(228, 49)
         Label11.Name = "Label11"
-        Label11.Size = New Size(267, 25)
+        Label11.Size = New Size(219, 20)
         Label11.TabIndex = 369
         Label11.Text = "Mohamed Ahmed Restaurant"
         ' 
@@ -138,9 +139,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label12.Cursor = Cursors.Hand
         Label12.Font = New Font("Microsoft Sans Serif", 12F)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(6, 65)
+        Label12.Location = New Point(5, 49)
         Label12.Name = "Label12"
-        Label12.Size = New Size(133, 25)
+        Label12.Size = New Size(105, 20)
         Label12.TabIndex = 368
         Label12.Text = "Alexandrina> "
         ' 
@@ -152,9 +153,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label13.ForeColor = Color.White
-        Label13.Location = New Point(1768, 158)
+        Label13.Location = New Point(1761, 79)
         Label13.Name = "Label13"
-        Label13.Size = New Size(106, 25)
+        Label13.Size = New Size(87, 20)
         Label13.TabIndex = 367
         Label13.Text = "Book now"
         ' 
@@ -164,9 +165,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1745, 141)
+        PictureBox4.Location = New Point(1741, 67)
+        PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(142, 65)
+        PictureBox4.Size = New Size(124, 49)
         PictureBox4.TabIndex = 366
         PictureBox4.TabStop = False
         ' 
@@ -176,9 +178,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1604, 151)
+        PictureBox2.Location = New Point(1618, 74)
+        PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(52, 42)
+        PictureBox2.Size = New Size(46, 32)
         PictureBox2.TabIndex = 365
         PictureBox2.TabStop = False
         ' 
@@ -188,9 +191,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1675, 148)
+        PictureBox3.Location = New Point(1680, 72)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(51, 50)
+        PictureBox3.Size = New Size(45, 38)
         PictureBox3.TabIndex = 364
         PictureBox3.TabStop = False
         ' 
@@ -199,9 +203,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(12, 832)
+        Label16.Location = New Point(10, 640)
         Label16.Name = "Label16"
-        Label16.Size = New Size(1050, 96)
+        Label16.Size = New Size(919, 73)
         Label16.TabIndex = 363
         Label16.Text = "Some reviews mention long waiting times during peak hours due to the restaurant’s popularity."
         ' 
@@ -211,9 +215,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(12, 786)
+        Label15.Location = New Point(10, 597)
         Label15.Name = "Label15"
-        Label15.Size = New Size(415, 46)
+        Label15.Size = New Size(338, 37)
         Label15.TabIndex = 362
         Label15.Text = "Negative Feedback : "
         ' 
@@ -223,9 +227,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label14.AutoSize = True
         Label14.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         Label14.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Location = New Point(42, 888)
+        Label14.Location = New Point(37, 666)
         Label14.Name = "Label14"
-        Label14.Size = New Size(0, 39)
+        Label14.Size = New Size(0, 31)
         Label14.TabIndex = 361
         ' 
         ' Label10
@@ -234,9 +238,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(538, 823)
+        Label10.Location = New Point(471, 617)
         Label10.Name = "Label10"
-        Label10.Size = New Size(0, 46)
+        Label10.Size = New Size(0, 37)
         Label10.TabIndex = 360
         ' 
         ' Label8
@@ -244,20 +248,21 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(12, 422)
+        Label8.Location = New Point(10, 316)
         Label8.Name = "Label8"
-        Label8.Size = New Size(949, 98)
+        Label8.Size = New Size(830, 71)
         Label8.TabIndex = 359
         Label8.Text = "Affordable, with most dishes priced between 20-50 EGP.Excellent value for both locals and tourists looking for authentic Egyptian street food."
         ' 
         ' Label7
         ' 
         Label7.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(10, 371)
+        Label7.Location = New Point(9, 278)
         Label7.Name = "Label7"
-        Label7.Size = New Size(583, 50)
+        Label7.Size = New Size(152, 37)
         Label7.TabIndex = 358
         Label7.Text = "Pricing : "
         ' 
@@ -265,9 +270,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(5, 226)
+        Label6.Location = New Point(4, 170)
         Label6.Name = "Label6"
-        Label6.Size = New Size(1198, 165)
+        Label6.Size = New Size(967, 124)
         Label6.TabIndex = 357
         Label6.Text = "Famous for traditional Egyptian breakfast and vegetarian dishes, especially Ful Medames (fava beans), Ta’amiya (falafel), and Shakshuka."
         ' 
@@ -276,9 +281,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
         LinkLabel1.LinkColor = SystemColors.HotTrack
-        LinkLabel1.Location = New Point(66, 177)
+        LinkLabel1.Location = New Point(58, 133)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(459, 46)
+        LinkLabel1.Size = New Size(363, 37)
         LinkLabel1.TabIndex = 356
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Mohamed Ahmed Restaurant"
@@ -289,9 +294,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(10, 175)
+        PictureBox6.Location = New Point(9, 131)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(50, 48)
+        PictureBox6.Size = New Size(44, 36)
         PictureBox6.TabIndex = 355
         PictureBox6.TabStop = False
         ' 
@@ -301,9 +307,9 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Label5.AutoSize = True
         Label5.Font = New Font("Mongolian Baiti", 46F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(5, 90)
+        Label5.Location = New Point(4, 68)
         Label5.Name = "Label5"
-        Label5.Size = New Size(956, 82)
+        Label5.Size = New Size(772, 66)
         Label5.TabIndex = 354
         Label5.Text = "Mohamed Ahmed Restaurant"
         ' 
@@ -311,25 +317,13 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(1209, 215)
+        PictureBox5.Location = New Point(977, 120)
+        PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(689, 812)
+        PictureBox5.Size = New Size(888, 700)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 353
         PictureBox5.TabStop = False
-        ' 
-        ' Label2
-        ' 
-        Label2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label2.AutoSize = True
-        Label2.BackColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Cursor = Cursors.Hand
-        Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
-        Label2.ForeColor = Color.White
-        Label2.Location = New Point(1762, 90)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(0, 25)
-        Label2.TabIndex = 352
         ' 
         ' PictureBox1
         ' 
@@ -338,9 +332,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1209, 158)
+        PictureBox1.Location = New Point(977, 78)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(179, 51)
+        PictureBox1.Size = New Size(157, 38)
         PictureBox1.TabIndex = 351
         PictureBox1.TabStop = False
         ' 
@@ -350,9 +345,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(5, 6)
+        PictureBox8.Location = New Point(4, 4)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 51)
+        PictureBox8.Size = New Size(70, 38)
         PictureBox8.TabIndex = 350
         PictureBox8.TabStop = False
         ' 
@@ -362,9 +358,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(104, 6)
+        PictureBox7.Location = New Point(91, 4)
+        PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(63, 51)
+        PictureBox7.Size = New Size(55, 38)
         PictureBox7.TabIndex = 349
         PictureBox7.TabStop = False
         ' 
@@ -375,9 +372,10 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1736, 6)
+        PictureBox9.Location = New Point(1759, 4)
+        PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(69, 51)
+        PictureBox9.Size = New Size(60, 38)
         PictureBox9.TabIndex = 348
         PictureBox9.TabStop = False
         ' 
@@ -388,17 +386,18 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1822, 6)
+        PictureBox10.Location = New Point(1834, 4)
+        PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(63, 51)
+        PictureBox10.Size = New Size(55, 38)
         PictureBox10.TabIndex = 347
         PictureBox10.TabStop = False
         ' 
         ' Restaurants_Alex_Mohamed_Ahmed_Restaurant
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1902, 1033)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(Label18)
         Controls.Add(Label4)
         Controls.Add(Label3)
@@ -420,14 +419,14 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
         Controls.Add(LinkLabel1)
         Controls.Add(PictureBox6)
         Controls.Add(Label5)
-        Controls.Add(PictureBox5)
-        Controls.Add(Label2)
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox7)
         Controls.Add(PictureBox9)
         Controls.Add(PictureBox10)
+        Controls.Add(PictureBox5)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Restaurants_Alex_Mohamed_Ahmed_Restaurant"
         Text = "Restaurants_Alex_Mohamed_Ahmed_Restaurant"
         WindowState = FormWindowState.Maximized
@@ -467,7 +466,6 @@ Partial Class Restaurants_Alex_Mohamed_Ahmed_Restaurant
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox

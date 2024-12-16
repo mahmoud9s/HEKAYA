@@ -22,7 +22,7 @@
     End Sub
 
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-        Looking_For.Show()
+        Looking_For_Alex.Show()
         Me.Hide()
     End Sub
 
@@ -42,6 +42,10 @@
     End Sub
 
     Private Sub Landmarks_Alexandria_Bibliotheca_Alexandrina_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Label17_Click(sender As Object, e As EventArgs) Handles Label17.Click
 
     End Sub
 End Class

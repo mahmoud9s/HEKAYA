@@ -1,10 +1,4 @@
 ﻿Public Class High_Budget_Cairo_Hotels_The_StRegis_Cairo
-    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
-        Choosse_Your_Distination.Show()
-        Me.Hide()
-
-    End Sub
-
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
         Choosse_Your_Distination.Show()
         Me.Hide()
@@ -30,11 +24,9 @@
         Me.Hide()
     End Sub
 
-    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
-
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
+        Choosse_Your_Distination.Show()
+        Me.Hide()
     End Sub
 
-    Private Sub High_Budget_Cairo_Hotels_The_StRegis_Cairo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class

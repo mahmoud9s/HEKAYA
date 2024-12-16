@@ -35,18 +35,18 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox5 = New PictureBox()
         Label4 = New Label()
         Label3 = New Label()
+        Label1 = New Label()
+        Label12 = New Label()
+        Label13 = New Label()
         Label2 = New Label()
         PictureBox4 = New PictureBox()
         PictureBox3 = New PictureBox()
         PictureBox2 = New PictureBox()
         PictureBox1 = New PictureBox()
-        Label1 = New Label()
         PictureBox8 = New PictureBox()
         PictureBox7 = New PictureBox()
         PictureBox9 = New PictureBox()
         PictureBox10 = New PictureBox()
-        Label12 = New Label()
-        Label13 = New Label()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -62,24 +62,26 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         ' Label9
         ' 
         Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label9.AutoSize = True
         Label9.Font = New Font("Microsoft Sans Serif", 20F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(275, 567)
+        Label9.Location = New Point(284, 479)
         Label9.Name = "Label9"
-        Label9.Size = New Size(379, 176)
+        Label9.Size = New Size(295, 124)
         Label9.TabIndex = 215
-        Label9.Text = "Private balcony   Garden view Terrace    Pets allowed Free      public parking"
+        Label9.Text = "Private balcony   " & vbCrLf & "Garden view Terrace    " & vbCrLf & "Pets allowed Free      " & vbCrLf & "public parking"
         ' 
         ' Label11
         ' 
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label11.AutoSize = True
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(7, 806)
+        Label11.Location = New Point(49, 673)
         Label11.Name = "Label11"
-        Label11.Size = New Size(1024, 91)
+        Label11.Size = New Size(568, 62)
         Label11.TabIndex = 214
-        Label11.Text = "Approximately $100–$150 per night per person, depending on the season and room type."
+        Label11.Text = "Approximately $100–$150 per night per person" & vbCrLf & "depending on the season and room type."
         ' 
         ' Label10
         ' 
@@ -87,22 +89,23 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(7, 760)
+        Label10.Location = New Point(49, 639)
         Label10.Name = "Label10"
-        Label10.Size = New Size(251, 46)
+        Label10.Size = New Size(202, 37)
         Label10.TabIndex = 213
         Label10.Text = "Price Range"
         ' 
         ' Label8
         ' 
         Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(7, 567)
+        Label8.Location = New Point(49, 479)
         Label8.Name = "Label8"
-        Label8.Size = New Size(277, 206)
+        Label8.Size = New Size(199, 155)
         Label8.TabIndex = 212
-        Label8.Text = "Free Wi-Fi        Air conditioning   Private kitchen     bathroom          TV"
+        Label8.Text = "Free Wi-Fi" & vbCrLf & "Air conditioning" & vbCrLf & "Private kitchen" & vbCrLf & "bathroom" & vbCrLf & "TV"
         ' 
         ' Label7
         ' 
@@ -110,9 +113,9 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(12, 521)
+        Label7.Location = New Point(53, 445)
         Label7.Name = "Label7"
-        Label7.Size = New Size(428, 46)
+        Label7.Size = New Size(348, 37)
         Label7.TabIndex = 211
         Label7.Text = "Most popular facilities"
         ' 
@@ -120,9 +123,9 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(-1, 261)
+        Label6.Location = New Point(53, 194)
         Label6.Name = "Label6"
-        Label6.Size = New Size(1291, 260)
+        Label6.Size = New Size(912, 251)
         Label6.TabIndex = 210
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -130,9 +133,9 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         ' 
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
-        LinkLabel1.Location = New Point(61, 209)
+        LinkLabel1.Location = New Point(53, 157)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(492, 46)
+        LinkLabel1.Size = New Size(393, 37)
         LinkLabel1.TabIndex = 209
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Royal Chalet Maamourah Beach"
@@ -143,9 +146,10 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(18, 209)
+        PictureBox6.Location = New Point(16, 157)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(37, 49)
+        PictureBox6.Size = New Size(32, 37)
         PictureBox6.TabIndex = 208
         PictureBox6.TabStop = False
         ' 
@@ -153,11 +157,11 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         ' 
         Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
         Label5.AutoSize = True
-        Label5.Font = New Font("Mongolian Baiti", 60F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label5.Font = New Font("Mongolian Baiti", 50F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(-1, 113)
+        Label5.Location = New Point(53, 87)
         Label5.Name = "Label5"
-        Label5.Size = New Size(1351, 106)
+        Label5.Size = New Size(915, 71)
         Label5.TabIndex = 207
         Label5.Text = "Royal Chalet Maamourah Beach"
         ' 
@@ -165,9 +169,10 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(745, 169)
+        PictureBox5.Location = New Point(985, 136)
+        PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(1029, 1093)
+        PictureBox5.Size = New Size(900, 792)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 206
         PictureBox5.TabStop = False
@@ -178,9 +183,9 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(156, 88)
+        Label4.Location = New Point(112, 66)
         Label4.Name = "Label4"
-        Label4.Size = New Size(89, 25)
+        Label4.Size = New Size(72, 20)
         Label4.TabIndex = 205
         Label4.Text = "Hotels  >"
         ' 
@@ -190,11 +195,47 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(259, 88)
+        Label3.Location = New Point(182, 66)
         Label3.Name = "Label3"
-        Label3.Size = New Size(294, 25)
+        Label3.Size = New Size(238, 20)
         Label3.TabIndex = 204
         Label3.Text = "Royal Chalet Maamourah Beach"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Cursor = Cursors.Hand
+        Label1.Font = New Font("Microsoft Sans Serif", 12F)
+        Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label1.Location = New Point(6, 66)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(113, 20)
+        Label1.TabIndex = 198
+        Label1.Text = "Alexandrina  > "
+        ' 
+        ' Label12
+        ' 
+        Label12.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label12.AutoSize = True
+        Label12.Font = New Font("Microsoft Sans Serif", 20F)
+        Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label12.Location = New Point(67, 780)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(495, 62)
+        Label12.TabIndex = 216
+        Label12.Text = "Check-in : 12:00 AM to 11:00 PM            " & vbCrLf & "Check-out : 10:00 AM to 11:00 AM"
+        ' 
+        ' Label13
+        ' 
+        Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label13.AutoSize = True
+        Label13.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
+        Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label13.Location = New Point(49, 746)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(334, 37)
+        Label13.TabIndex = 217
+        Label13.Text = "Check-in/Check-out :"
         ' 
         ' Label2
         ' 
@@ -204,10 +245,10 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1642, 114)
+        Label2.Location = New Point(1770, 95)
         Label2.Name = "Label2"
-        Label2.Size = New Size(106, 25)
-        Label2.TabIndex = 203
+        Label2.Size = New Size(87, 20)
+        Label2.TabIndex = 226
         Label2.Text = "Book now"
         ' 
         ' PictureBox4
@@ -216,10 +257,11 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1611, 97)
+        PictureBox4.Location = New Point(1743, 82)
+        PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(161, 93)
-        PictureBox4.TabIndex = 202
+        PictureBox4.Size = New Size(141, 42)
+        PictureBox4.TabIndex = 225
         PictureBox4.TabStop = False
         ' 
         ' PictureBox3
@@ -228,10 +270,11 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1594, 103)
+        PictureBox3.Location = New Point(1628, 87)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(58, 88)
-        PictureBox3.TabIndex = 201
+        PictureBox3.Size = New Size(51, 38)
+        PictureBox3.TabIndex = 224
         PictureBox3.TabStop = False
         ' 
         ' PictureBox2
@@ -240,10 +283,11 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1659, 103)
+        PictureBox2.Location = New Point(1684, 87)
+        PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(53, 88)
-        PictureBox2.TabIndex = 200
+        PictureBox2.Size = New Size(46, 38)
+        PictureBox2.TabIndex = 223
         PictureBox2.TabStop = False
         ' 
         ' PictureBox1
@@ -253,23 +297,12 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(759, 97)
+        PictureBox1.Location = New Point(985, 93)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(179, 89)
-        PictureBox1.TabIndex = 199
+        PictureBox1.Size = New Size(157, 39)
+        PictureBox1.TabIndex = 222
         PictureBox1.TabStop = False
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Cursor = Cursors.Hand
-        Label1.Font = New Font("Microsoft Sans Serif", 12F)
-        Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(7, 88)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(143, 25)
-        Label1.TabIndex = 198
-        Label1.Text = "Alexandrina  > "
         ' 
         ' PictureBox8
         ' 
@@ -277,10 +310,11 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(-1, 2)
+        PictureBox8.Location = New Point(12, 11)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 89)
-        PictureBox8.TabIndex = 197
+        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.TabIndex = 221
         PictureBox8.TabStop = False
         ' 
         ' PictureBox7
@@ -289,10 +323,11 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(98, 2)
+        PictureBox7.Location = New Point(99, 11)
+        PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(63, 89)
-        PictureBox7.TabIndex = 196
+        PictureBox7.Size = New Size(55, 39)
+        PictureBox7.TabIndex = 220
         PictureBox7.TabStop = False
         ' 
         ' PictureBox9
@@ -302,10 +337,11 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1679, 2)
+        PictureBox9.Location = New Point(1752, 11)
+        PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(69, 89)
-        PictureBox9.TabIndex = 195
+        PictureBox9.Size = New Size(60, 39)
+        PictureBox9.TabIndex = 219
         PictureBox9.TabStop = False
         ' 
         ' PictureBox10
@@ -315,40 +351,27 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1707, 2)
+        PictureBox10.Location = New Point(1827, 11)
+        PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(63, 89)
-        PictureBox10.TabIndex = 194
+        PictureBox10.Size = New Size(55, 39)
+        PictureBox10.TabIndex = 218
         PictureBox10.TabStop = False
-        ' 
-        ' Label12
-        ' 
-        Label12.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
-        Label12.Font = New Font("Microsoft Sans Serif", 20F)
-        Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(27, 931)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(641, 93)
-        Label12.TabIndex = 216
-        Label12.Text = "Check-in : 12:00 AM to 11:00 PM            Check-out : 10:00 AM to 11:00 AM"
-        ' 
-        ' Label13
-        ' 
-        Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
-        Label13.AutoSize = True
-        Label13.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
-        Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(7, 885)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(414, 46)
-        Label13.TabIndex = 217
-        Label13.Text = "Check-in/Check-out :"
         ' 
         ' High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1902, 1033)
+        ClientSize = New Size(1904, 1041)
+        Controls.Add(Label2)
+        Controls.Add(PictureBox4)
+        Controls.Add(PictureBox3)
+        Controls.Add(PictureBox2)
+        Controls.Add(PictureBox1)
+        Controls.Add(PictureBox8)
+        Controls.Add(PictureBox7)
+        Controls.Add(PictureBox9)
+        Controls.Add(PictureBox10)
         Controls.Add(Label13)
         Controls.Add(Label12)
         Controls.Add(Label9)
@@ -363,17 +386,9 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
         Controls.Add(PictureBox5)
         Controls.Add(Label4)
         Controls.Add(Label3)
-        Controls.Add(Label2)
-        Controls.Add(PictureBox4)
-        Controls.Add(PictureBox3)
-        Controls.Add(PictureBox2)
-        Controls.Add(PictureBox1)
         Controls.Add(Label1)
-        Controls.Add(PictureBox8)
-        Controls.Add(PictureBox7)
-        Controls.Add(PictureBox9)
-        Controls.Add(PictureBox10)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach"
         Text = "High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach"
         WindowState = FormWindowState.Maximized
@@ -403,16 +418,16 @@ Partial Class High_Budget_Alex_Hotel_Royal_Chalet_Maamourah_Beach
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents PictureBox10 As PictureBox
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label13 As Label
 End Class
