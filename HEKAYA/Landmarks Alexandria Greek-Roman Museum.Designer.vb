@@ -40,7 +40,6 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox6 = New PictureBox()
         Label5 = New Label()
         PictureBox5 = New PictureBox()
-        Label2 = New Label()
         PictureBox1 = New PictureBox()
         Label1 = New Label()
         PictureBox8 = New PictureBox()
@@ -67,7 +66,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label13.ForeColor = Color.White
-        Label13.Location = New Point(1791, 123)
+        Label13.Location = New Point(1784, 85)
         Label13.Name = "Label13"
         Label13.Size = New Size(87, 20)
         Label13.TabIndex = 248
@@ -79,7 +78,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1771, 110)
+        PictureBox4.Location = New Point(1764, 72)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(124, 49)
@@ -92,7 +91,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1648, 118)
+        PictureBox2.Location = New Point(1641, 80)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(46, 32)
@@ -105,7 +104,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1710, 116)
+        PictureBox3.Location = New Point(1703, 78)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(45, 38)
@@ -117,7 +116,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label16.Anchor = AnchorStyles.Left
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(62, 710)
+        Label16.Location = New Point(83, 740)
         Label16.Name = "Label16"
         Label16.Size = New Size(576, 44)
         Label16.TabIndex = 242
@@ -129,7 +128,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(41, 653)
+        Label15.Location = New Point(62, 683)
         Label15.Name = "Label15"
         Label15.Size = New Size(288, 37)
         Label15.TabIndex = 241
@@ -162,7 +161,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label8.Anchor = AnchorStyles.Left
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(62, 564)
+        Label8.Location = New Point(83, 594)
         Label8.Name = "Label8"
         Label8.Size = New Size(864, 71)
         Label8.TabIndex = 237
@@ -173,7 +172,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label7.Anchor = AnchorStyles.Left
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(41, 511)
+        Label7.Location = New Point(62, 541)
         Label7.Name = "Label7"
         Label7.Size = New Size(252, 41)
         Label7.TabIndex = 236
@@ -185,7 +184,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(119, 48)
+        Label4.Location = New Point(121, 55)
         Label4.Name = "Label4"
         Label4.Size = New Size(105, 20)
         Label4.TabIndex = 235
@@ -197,7 +196,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(230, 48)
+        Label3.Location = New Point(232, 55)
         Label3.Name = "Label3"
         Label3.Size = New Size(175, 20)
         Label3.TabIndex = 234
@@ -207,9 +206,9 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(62, 174)
+        Label6.Location = New Point(62, 178)
         Label6.Name = "Label6"
-        Label6.Size = New Size(994, 305)
+        Label6.Size = New Size(920, 337)
         Label6.TabIndex = 233
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -254,26 +253,13 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(1302, 166)
+        PictureBox5.Location = New Point(988, 124)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(603, 609)
+        PictureBox5.Size = New Size(900, 792)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 229
         PictureBox5.TabStop = False
-        ' 
-        ' Label2
-        ' 
-        Label2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label2.AutoSize = True
-        Label2.BackColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Cursor = Cursors.Hand
-        Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
-        Label2.ForeColor = Color.White
-        Label2.Location = New Point(1786, 72)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(0, 20)
-        Label2.TabIndex = 228
         ' 
         ' PictureBox1
         ' 
@@ -282,7 +268,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1302, 123)
+        PictureBox1.Location = New Point(988, 83)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(157, 38)
@@ -295,7 +281,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(5, 48)
+        Label1.Location = New Point(7, 55)
         Label1.Name = "Label1"
         Label1.Size = New Size(109, 20)
         Label1.TabIndex = 226
@@ -307,7 +293,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(-1, -1)
+        PictureBox8.Location = New Point(12, 11)
         PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(70, 38)
@@ -320,7 +306,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(86, -1)
+        PictureBox7.Location = New Point(99, 11)
         PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(55, 38)
@@ -334,7 +320,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1754, -1)
+        PictureBox9.Location = New Point(1762, 11)
         PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(60, 38)
@@ -348,7 +334,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1829, -1)
+        PictureBox10.Location = New Point(1837, 11)
         PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
         PictureBox10.Size = New Size(55, 38)
@@ -359,6 +345,7 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
         Controls.Add(Label13)
         Controls.Add(PictureBox4)
@@ -377,7 +364,6 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
         Controls.Add(PictureBox6)
         Controls.Add(Label5)
         Controls.Add(PictureBox5)
-        Controls.Add(Label2)
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
         Controls.Add(PictureBox8)
@@ -420,7 +406,6 @@ Partial Class Landmarks_Alexandria_Greek_Roman_Museum
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox8 As PictureBox

@@ -68,7 +68,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label16.AutoSize = True
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(52, 596)
+        Label16.Location = New Point(52, 648)
         Label16.Name = "Label16"
         Label16.Size = New Size(511, 31)
         Label16.TabIndex = 234
@@ -76,22 +76,23 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label11
         ' 
-        Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label11.Anchor = AnchorStyles.Left
+        Label11.AutoSize = True
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(198, 736)
+        Label11.Location = New Point(198, 788)
         Label11.Name = "Label11"
-        Label11.Size = New Size(246, 34)
+        Label11.Size = New Size(217, 31)
         Label11.TabIndex = 231
         Label11.Text = "info@bibalex.org"
         ' 
         ' Label10
         ' 
-        Label10.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label10.Anchor = AnchorStyles.Left
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(52, 686)
+        Label10.Location = New Point(52, 738)
         Label10.Name = "Label10"
         Label10.Size = New Size(272, 37)
         Label10.TabIndex = 230
@@ -99,11 +100,11 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label8
         ' 
-        Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label8.Anchor = AnchorStyles.Left
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(69, 508)
+        Label8.Location = New Point(69, 551)
         Label8.Name = "Label8"
         Label8.Size = New Size(217, 31)
         Label8.TabIndex = 229
@@ -111,11 +112,11 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label7
         ' 
-        Label7.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label7.Anchor = AnchorStyles.Left
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(52, 461)
+        Label7.Location = New Point(52, 504)
         Label7.Name = "Label7"
         Label7.Size = New Size(234, 37)
         Label7.TabIndex = 228
@@ -303,7 +304,7 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         Label9.AutoSize = True
         Label9.Font = New Font("Microsoft Sans Serif", 20F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(52, 636)
+        Label9.Location = New Point(52, 688)
         Label9.Name = "Label9"
         Label9.Size = New Size(377, 31)
         Label9.TabIndex = 235
@@ -311,11 +312,11 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label12
         ' 
-        Label12.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label12.Anchor = AnchorStyles.Left
         Label12.AutoSize = True
         Label12.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(64, 733)
+        Label12.Location = New Point(64, 785)
         Label12.Name = "Label12"
         Label12.Size = New Size(132, 37)
         Label12.TabIndex = 236
@@ -323,12 +324,13 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label13
         ' 
-        Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label13.Anchor = AnchorStyles.Left
+        Label13.AutoSize = True
         Label13.Font = New Font("Microsoft Sans Serif", 20F)
         Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(198, 770)
+        Label13.Location = New Point(198, 822)
         Label13.Name = "Label13"
-        Label13.Size = New Size(231, 31)
+        Label13.Size = New Size(201, 31)
         Label13.TabIndex = 237
         Label13.Text = "+20 3 4839999 "
         ' 
@@ -387,11 +389,11 @@ Partial Class Landmarks_Alexandria_Bibliotheca_Alexandrina
         ' 
         ' Label15
         ' 
-        Label15.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label15.Anchor = AnchorStyles.Left
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(52, 559)
+        Label15.Location = New Point(52, 602)
         Label15.Name = "Label15"
         Label15.Size = New Size(227, 37)
         Label15.TabIndex = 233

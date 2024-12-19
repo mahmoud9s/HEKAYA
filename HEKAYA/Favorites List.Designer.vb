@@ -189,7 +189,7 @@ Partial Class Favorites_List
         PictureBox7.BackgroundImage = My.Resources.Resources.love
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(1040, 9)
+        PictureBox7.Location = New Point(1763, 9)
         PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(60, 39)
@@ -203,7 +203,7 @@ Partial Class Favorites_List
         PictureBox5.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox5.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(1116, 9)
+        PictureBox5.Location = New Point(1839, 9)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(55, 39)
@@ -215,7 +215,7 @@ Partial Class Favorites_List
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1181, 505)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox6)
         Controls.Add(PictureBox7)
