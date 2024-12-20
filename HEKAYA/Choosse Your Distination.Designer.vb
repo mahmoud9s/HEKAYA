@@ -52,9 +52,10 @@ Partial Class Choosse_Your_Distination
         Label1.AutoSize = True
         Label1.Font = New Font("Mongolian Baiti", 60F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(578, 62)
+        Label1.Location = New Point(826, 103)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(834, 85)
+        Label1.Size = New Size(1225, 128)
         Label1.TabIndex = 0
         Label1.Text = "Choose your destination"
         ' 
@@ -65,10 +66,10 @@ Partial Class Choosse_Your_Distination
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.BorderStyle = BorderStyle.FixedSingle
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(286, 210)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Location = New Point(409, 350)
+        PictureBox1.Margin = New Padding(4, 3, 4, 3)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(396, 285)
+        PictureBox1.Size = New Size(565, 474)
         PictureBox1.TabIndex = 5
         PictureBox1.TabStop = False
         ' 
@@ -78,9 +79,10 @@ Partial Class Choosse_Your_Distination
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Mongolian Baiti", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         LinkLabel1.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel1.Location = New Point(391, 525)
+        LinkLabel1.Location = New Point(559, 875)
+        LinkLabel1.Margin = New Padding(4, 0, 4, 0)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(146, 29)
+        LinkLabel1.Size = New Size(212, 44)
         LinkLabel1.TabIndex = 11
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Alexandria"
@@ -91,9 +93,10 @@ Partial Class Choosse_Your_Distination
         LinkLabel3.AutoSize = True
         LinkLabel3.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel3.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel3.Location = New Point(1271, 525)
+        LinkLabel3.Location = New Point(1068, 875)
+        LinkLabel3.Margin = New Padding(4, 0, 4, 0)
         LinkLabel3.Name = "LinkLabel3"
-        LinkLabel3.Size = New Size(79, 29)
+        LinkLabel3.Size = New Size(113, 43)
         LinkLabel3.TabIndex = 13
         LinkLabel3.TabStop = True
         LinkLabel3.Text = "Cairo"
@@ -104,9 +107,10 @@ Partial Class Choosse_Your_Distination
         LinkLabel5.AutoSize = True
         LinkLabel5.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel5.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel5.Location = New Point(399, 962)
+        LinkLabel5.Location = New Point(570, 1603)
+        LinkLabel5.Margin = New Padding(4, 0, 4, 0)
         LinkLabel5.Name = "LinkLabel5"
-        LinkLabel5.Size = New Size(130, 29)
+        LinkLabel5.Size = New Size(185, 43)
         LinkLabel5.TabIndex = 15
         LinkLabel5.TabStop = True
         LinkLabel5.Text = "Hurghada"
@@ -117,9 +121,10 @@ Partial Class Choosse_Your_Distination
         LinkLabel6.AutoSize = True
         LinkLabel6.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel6.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel6.Location = New Point(1274, 962)
+        LinkLabel6.Location = New Point(1820, 1603)
+        LinkLabel6.Margin = New Padding(4, 0, 4, 0)
         LinkLabel6.Name = "LinkLabel6"
-        LinkLabel6.Size = New Size(72, 29)
+        LinkLabel6.Size = New Size(103, 43)
         LinkLabel6.TabIndex = 16
         LinkLabel6.TabStop = True
         LinkLabel6.Text = "Siwa"
@@ -131,10 +136,10 @@ Partial Class Choosse_Your_Distination
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1112, 210)
-        PictureBox3.Margin = New Padding(3, 2, 3, 2)
+        PictureBox3.Location = New Point(793, 350)
+        PictureBox3.Margin = New Padding(4, 3, 4, 3)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(396, 285)
+        PictureBox3.Size = New Size(565, 474)
         PictureBox3.TabIndex = 18
         PictureBox3.TabStop = False
         ' 
@@ -145,10 +150,10 @@ Partial Class Choosse_Your_Distination
         PictureBox5.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox5.BorderStyle = BorderStyle.FixedSingle
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(286, 641)
-        PictureBox5.Margin = New Padding(3, 2, 3, 2)
+        PictureBox5.Location = New Point(409, 1068)
+        PictureBox5.Margin = New Padding(4, 3, 4, 3)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(396, 285)
+        PictureBox5.Size = New Size(565, 474)
         PictureBox5.TabIndex = 20
         PictureBox5.TabStop = False
         ' 
@@ -159,10 +164,10 @@ Partial Class Choosse_Your_Distination
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.BorderStyle = BorderStyle.FixedSingle
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(1112, 641)
-        PictureBox6.Margin = New Padding(3, 2, 3, 2)
+        PictureBox6.Location = New Point(793, 1068)
+        PictureBox6.Margin = New Padding(4, 3, 4, 3)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(396, 285)
+        PictureBox6.Size = New Size(565, 474)
         PictureBox6.TabIndex = 21
         PictureBox6.TabStop = False
         ' 
@@ -172,10 +177,10 @@ Partial Class Choosse_Your_Distination
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(18, 15)
-        PictureBox8.Margin = New Padding(3, 2, 3, 2)
+        PictureBox8.Location = New Point(26, 25)
+        PictureBox8.Margin = New Padding(4, 3, 4, 3)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.Size = New Size(100, 65)
         PictureBox8.TabIndex = 35
         PictureBox8.TabStop = False
         ' 
@@ -185,10 +190,10 @@ Partial Class Choosse_Your_Distination
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(104, 15)
-        PictureBox7.Margin = New Padding(3, 2, 3, 2)
+        PictureBox7.Location = New Point(149, 25)
+        PictureBox7.Margin = New Padding(4, 3, 4, 3)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(55, 39)
+        PictureBox7.Size = New Size(79, 65)
         PictureBox7.TabIndex = 34
         PictureBox7.TabStop = False
         ' 
@@ -199,10 +204,10 @@ Partial Class Choosse_Your_Distination
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1753, 15)
-        PictureBox9.Margin = New Padding(3, 2, 3, 2)
+        PictureBox9.Location = New Point(1708, 25)
+        PictureBox9.Margin = New Padding(4, 3, 4, 3)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(60, 39)
+        PictureBox9.Size = New Size(86, 65)
         PictureBox9.TabIndex = 33
         PictureBox9.TabStop = False
         ' 
@@ -213,19 +218,19 @@ Partial Class Choosse_Your_Distination
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1828, 15)
-        PictureBox10.Margin = New Padding(3, 2, 3, 2)
+        PictureBox10.Location = New Point(1815, 25)
+        PictureBox10.Margin = New Padding(4, 3, 4, 3)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(55, 39)
+        PictureBox10.Size = New Size(79, 65)
         PictureBox10.TabIndex = 32
         PictureBox10.TabStop = False
         ' 
         ' Choosse_Your_Distination
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1904, 1041)
+        ClientSize = New Size(1924, 1050)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox7)
         Controls.Add(PictureBox9)
@@ -240,7 +245,7 @@ Partial Class Choosse_Your_Distination
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        Margin = New Padding(3, 2, 3, 2)
+        Margin = New Padding(4, 3, 4, 3)
         Name = "Choosse_Your_Distination"
         Text = "Choosse_Your_Distination"
         WindowState = FormWindowState.Maximized

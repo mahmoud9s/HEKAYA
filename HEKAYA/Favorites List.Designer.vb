@@ -51,9 +51,10 @@ Partial Class Favorites_List
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(18, 87)
+        Label1.Location = New Point(26, 145)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(273, 41)
+        Label1.Size = New Size(404, 60)
         Label1.TabIndex = 13
         Label1.Text = "Your Favorites List"
         ' 
@@ -62,10 +63,10 @@ Partial Class Favorites_List
         PictureBox1.BackColor = Color.Transparent
         PictureBox1.BackgroundImage = My.Resources.Resources.bab_el_sharq
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
-        PictureBox1.Location = New Point(18, 332)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Location = New Point(26, 553)
+        PictureBox1.Margin = New Padding(4, 3, 4, 3)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(204, 148)
+        PictureBox1.Size = New Size(291, 247)
         PictureBox1.TabIndex = 14
         PictureBox1.TabStop = False
         ' 
@@ -74,10 +75,10 @@ Partial Class Favorites_List
         PictureBox2.BackColor = Color.Transparent
         PictureBox2.BackgroundImage = My.Resources.Resources._2023_03_01
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
-        PictureBox2.Location = New Point(666, 139)
-        PictureBox2.Margin = New Padding(3, 2, 3, 2)
+        PictureBox2.Location = New Point(951, 232)
+        PictureBox2.Margin = New Padding(4, 3, 4, 3)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(204, 148)
+        PictureBox2.Size = New Size(291, 247)
         PictureBox2.TabIndex = 15
         PictureBox2.TabStop = False
         ' 
@@ -86,10 +87,10 @@ Partial Class Favorites_List
         PictureBox3.BackColor = Color.Transparent
         PictureBox3.BackgroundImage = My.Resources.Resources.saigon_restaurant
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
-        PictureBox3.Location = New Point(18, 139)
-        PictureBox3.Margin = New Padding(3, 2, 3, 2)
+        PictureBox3.Location = New Point(26, 232)
+        PictureBox3.Margin = New Padding(4, 3, 4, 3)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(204, 148)
+        PictureBox3.Size = New Size(291, 247)
         PictureBox3.TabIndex = 16
         PictureBox3.TabStop = False
         ' 
@@ -98,9 +99,10 @@ Partial Class Favorites_List
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(228, 148)
+        Label2.Location = New Point(326, 247)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(321, 32)
+        Label2.Size = New Size(472, 48)
         Label2.TabIndex = 17
         Label2.Text = "Saigon Restaurant & Lounge"
         ' 
@@ -109,9 +111,10 @@ Partial Class Favorites_List
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(228, 332)
+        Label3.Location = New Point(326, 553)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(159, 32)
+        Label3.Size = New Size(235, 48)
         Label3.TabIndex = 18
         Label3.Text = "Bab El-Sharq"
         ' 
@@ -120,9 +123,10 @@ Partial Class Favorites_List
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(875, 148)
+        Label4.Location = New Point(1250, 247)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(297, 32)
+        Label4.Size = New Size(436, 48)
         Label4.TabIndex = 19
         Label4.Text = "Grand Egyptian Museum"
         ' 
@@ -130,9 +134,10 @@ Partial Class Favorites_List
         ' 
         Label5.Font = New Font("Segoe UI", 11F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(228, 185)
+        Label5.Location = New Point(326, 308)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(434, 75)
+        Label5.Size = New Size(620, 125)
         Label5.TabIndex = 20
         Label5.Text = "Saigon Restaurant at Fairmont Nile City offers Pan-Asian cuisine with Nile views, while the Lounge features live entertainment. Smart-casual attire is required." & vbCrLf & vbCrLf
         ' 
@@ -140,9 +145,10 @@ Partial Class Favorites_List
         ' 
         Label6.Font = New Font("Segoe UI", 11F)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(875, 185)
+        Label6.Location = New Point(1250, 308)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(368, 75)
+        Label6.Size = New Size(526, 125)
         Label6.TabIndex = 21
         Label6.Text = "The Grand Egyptian Museum, near the Pyramids of Giza, will display the largest collection of ancient Egyptian artifacts, including King Tut’s treasures."
         ' 
@@ -150,9 +156,10 @@ Partial Class Favorites_List
         ' 
         Label7.Font = New Font("Segoe UI", 11F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(228, 370)
+        Label7.Location = New Point(326, 617)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(434, 75)
+        Label7.Size = New Size(620, 125)
         Label7.TabIndex = 22
         Label7.Text = "Bab El-Sharq offers Middle Eastern cuisine, shisha, and live entertainment with views of the Egyptian Museum, featuring daily performances by a band, singer, and belly dancer."
         ' 
@@ -162,10 +169,10 @@ Partial Class Favorites_List
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(18, 9)
-        PictureBox8.Margin = New Padding(3, 2, 3, 2)
+        PictureBox8.Location = New Point(26, 15)
+        PictureBox8.Margin = New Padding(4, 3, 4, 3)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.Size = New Size(100, 65)
         PictureBox8.TabIndex = 31
         PictureBox8.TabStop = False
         ' 
@@ -175,10 +182,10 @@ Partial Class Favorites_List
         PictureBox6.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(104, 9)
-        PictureBox6.Margin = New Padding(3, 2, 3, 2)
+        PictureBox6.Location = New Point(149, 15)
+        PictureBox6.Margin = New Padding(4, 3, 4, 3)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(55, 39)
+        PictureBox6.Size = New Size(79, 65)
         PictureBox6.TabIndex = 30
         PictureBox6.TabStop = False
         ' 
@@ -189,10 +196,10 @@ Partial Class Favorites_List
         PictureBox7.BackgroundImage = My.Resources.Resources.love
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(1763, 9)
-        PictureBox7.Margin = New Padding(3, 2, 3, 2)
+        PictureBox7.Location = New Point(1722, 15)
+        PictureBox7.Margin = New Padding(4, 3, 4, 3)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(60, 39)
+        PictureBox7.Size = New Size(86, 65)
         PictureBox7.TabIndex = 29
         PictureBox7.TabStop = False
         ' 
@@ -203,19 +210,19 @@ Partial Class Favorites_List
         PictureBox5.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox5.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(1839, 9)
-        PictureBox5.Margin = New Padding(3, 2, 3, 2)
+        PictureBox5.Location = New Point(1831, 15)
+        PictureBox5.Margin = New Padding(4, 3, 4, 3)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(55, 39)
+        PictureBox5.Size = New Size(79, 65)
         PictureBox5.TabIndex = 28
         PictureBox5.TabStop = False
         ' 
         ' Favorites_List
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1904, 1041)
+        ClientSize = New Size(1924, 1050)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox6)
         Controls.Add(PictureBox7)
@@ -231,7 +238,7 @@ Partial Class Favorites_List
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        Margin = New Padding(3, 2, 3, 2)
+        Margin = New Padding(4, 3, 4, 3)
         Name = "Favorites_List"
         Text = "Favorites_List"
         WindowState = FormWindowState.Maximized

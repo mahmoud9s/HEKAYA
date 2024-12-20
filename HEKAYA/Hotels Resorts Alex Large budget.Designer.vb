@@ -69,9 +69,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label5.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         Label5.Font = New Font("Mongolian Baiti", 60F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(816, 85)
+        Label5.Location = New Point(1020, 107)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(800, 106)
+        Label5.Size = New Size(960, 128)
         Label5.TabIndex = 134
         Label5.Text = "Hotels and Resorts"
         ' 
@@ -83,9 +84,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label14.Cursor = Cursors.Hand
         Label14.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
         Label14.ForeColor = Color.White
-        Label14.Location = New Point(462, 275)
+        Label14.Location = New Point(577, 343)
+        Label14.Margin = New Padding(4, 0, 4, 0)
         Label14.Name = "Label14"
-        Label14.Size = New Size(116, 36)
+        Label14.Size = New Size(137, 40)
         Label14.TabIndex = 133
         Label14.Text = "Budget"
         ' 
@@ -95,9 +97,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox12.BackgroundImage = My.Resources.Resources.Picture18
         PictureBox12.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox12.Cursor = Cursors.Hand
-        PictureBox12.Location = New Point(382, 212)
+        PictureBox12.Location = New Point(477, 265)
+        PictureBox12.Margin = New Padding(4, 3, 4, 3)
         PictureBox12.Name = "PictureBox12"
-        PictureBox12.Size = New Size(274, 137)
+        PictureBox12.Size = New Size(343, 172)
         PictureBox12.TabIndex = 132
         PictureBox12.TabStop = False
         ' 
@@ -107,9 +110,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1446, 932)
+        Label7.Location = New Point(1326, 1165)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(459, 279)
+        Label7.Size = New Size(574, 348)
         Label7.TabIndex = 131
         Label7.Text = "Tolip Hotel Alexandria offers sea views, spacious rooms, and easy access to Alexandria’s attractions, ideal for families and travelers."
         ' 
@@ -119,9 +123,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 18F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(579, 932)
+        Label9.Location = New Point(724, 1165)
+        Label9.Margin = New Padding(4, 0, 4, 0)
         Label9.Name = "Label9"
-        Label9.Size = New Size(541, 279)
+        Label9.Size = New Size(676, 348)
         Label9.TabIndex = 130
         Label9.Text = "Sheraton Montazah Hotel is a five-star hotel near Montazah Palace, offering luxury, comfort, and stunning Mediterranean views with easy access to Alexandria's cultural sites."
         ' 
@@ -132,9 +137,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label12.Cursor = Cursors.Hand
         Label12.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(1478, 856)
+        Label12.Location = New Point(1443, 1070)
+        Label12.Margin = New Padding(4, 0, 4, 0)
         Label12.Name = "Label12"
-        Label12.Size = New Size(232, 48)
+        Label12.Size = New Size(275, 58)
         Label12.TabIndex = 129
         Label12.Text = "Tolip Hotel"
         ' 
@@ -145,9 +151,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(579, 856)
+        Label13.Location = New Point(724, 1070)
+        Label13.Margin = New Padding(4, 0, 4, 0)
         Label13.Name = "Label13"
-        Label13.Size = New Size(400, 48)
+        Label13.Size = New Size(480, 58)
         Label13.TabIndex = 128
         Label13.Text = "Sheraton Montazah"
         ' 
@@ -157,9 +164,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox9.BackgroundImage = CType(resources.GetObject("PictureBox9.BackgroundImage"), Image)
         PictureBox9.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1223, 847)
+        PictureBox9.Location = New Point(733, 1058)
+        PictureBox9.Margin = New Padding(4, 3, 4, 3)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(457, 364)
+        PictureBox9.Size = New Size(571, 455)
         PictureBox9.TabIndex = 127
         PictureBox9.TabStop = False
         ' 
@@ -169,9 +177,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox11.BackgroundImage = CType(resources.GetObject("PictureBox11.BackgroundImage"), Image)
         PictureBox11.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox11.Cursor = Cursors.Hand
-        PictureBox11.Location = New Point(97, 847)
+        PictureBox11.Location = New Point(121, 1058)
+        PictureBox11.Margin = New Padding(4, 3, 4, 3)
         PictureBox11.Name = "PictureBox11"
-        PictureBox11.Size = New Size(457, 364)
+        PictureBox11.Size = New Size(571, 455)
         PictureBox11.TabIndex = 126
         PictureBox11.TabStop = False
         ' 
@@ -181,9 +190,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 18F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(1435, 535)
+        Label11.Location = New Point(1313, 668)
+        Label11.Margin = New Padding(4, 0, 4, 0)
         Label11.Name = "Label11"
-        Label11.Size = New Size(459, 257)
+        Label11.Size = New Size(574, 322)
         Label11.TabIndex = 125
         Label11.Text = "Royal Chalet Maamourah Beach in Alexandria offers a 3-bedroom chalet with a kitchen, terrace, free Wi-Fi, and parking, just steps from Mamoura Beach."
         ' 
@@ -193,9 +203,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label10.Cursor = Cursors.Hand
         Label10.Font = New Font("Microsoft Sans Serif", 18F)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(579, 535)
+        Label10.Location = New Point(724, 668)
+        Label10.Margin = New Padding(4, 0, 4, 0)
         Label10.Name = "Label10"
-        Label10.Size = New Size(541, 257)
+        Label10.Size = New Size(676, 322)
         Label10.TabIndex = 124
         Label10.Text = "The Four Seasons Hotel Alexandria at San Stefano offers a luxurious Mediterranean retreat with elegant rooms, stunning sea views, and top-tier amenities in the prestigious San Stefano district."
         ' 
@@ -206,9 +217,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(1687, 451)
+        Label8.Location = New Point(2109, 563)
+        Label8.Margin = New Padding(4, 0, 4, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(537, 39)
+        Label8.Size = New Size(625, 46)
         Label8.TabIndex = 123
         Label8.Text = "Royal Chalet Maamourah Beach"
         ' 
@@ -219,9 +231,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(579, 451)
+        Label6.Location = New Point(724, 563)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(511, 48)
+        Label6.Size = New Size(610, 58)
         Label6.TabIndex = 122
         Label6.Text = "Four Seasons Alexandria"
         ' 
@@ -231,9 +244,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox10.BackgroundImage = CType(resources.GetObject("PictureBox10.BackgroundImage"), Image)
         PictureBox10.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1223, 428)
+        PictureBox10.Location = New Point(733, 535)
+        PictureBox10.Margin = New Padding(4, 3, 4, 3)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(457, 364)
+        PictureBox10.Size = New Size(571, 455)
         PictureBox10.TabIndex = 121
         PictureBox10.TabStop = False
         ' 
@@ -243,9 +257,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(97, 428)
+        PictureBox3.Location = New Point(121, 535)
+        PictureBox3.Margin = New Padding(4, 3, 4, 3)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(457, 364)
+        PictureBox3.Size = New Size(571, 455)
         PictureBox3.TabIndex = 120
         PictureBox3.TabStop = False
         ' 
@@ -255,9 +270,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(14, 15)
+        PictureBox8.Location = New Point(17, 18)
+        PictureBox8.Margin = New Padding(4, 3, 4, 3)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 52)
+        PictureBox8.Size = New Size(100, 65)
         PictureBox8.TabIndex = 119
         PictureBox8.TabStop = False
         ' 
@@ -267,9 +283,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox6.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(111, 15)
+        PictureBox6.Location = New Point(139, 18)
+        PictureBox6.Margin = New Padding(4, 3, 4, 3)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(63, 52)
+        PictureBox6.Size = New Size(79, 65)
         PictureBox6.TabIndex = 118
         PictureBox6.TabStop = False
         ' 
@@ -280,9 +297,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox7.BackgroundImage = My.Resources.Resources.love
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(1741, 15)
+        PictureBox7.Location = New Point(1695, 18)
+        PictureBox7.Margin = New Padding(4, 3, 4, 3)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(69, 52)
+        PictureBox7.Size = New Size(86, 65)
         PictureBox7.TabIndex = 117
         PictureBox7.TabStop = False
         ' 
@@ -293,9 +311,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox5.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox5.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(1827, 15)
+        PictureBox5.Location = New Point(1802, 18)
+        PictureBox5.Margin = New Padding(4, 3, 4, 3)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(63, 52)
+        PictureBox5.Size = New Size(79, 65)
         PictureBox5.TabIndex = 116
         PictureBox5.TabStop = False
         ' 
@@ -307,9 +326,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
         Label4.ForeColor = Color.White
-        Label4.Location = New Point(1439, 275)
+        Label4.Location = New Point(1098, 343)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(188, 36)
+        Label4.Size = New Size(222, 40)
         Label4.TabIndex = 115
         Label4.Text = "High budget"
         ' 
@@ -321,9 +341,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 18F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(1075, 275)
+        Label3.Location = New Point(1344, 343)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(240, 36)
+        Label3.Size = New Size(289, 40)
         Label3.TabIndex = 114
         Label3.Text = "Moderate budget"
         ' 
@@ -335,9 +356,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 18F)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(759, 275)
+        Label2.Location = New Point(949, 343)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(171, 36)
+        Label2.Size = New Size(203, 40)
         Label2.TabIndex = 113
         Label2.Text = "Low budget"
         ' 
@@ -347,9 +369,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1053, 212)
+        PictureBox2.Location = New Point(1316, 265)
+        PictureBox2.Margin = New Padding(4, 3, 4, 3)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(274, 137)
+        PictureBox2.Size = New Size(343, 172)
         PictureBox2.TabIndex = 112
         PictureBox2.TabStop = False
         ' 
@@ -359,9 +382,10 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox1.BackgroundImage = My.Resources.Resources.Picture18
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1385, 212)
+        PictureBox1.Location = New Point(935, 265)
+        PictureBox1.Margin = New Padding(4, 3, 4, 3)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(274, 137)
+        PictureBox1.Size = New Size(343, 172)
         PictureBox1.TabIndex = 111
         PictureBox1.TabStop = False
         ' 
@@ -371,18 +395,19 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(704, 212)
+        PictureBox4.Location = New Point(880, 265)
+        PictureBox4.Margin = New Padding(4, 3, 4, 3)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(274, 137)
+        PictureBox4.Size = New Size(343, 172)
         PictureBox4.TabIndex = 110
         PictureBox4.TabStop = False
         ' 
         ' Hotels_Resorts_Alex_Large_budget
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1924, 1055)
+        ClientSize = New Size(1924, 1050)
         Controls.Add(Label5)
         Controls.Add(Label14)
         Controls.Add(PictureBox12)
@@ -409,7 +434,7 @@ Partial Class Hotels_Resorts_Alex_Large_budget
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox4)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        Margin = New Padding(3, 4, 3, 4)
+        Margin = New Padding(4, 5, 4, 5)
         Name = "Hotels_Resorts_Alex_Large_budget"
         Text = "Hotels_Resorts_Alex_Large_budget"
         WindowState = FormWindowState.Maximized

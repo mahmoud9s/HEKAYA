@@ -42,6 +42,6 @@
     End Sub
 
     Private Sub Landmarks_Cairo_Grand_Egyptian_Museum_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        AddPageToHistory(Me.Name)
     End Sub
 End Class
