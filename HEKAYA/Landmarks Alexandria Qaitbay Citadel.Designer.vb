@@ -115,11 +115,12 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         ' Label16
         ' 
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label16.AutoSize = True
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label16.Location = New Point(81, 771)
         Label16.Name = "Label16"
-        Label16.Size = New Size(576, 298)
+        Label16.Size = New Size(388, 31)
         Label16.TabIndex = 268
         Label16.Text = "Daily from 8:30 AM to 4:30 PM."
         ' 
@@ -160,22 +161,24 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         ' Label8
         ' 
         Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label8.Location = New Point(81, 640)
         Label8.Name = "Label8"
-        Label8.Size = New Size(864, 332)
+        Label8.Size = New Size(553, 62)
         Label8.TabIndex = 264
-        Label8.Text = "Approximately 30 EGP for Egyptians, and around 100 EGP for international visitors"
+        Label8.Text = "Approximately 30 EGP for Egyptians" & vbCrLf & "and around 100 EGP for international visitors"
         ' 
         ' Label7
         ' 
         Label7.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label7.Location = New Point(65, 599)
         Label7.Name = "Label7"
-        Label7.Size = New Size(252, 307)
+        Label7.Size = New Size(240, 37)
         Label7.TabIndex = 263
         Label7.Text = "Entrance Fee :"
         ' 
@@ -271,7 +274,7 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(-1, 11)
+        PictureBox8.Location = New Point(12, 11)
         PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(70, 38)
@@ -284,7 +287,7 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(86, 11)
+        PictureBox7.Location = New Point(99, 11)
         PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(55, 38)
@@ -325,7 +328,7 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 12F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(134, 89)
+        Label9.Location = New Point(130, 89)
         Label9.Name = "Label9"
         Label9.Size = New Size(101, 20)
         Label9.TabIndex = 289
@@ -337,7 +340,7 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 12F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(242, 89)
+        Label11.Location = New Point(238, 89)
         Label11.Name = "Label11"
         Label11.Size = New Size(116, 20)
         Label11.TabIndex = 288
@@ -349,7 +352,7 @@ Partial Class Landmarks_Alexandria_Qaitbay_Citadel
         Label12.Cursor = Cursors.Hand
         Label12.Font = New Font("Microsoft Sans Serif", 12F)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(24, 89)
+        Label12.Location = New Point(20, 89)
         Label12.Name = "Label12"
         Label12.Size = New Size(105, 20)
         Label12.TabIndex = 287

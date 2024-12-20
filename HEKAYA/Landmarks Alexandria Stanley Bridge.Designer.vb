@@ -258,7 +258,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(2, 12)
+        PictureBox8.Location = New Point(12, 11)
         PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(70, 38)
@@ -271,7 +271,7 @@ Partial Class Landmarks_Alexandria_Stanley_Bridge
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(84, 12)
+        PictureBox7.Location = New Point(94, 11)
         PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(55, 38)

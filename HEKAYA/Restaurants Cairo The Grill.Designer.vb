@@ -63,11 +63,12 @@ Partial Class Restaurants_Cairo_The_Grill
         ' Label16
         ' 
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label16.AutoSize = True
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label16.Location = New Point(61, 566)
         Label16.Name = "Label16"
-        Label16.Size = New Size(681, 50)
+        Label16.Size = New Size(512, 31)
         Label16.TabIndex = 171
         Label16.Text = "Steakhouse, International, Mediterranean"
         ' 
@@ -97,11 +98,12 @@ Partial Class Restaurants_Cairo_The_Grill
         ' Label11
         ' 
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
+        Label11.AutoSize = True
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(71, 684)
+        Label11.Location = New Point(71, 685)
         Label11.Name = "Label11"
-        Label11.Size = New Size(600, 49)
+        Label11.Size = New Size(501, 31)
         Label11.TabIndex = 168
         Label11.Text = "Gluten-free, vegetarian options available"
         ' 
