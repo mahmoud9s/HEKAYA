@@ -58,4 +58,12 @@
         High_Budget_Alex_Hotel_Tolip_Hotel.Show()
         Me.Hide()
     End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+
+    End Sub
 End Class

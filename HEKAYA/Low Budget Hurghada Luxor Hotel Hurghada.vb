@@ -1,0 +1,3 @@
+﻿Public Class Low_Budget_Hurghada_Luxor_Hotel_Hurghada
+
+End Class
