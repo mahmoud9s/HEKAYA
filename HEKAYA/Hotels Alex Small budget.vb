@@ -83,4 +83,14 @@
         Hotels_Alex_moderate_budget.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+        Hotels_Resorts_Alex_Large_budget.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Hotels_Resorts_Alex_Large_budget.Show()
+        Me.Hide()
+    End Sub
 End Class

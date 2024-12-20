@@ -33,7 +33,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.HEKAYA.Choosse_Your_Distination
+            Me.MainForm = Global.HEKAYA.Strat_Page
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
