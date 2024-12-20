@@ -1,0 +1,3 @@
+﻿Public Class Moderate_Budget_Hurghada_Elaria_Hotel_Hurghada
+
+End Class

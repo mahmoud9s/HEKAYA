@@ -1,0 +1,3 @@
+﻿Public Class Low_Budget_Hurghada_Jaz_Aquamarine_Resort
+
+End Class

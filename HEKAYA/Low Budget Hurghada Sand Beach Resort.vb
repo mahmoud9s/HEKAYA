@@ -1,0 +1,3 @@
+﻿Public Class Low_Budget_Hurghada_Sand_Beach_Resort
+
+End Class

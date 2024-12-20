@@ -62,9 +62,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label11.AutoSize = True
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(51, 747)
+        Label11.Location = New Point(58, 996)
         Label11.Name = "Label11"
-        Label11.Size = New Size(568, 62)
+        Label11.Size = New Size(716, 78)
         Label11.TabIndex = 238
         Label11.Text = "Approximately $100–$180 per night per person" & vbCrLf & "depending on the season and room type."
         ' 
@@ -74,9 +74,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(51, 710)
+        Label10.Location = New Point(58, 947)
         Label10.Name = "Label10"
-        Label10.Size = New Size(202, 37)
+        Label10.Size = New Size(251, 46)
         Label10.TabIndex = 237
         Label10.Text = "Price Range"
         ' 
@@ -86,9 +86,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(51, 385)
+        Label8.Location = New Point(58, 513)
         Label8.Name = "Label8"
-        Label8.Size = New Size(913, 279)
+        Label8.Size = New Size(1153, 351)
         Label8.TabIndex = 236
         Label8.Text = resources.GetString("Label8.Text")
         ' 
@@ -98,9 +98,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(51, 348)
+        Label7.Location = New Point(58, 464)
         Label7.Name = "Label7"
-        Label7.Size = New Size(348, 37)
+        Label7.Size = New Size(428, 46)
         Label7.TabIndex = 235
         Label7.Text = "Most popular facilities"
         ' 
@@ -108,9 +108,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(51, 193)
+        Label6.Location = New Point(58, 257)
         Label6.Name = "Label6"
-        Label6.Size = New Size(928, 155)
+        Label6.Size = New Size(1061, 207)
         Label6.TabIndex = 234
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -118,9 +118,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         ' 
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
-        LinkLabel1.Location = New Point(51, 156)
+        LinkLabel1.Location = New Point(58, 208)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(321, 37)
+        LinkLabel1.Size = New Size(405, 46)
         LinkLabel1.TabIndex = 233
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Sheraton Montazah Hotel"
@@ -131,10 +131,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(13, 156)
-        PictureBox6.Margin = New Padding(3, 2, 3, 2)
+        PictureBox6.Location = New Point(15, 208)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(32, 37)
+        PictureBox6.Size = New Size(37, 49)
         PictureBox6.TabIndex = 232
         PictureBox6.TabStop = False
         ' 
@@ -144,9 +143,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label5.AutoSize = True
         Label5.Font = New Font("Mongolian Baiti", 60F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(-4, 84)
+        Label5.Location = New Point(-5, 112)
         Label5.Name = "Label5"
-        Label5.Size = New Size(862, 85)
+        Label5.Size = New Size(1071, 106)
         Label5.TabIndex = 231
         Label5.Text = "Sheraton Montazah Hotel"
         ' 
@@ -154,10 +153,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(985, 136)
-        PictureBox5.Margin = New Padding(3, 2, 3, 2)
+        PictureBox5.Location = New Point(873, 181)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(900, 792)
+        PictureBox5.Size = New Size(1029, 1056)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 230
         PictureBox5.TabStop = False
@@ -168,9 +166,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(107, 65)
+        Label4.Location = New Point(122, 87)
         Label4.Name = "Label4"
-        Label4.Size = New Size(72, 20)
+        Label4.Size = New Size(89, 25)
         Label4.TabIndex = 229
         Label4.Text = "Hotels  >"
         ' 
@@ -180,9 +178,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(177, 65)
+        Label3.Location = New Point(202, 87)
         Label3.Name = "Label3"
-        Label3.Size = New Size(192, 20)
+        Label3.Size = New Size(234, 25)
         Label3.TabIndex = 228
         Label3.Text = "Sheraton Montazah Hotel"
         ' 
@@ -192,9 +190,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(4, 65)
+        Label1.Location = New Point(5, 87)
         Label1.Name = "Label1"
-        Label1.Size = New Size(113, 20)
+        Label1.Size = New Size(143, 25)
         Label1.TabIndex = 222
         Label1.Text = "Alexandrina  > "
         ' 
@@ -206,9 +204,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1770, 95)
+        Label2.Location = New Point(1786, 127)
         Label2.Name = "Label2"
-        Label2.Size = New Size(87, 20)
+        Label2.Size = New Size(106, 25)
         Label2.TabIndex = 247
         Label2.Text = "Book now"
         ' 
@@ -218,10 +216,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1743, 82)
-        PictureBox4.Margin = New Padding(3, 2, 3, 2)
+        PictureBox4.Location = New Point(1740, 109)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(141, 42)
+        PictureBox4.Size = New Size(161, 56)
         PictureBox4.TabIndex = 246
         PictureBox4.TabStop = False
         ' 
@@ -231,10 +228,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1628, 87)
-        PictureBox3.Margin = New Padding(3, 2, 3, 2)
+        PictureBox3.Location = New Point(1861, 116)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(51, 38)
+        PictureBox3.Size = New Size(58, 51)
         PictureBox3.TabIndex = 245
         PictureBox3.TabStop = False
         ' 
@@ -244,10 +240,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1684, 87)
-        PictureBox2.Margin = New Padding(3, 2, 3, 2)
+        PictureBox2.Location = New Point(1672, 116)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(46, 38)
+        PictureBox2.Size = New Size(53, 51)
         PictureBox2.TabIndex = 244
         PictureBox2.TabStop = False
         ' 
@@ -258,10 +253,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(985, 93)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Location = New Point(1126, 124)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(157, 39)
+        PictureBox1.Size = New Size(179, 52)
         PictureBox1.TabIndex = 243
         PictureBox1.TabStop = False
         ' 
@@ -271,10 +265,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(12, 11)
-        PictureBox8.Margin = New Padding(3, 2, 3, 2)
+        PictureBox8.Location = New Point(14, 15)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.Size = New Size(80, 52)
         PictureBox8.TabIndex = 242
         PictureBox8.TabStop = False
         ' 
@@ -284,10 +277,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(99, 11)
-        PictureBox7.Margin = New Padding(3, 2, 3, 2)
+        PictureBox7.Location = New Point(113, 15)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(55, 39)
+        PictureBox7.Size = New Size(63, 52)
         PictureBox7.TabIndex = 241
         PictureBox7.TabStop = False
         ' 
@@ -298,10 +290,9 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1752, 11)
-        PictureBox9.Margin = New Padding(3, 2, 3, 2)
+        PictureBox9.Location = New Point(1750, 15)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(60, 39)
+        PictureBox9.Size = New Size(69, 52)
         PictureBox9.TabIndex = 240
         PictureBox9.TabStop = False
         ' 
@@ -312,18 +303,17 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1827, 11)
-        PictureBox10.Margin = New Padding(3, 2, 3, 2)
+        PictureBox10.Location = New Point(1836, 15)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(55, 39)
+        PictureBox10.Size = New Size(63, 52)
         PictureBox10.TabIndex = 239
         PictureBox10.TabStop = False
         ' 
         ' High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1904, 1041)
+        ClientSize = New Size(1924, 1055)
         Controls.Add(Label2)
         Controls.Add(PictureBox4)
         Controls.Add(PictureBox3)
@@ -346,7 +336,6 @@ Partial Class High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel
         Controls.Add(Label3)
         Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        Margin = New Padding(3, 2, 3, 2)
         Name = "High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel"
         Text = "High_Budget_Alex_Hotel_Sheraton_Montazah_Hotel"
         WindowState = FormWindowState.Maximized

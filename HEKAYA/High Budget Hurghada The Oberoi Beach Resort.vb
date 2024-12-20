@@ -1,0 +1,3 @@
+﻿Public Class High_Budget_Hurghada_The_Oberoi_Beach_Resort
+
+End Class

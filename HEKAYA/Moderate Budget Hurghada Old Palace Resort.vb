@@ -1,0 +1,3 @@
+﻿Public Class Moderate_Budget_Hurghada_Old_Palace_Resort
+
+End Class

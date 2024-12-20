@@ -63,9 +63,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label9.AutoSize = True
         Label9.Font = New Font("Microsoft Sans Serif", 20F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(332, 585)
+        Label9.Location = New Point(379, 780)
         Label9.Name = "Label9"
-        Label9.Size = New Size(448, 155)
+        Label9.Size = New Size(560, 195)
         Label9.TabIndex = 193
         Label9.Text = "24-hour front desk and room service" & vbCrLf & "balconies" & vbCrLf & "restaurant offering local " & vbCrLf & "international cuisine" & vbCrLf & "grocery delivery"
         ' 
@@ -75,9 +75,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label11.AutoSize = True
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(60, 841)
+        Label11.Location = New Point(69, 1121)
         Label11.Name = "Label11"
-        Label11.Size = New Size(801, 62)
+        Label11.Size = New Size(1007, 78)
         Label11.TabIndex = 192
         Label11.Text = "The average price varies depending on the season and room type" & vbCrLf & ", generally starting around $40–$50 per night for a standard room."
         ' 
@@ -87,9 +87,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(60, 804)
+        Label10.Location = New Point(69, 1072)
         Label10.Name = "Label10"
-        Label10.Size = New Size(202, 37)
+        Label10.Size = New Size(251, 46)
         Label10.TabIndex = 191
         Label10.Text = "Price Range"
         ' 
@@ -99,9 +99,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(60, 585)
+        Label8.Location = New Point(69, 780)
         Label8.Name = "Label8"
-        Label8.Size = New Size(266, 186)
+        Label8.Size = New Size(333, 234)
         Label8.TabIndex = 190
         Label8.Text = "Air-conditioned        " & vbCrLf & "private bathrooms     " & vbCrLf & "Free Wi-Fi       " & vbCrLf & "Laundry service" & vbCrLf & "meeting rooms" & vbCrLf & "car rentals   "
         ' 
@@ -111,9 +111,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(53, 539)
+        Label7.Location = New Point(61, 719)
         Label7.Name = "Label7"
-        Label7.Size = New Size(348, 37)
+        Label7.Size = New Size(428, 46)
         Label7.TabIndex = 189
         Label7.Text = "Most popular facilities"
         ' 
@@ -121,9 +121,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(53, 213)
+        Label6.Location = New Point(61, 284)
         Label6.Name = "Label6"
-        Label6.Size = New Size(926, 308)
+        Label6.Size = New Size(1058, 411)
         Label6.TabIndex = 188
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -131,9 +131,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         ' 
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
-        LinkLabel1.Location = New Point(53, 176)
+        LinkLabel1.Location = New Point(61, 235)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(373, 37)
+        LinkLabel1.Size = New Size(469, 46)
         LinkLabel1.TabIndex = 187
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Charming Miramar Aparthotel"
@@ -144,10 +144,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(19, 176)
-        PictureBox6.Margin = New Padding(3, 2, 3, 2)
+        PictureBox6.Location = New Point(22, 235)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(32, 37)
+        PictureBox6.Size = New Size(37, 49)
         PictureBox6.TabIndex = 186
         PictureBox6.TabStop = False
         ' 
@@ -157,9 +156,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label5.AutoSize = True
         Label5.Font = New Font("Mongolian Baiti", 55F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(3, 98)
+        Label5.Location = New Point(3, 131)
         Label5.Name = "Label5"
-        Label5.Size = New Size(948, 79)
+        Label5.Size = New Size(1176, 98)
         Label5.TabIndex = 185
         Label5.Text = "Charming Miramar Aparthotel"
         ' 
@@ -167,10 +166,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(985, 136)
-        PictureBox5.Margin = New Padding(3, 2, 3, 2)
+        PictureBox5.Location = New Point(873, 181)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(900, 792)
+        PictureBox5.Size = New Size(1029, 1056)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 184
         PictureBox5.TabStop = False
@@ -181,9 +179,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(118, 75)
+        Label4.Location = New Point(135, 100)
         Label4.Name = "Label4"
-        Label4.Size = New Size(72, 20)
+        Label4.Size = New Size(89, 25)
         Label4.TabIndex = 183
         Label4.Text = "Hotels  >"
         ' 
@@ -193,9 +191,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(189, 75)
+        Label3.Location = New Point(216, 100)
         Label3.Name = "Label3"
-        Label3.Size = New Size(216, 20)
+        Label3.Size = New Size(267, 25)
         Label3.TabIndex = 182
         Label3.Text = "Charming Miramar Aparthotel"
         ' 
@@ -205,9 +203,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(10, 75)
+        Label1.Location = New Point(11, 100)
         Label1.Name = "Label1"
-        Label1.Size = New Size(113, 20)
+        Label1.Size = New Size(143, 25)
         Label1.TabIndex = 176
         Label1.Text = "Alexandrina  > "
         ' 
@@ -219,9 +217,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1770, 95)
+        Label2.Location = New Point(1786, 127)
         Label2.Name = "Label2"
-        Label2.Size = New Size(87, 20)
+        Label2.Size = New Size(106, 25)
         Label2.TabIndex = 202
         Label2.Text = "Book now"
         ' 
@@ -231,10 +229,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1743, 82)
-        PictureBox4.Margin = New Padding(3, 2, 3, 2)
+        PictureBox4.Location = New Point(1740, 109)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(141, 42)
+        PictureBox4.Size = New Size(161, 56)
         PictureBox4.TabIndex = 201
         PictureBox4.TabStop = False
         ' 
@@ -244,10 +241,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1628, 87)
-        PictureBox3.Margin = New Padding(3, 2, 3, 2)
+        PictureBox3.Location = New Point(1861, 116)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(51, 38)
+        PictureBox3.Size = New Size(58, 51)
         PictureBox3.TabIndex = 200
         PictureBox3.TabStop = False
         ' 
@@ -257,10 +253,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1684, 87)
-        PictureBox2.Margin = New Padding(3, 2, 3, 2)
+        PictureBox2.Location = New Point(1672, 116)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(46, 38)
+        PictureBox2.Size = New Size(53, 51)
         PictureBox2.TabIndex = 199
         PictureBox2.TabStop = False
         ' 
@@ -271,10 +266,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(985, 93)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Location = New Point(1126, 124)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(157, 39)
+        PictureBox1.Size = New Size(179, 52)
         PictureBox1.TabIndex = 198
         PictureBox1.TabStop = False
         ' 
@@ -284,10 +278,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(12, 11)
-        PictureBox8.Margin = New Padding(3, 2, 3, 2)
+        PictureBox8.Location = New Point(14, 15)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.Size = New Size(80, 52)
         PictureBox8.TabIndex = 197
         PictureBox8.TabStop = False
         ' 
@@ -297,10 +290,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(99, 11)
-        PictureBox7.Margin = New Padding(3, 2, 3, 2)
+        PictureBox7.Location = New Point(113, 15)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(55, 39)
+        PictureBox7.Size = New Size(63, 52)
         PictureBox7.TabIndex = 196
         PictureBox7.TabStop = False
         ' 
@@ -311,10 +303,9 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1752, 11)
-        PictureBox9.Margin = New Padding(3, 2, 3, 2)
+        PictureBox9.Location = New Point(1750, 15)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(60, 39)
+        PictureBox9.Size = New Size(69, 52)
         PictureBox9.TabIndex = 195
         PictureBox9.TabStop = False
         ' 
@@ -325,20 +316,19 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1827, 11)
-        PictureBox10.Margin = New Padding(3, 2, 3, 2)
+        PictureBox10.Location = New Point(1836, 15)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(55, 39)
+        PictureBox10.Size = New Size(63, 52)
         PictureBox10.TabIndex = 194
         PictureBox10.TabStop = False
         ' 
         ' Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1904, 1041)
+        ClientSize = New Size(1924, 1055)
         Controls.Add(Label2)
         Controls.Add(PictureBox4)
         Controls.Add(PictureBox3)
@@ -362,7 +352,6 @@ Partial Class Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel
         Controls.Add(Label3)
         Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        Margin = New Padding(3, 2, 3, 2)
         Name = "Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel"
         Text = "Low_Budget_Alex_Hotel_Charming_Miramar_Aparthotel"
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()

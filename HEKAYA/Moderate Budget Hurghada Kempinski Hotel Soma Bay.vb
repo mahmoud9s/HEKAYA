@@ -1,0 +1,3 @@
+﻿Public Class Moderate_Budget_Hurghada_Kempinski_Hotel_Soma_Bay
+
+End Class

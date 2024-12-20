@@ -1,0 +1,3 @@
+﻿Public Class Moderate_Budget_Hurghada_Sunny_Days_Mirette_Family_Resort
+
+End Class
