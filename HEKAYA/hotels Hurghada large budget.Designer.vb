@@ -142,9 +142,9 @@ Partial Class hotels_Hurghada_large_budget
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label12.Location = New Point(838, 770)
         Label12.Name = "Label12"
-        Label12.Size = New Size(715, 48)
+        Label12.Size = New Size(503, 48)
         Label12.TabIndex = 154
-        Label12.Text = "ToliSunrise Aqua Joy Resortp Hotel"
+        Label12.Text = "Sunrise Aqua Joy Resort"
         ' 
         ' Label13
         ' 

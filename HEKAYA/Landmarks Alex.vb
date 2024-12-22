@@ -17,8 +17,6 @@
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Landmarks_Alexandria_Bibliotheca_Alexandrina.Show()
         Me.Hide()
-
-
     End Sub
 
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
