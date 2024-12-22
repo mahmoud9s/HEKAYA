@@ -56,10 +56,10 @@ Partial Class Landmarks_Cairo
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(12, 11)
-        PictureBox8.Margin = New Padding(3, 2, 3, 2)
+        PictureBox8.Location = New Point(17, 18)
+        PictureBox8.Margin = New Padding(4, 3, 4, 3)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.Size = New Size(100, 65)
         PictureBox8.TabIndex = 52
         PictureBox8.TabStop = False
         ' 
@@ -69,10 +69,10 @@ Partial Class Landmarks_Cairo
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(98, 11)
-        PictureBox7.Margin = New Padding(3, 2, 3, 2)
+        PictureBox7.Location = New Point(140, 18)
+        PictureBox7.Margin = New Padding(4, 3, 4, 3)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(55, 39)
+        PictureBox7.Size = New Size(79, 65)
         PictureBox7.TabIndex = 51
         PictureBox7.TabStop = False
         ' 
@@ -83,10 +83,10 @@ Partial Class Landmarks_Cairo
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1747, 11)
-        PictureBox9.Margin = New Padding(3, 2, 3, 2)
+        PictureBox9.Location = New Point(1699, 18)
+        PictureBox9.Margin = New Padding(4, 3, 4, 3)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(60, 39)
+        PictureBox9.Size = New Size(86, 65)
         PictureBox9.TabIndex = 50
         PictureBox9.TabStop = False
         ' 
@@ -97,10 +97,10 @@ Partial Class Landmarks_Cairo
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1822, 11)
-        PictureBox10.Margin = New Padding(3, 2, 3, 2)
+        PictureBox10.Location = New Point(1806, 18)
+        PictureBox10.Margin = New Padding(4, 3, 4, 3)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(55, 39)
+        PictureBox10.Size = New Size(79, 65)
         PictureBox10.TabIndex = 49
         PictureBox10.TabStop = False
         ' 
@@ -110,10 +110,10 @@ Partial Class Landmarks_Cairo
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(966, 596)
-        PictureBox6.Margin = New Padding(3, 2, 3, 2)
+        PictureBox6.Location = New Point(584, 993)
+        PictureBox6.Margin = New Padding(4, 3, 4, 3)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(481, 376)
+        PictureBox6.Size = New Size(687, 627)
         PictureBox6.TabIndex = 48
         PictureBox6.TabStop = False
         ' 
@@ -124,10 +124,10 @@ Partial Class Landmarks_Cairo
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(89, 596)
-        PictureBox4.Margin = New Padding(3, 2, 3, 2)
+        PictureBox4.Location = New Point(127, 993)
+        PictureBox4.Margin = New Padding(4, 3, 4, 3)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(481, 376)
+        PictureBox4.Size = New Size(686, 625)
         PictureBox4.TabIndex = 46
         PictureBox4.TabStop = False
         ' 
@@ -137,10 +137,10 @@ Partial Class Landmarks_Cairo
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(966, 174)
-        PictureBox3.Margin = New Padding(3, 2, 3, 2)
+        PictureBox3.Location = New Point(584, 290)
+        PictureBox3.Margin = New Padding(4, 3, 4, 3)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(481, 376)
+        PictureBox3.Size = New Size(687, 627)
         PictureBox3.TabIndex = 45
         PictureBox3.TabStop = False
         ' 
@@ -151,10 +151,10 @@ Partial Class Landmarks_Cairo
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.BorderStyle = BorderStyle.Fixed3D
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(89, 174)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Location = New Point(127, 290)
+        PictureBox1.Margin = New Padding(4, 3, 4, 3)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(481, 376)
+        PictureBox1.Size = New Size(685, 624)
         PictureBox1.TabIndex = 37
         PictureBox1.TabStop = False
         ' 
@@ -164,9 +164,10 @@ Partial Class Landmarks_Cairo
         Label1.AutoSize = True
         Label1.Font = New Font("Microsoft Sans Serif", 45F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(785, 57)
+        Label1.Location = New Point(1121, 95)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(325, 69)
+        Label1.Size = New Size(488, 102)
         Label1.TabIndex = 36
         Label1.Text = "Landmarks"
         ' 
@@ -177,9 +178,10 @@ Partial Class Landmarks_Cairo
         Label5.Cursor = Cursors.Hand
         Label5.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(576, 174)
+        Label5.Location = New Point(823, 290)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(348, 32)
+        Label5.Size = New Size(502, 48)
         Label5.TabIndex = 56
         Label5.Text = "Grand Egyptian Museum"
         ' 
@@ -190,9 +192,10 @@ Partial Class Landmarks_Cairo
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(1453, 174)
+        Label2.Location = New Point(2076, 290)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(364, 32)
+        Label2.Size = New Size(526, 48)
         Label2.TabIndex = 57
         Label2.Text = "Mosque of Muhammed Ali"
         ' 
@@ -203,9 +206,10 @@ Partial Class Landmarks_Cairo
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(1453, 596)
+        Label3.Location = New Point(2076, 993)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(245, 32)
+        Label3.Size = New Size(355, 48)
         Label3.TabIndex = 58
         Label3.Text = "Pyramids of Giza"
         ' 
@@ -216,9 +220,10 @@ Partial Class Landmarks_Cairo
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(576, 596)
+        Label4.Location = New Point(823, 993)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(178, 32)
+        Label4.Size = New Size(258, 48)
         Label4.TabIndex = 59
         Label4.Text = "Cairo Tower"
         ' 
@@ -228,9 +233,10 @@ Partial Class Landmarks_Cairo
         Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Microsoft Sans Serif", 18F)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(576, 218)
+        Label6.Location = New Point(823, 363)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(363, 185)
+        Label6.Size = New Size(519, 308)
         Label6.TabIndex = 60
         Label6.Text = "The Grand Egyptian Museum, near the Pyramids of Giza, will display the largest collection of ancient Egyptian artifacts, including King Tut’s treasures." & vbCrLf & vbCrLf
         ' 
@@ -240,9 +246,10 @@ Partial Class Landmarks_Cairo
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1453, 643)
+        Label7.Location = New Point(2076, 1072)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(363, 185)
+        Label7.Size = New Size(519, 0)
         Label7.TabIndex = 61
         Label7.Text = "The Pyramids of Giza, near Cairo, are ancient tombs and the last surviving Wonder of the Ancient World."
         ' 
@@ -252,9 +259,10 @@ Partial Class Landmarks_Cairo
         Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Microsoft Sans Serif", 18F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(1453, 218)
+        Label8.Location = New Point(2076, 363)
+        Label8.Margin = New Padding(4, 0, 4, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(363, 185)
+        Label8.Size = New Size(519, 308)
         Label8.TabIndex = 62
         Label8.Text = "The Mosque of Muhammad Ali, built in the 19th century, is an iconic Ottoman-style mosque in Cairo's Citadel, known for its grand dome, minarets, and stunning views."
         ' 
@@ -264,18 +272,19 @@ Partial Class Landmarks_Cairo
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 18F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(576, 643)
+        Label9.Location = New Point(823, 1072)
+        Label9.Margin = New Padding(4, 0, 4, 0)
         Label9.Name = "Label9"
-        Label9.Size = New Size(363, 231)
+        Label9.Size = New Size(519, 0)
         Label9.TabIndex = 63
         Label9.Text = resources.GetString("Label9.Text")
         ' 
         ' Landmarks_Cairo
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1904, 1041)
+        ClientSize = New Size(1924, 1050)
         Controls.Add(Label9)
         Controls.Add(Label8)
         Controls.Add(Label7)
@@ -294,6 +303,7 @@ Partial Class Landmarks_Cairo
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(4, 5, 4, 5)
         Name = "Landmarks_Cairo"
         Text = "Landmarks_Cairo"
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()

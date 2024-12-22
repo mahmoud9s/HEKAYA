@@ -56,9 +56,10 @@ Partial Class Landmarks_Alex
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 18F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(576, 643)
+        Label9.Location = New Point(823, 1072)
+        Label9.Margin = New Padding(4, 0, 4, 0)
         Label9.Name = "Label9"
-        Label9.Size = New Size(363, 231)
+        Label9.Size = New Size(519, 0)
         Label9.TabIndex = 80
         Label9.Text = resources.GetString("Label9.Text")
         ' 
@@ -68,9 +69,10 @@ Partial Class Landmarks_Alex
         Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Microsoft Sans Serif", 18F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(1453, 218)
+        Label8.Location = New Point(2076, 363)
+        Label8.Margin = New Padding(4, 0, 4, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(363, 185)
+        Label8.Size = New Size(519, 308)
         Label8.TabIndex = 79
         Label8.Text = "The Greek-Roman Museum in Alexandria, founded in 1892, houses 10,000+ artifacts from Egypt’s Hellenistic, Roman, and Byzantine eras."
         ' 
@@ -80,9 +82,10 @@ Partial Class Landmarks_Alex
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1453, 643)
+        Label7.Location = New Point(2076, 1072)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(363, 185)
+        Label7.Size = New Size(519, 0)
         Label7.TabIndex = 78
         Label7.Text = "Stanley Bridge, inaugurated in 2001 in Alexandria, is a 400-meter Italian-inspired structure on the Corniche. It eases traffic, offers Mediterranean views, and is popular with tourists and locals."
         ' 
@@ -92,9 +95,10 @@ Partial Class Landmarks_Alex
         Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Microsoft Sans Serif", 18F)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(576, 218)
+        Label6.Location = New Point(823, 363)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(363, 196)
+        Label6.Size = New Size(519, 327)
         Label6.TabIndex = 77
         Label6.Text = "The Bibliotheca Alexandrina, opened in 2002, revives the ancient Library of Alexandria. It houses up to 8 million books, a 20,000 m² reading room, and serves as a cultural hub."
         ' 
@@ -105,9 +109,10 @@ Partial Class Landmarks_Alex
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(576, 596)
+        Label4.Location = New Point(823, 993)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(225, 32)
+        Label4.Size = New Size(322, 48)
         Label4.TabIndex = 76
         Label4.Text = "Qaitbay Citadel"
         ' 
@@ -118,9 +123,10 @@ Partial Class Landmarks_Alex
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(1453, 596)
+        Label3.Location = New Point(2076, 993)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(214, 32)
+        Label3.Size = New Size(306, 48)
         Label3.TabIndex = 75
         Label3.Text = "Stanley Bridge"
         ' 
@@ -131,9 +137,10 @@ Partial Class Landmarks_Alex
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(1453, 174)
+        Label2.Location = New Point(2076, 290)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(324, 32)
+        Label2.Size = New Size(471, 48)
         Label2.TabIndex = 74
         Label2.Text = "Greek-Roman Museum"
         ' 
@@ -144,9 +151,10 @@ Partial Class Landmarks_Alex
         Label5.Cursor = Cursors.Hand
         Label5.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(576, 174)
+        Label5.Location = New Point(823, 290)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(338, 32)
+        Label5.Size = New Size(481, 48)
         Label5.TabIndex = 73
         Label5.Text = "Bibliotheca Alexandrina"
         ' 
@@ -156,10 +164,10 @@ Partial Class Landmarks_Alex
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(12, 27)
-        PictureBox8.Margin = New Padding(3, 2, 3, 2)
+        PictureBox8.Location = New Point(17, 45)
+        PictureBox8.Margin = New Padding(4, 3, 4, 3)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(70, 39)
+        PictureBox8.Size = New Size(100, 65)
         PictureBox8.TabIndex = 72
         PictureBox8.TabStop = False
         ' 
@@ -169,10 +177,10 @@ Partial Class Landmarks_Alex
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(98, 27)
-        PictureBox7.Margin = New Padding(3, 2, 3, 2)
+        PictureBox7.Location = New Point(140, 45)
+        PictureBox7.Margin = New Padding(4, 3, 4, 3)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(55, 39)
+        PictureBox7.Size = New Size(79, 65)
         PictureBox7.TabIndex = 71
         PictureBox7.TabStop = False
         ' 
@@ -183,10 +191,10 @@ Partial Class Landmarks_Alex
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1747, 27)
-        PictureBox9.Margin = New Padding(3, 2, 3, 2)
+        PictureBox9.Location = New Point(1699, 45)
+        PictureBox9.Margin = New Padding(4, 3, 4, 3)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(60, 39)
+        PictureBox9.Size = New Size(86, 65)
         PictureBox9.TabIndex = 70
         PictureBox9.TabStop = False
         ' 
@@ -197,10 +205,10 @@ Partial Class Landmarks_Alex
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1822, 27)
-        PictureBox10.Margin = New Padding(3, 2, 3, 2)
+        PictureBox10.Location = New Point(1806, 45)
+        PictureBox10.Margin = New Padding(4, 3, 4, 3)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(55, 39)
+        PictureBox10.Size = New Size(79, 65)
         PictureBox10.TabIndex = 69
         PictureBox10.TabStop = False
         ' 
@@ -211,10 +219,10 @@ Partial Class Landmarks_Alex
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.BorderStyle = BorderStyle.FixedSingle
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(966, 596)
-        PictureBox6.Margin = New Padding(3, 2, 3, 2)
+        PictureBox6.Location = New Point(585, 993)
+        PictureBox6.Margin = New Padding(4, 3, 4, 3)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(481, 376)
+        PictureBox6.Size = New Size(686, 625)
         PictureBox6.TabIndex = 68
         PictureBox6.TabStop = False
         ' 
@@ -225,10 +233,10 @@ Partial Class Landmarks_Alex
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(89, 596)
-        PictureBox4.Margin = New Padding(3, 2, 3, 2)
+        PictureBox4.Location = New Point(127, 993)
+        PictureBox4.Margin = New Padding(4, 3, 4, 3)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(481, 376)
+        PictureBox4.Size = New Size(686, 625)
         PictureBox4.TabIndex = 67
         PictureBox4.TabStop = False
         ' 
@@ -239,10 +247,10 @@ Partial Class Landmarks_Alex
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(966, 174)
-        PictureBox3.Margin = New Padding(3, 2, 3, 2)
+        PictureBox3.Location = New Point(585, 290)
+        PictureBox3.Margin = New Padding(4, 3, 4, 3)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(481, 376)
+        PictureBox3.Size = New Size(686, 625)
         PictureBox3.TabIndex = 66
         PictureBox3.TabStop = False
         ' 
@@ -253,10 +261,10 @@ Partial Class Landmarks_Alex
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.BorderStyle = BorderStyle.FixedSingle
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(89, 174)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Location = New Point(127, 290)
+        PictureBox1.Margin = New Padding(4, 3, 4, 3)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(481, 376)
+        PictureBox1.Size = New Size(686, 625)
         PictureBox1.TabIndex = 65
         PictureBox1.TabStop = False
         ' 
@@ -266,18 +274,19 @@ Partial Class Landmarks_Alex
         Label1.AutoSize = True
         Label1.Font = New Font("Mongolian Baiti", 45F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(785, 57)
+        Label1.Location = New Point(1121, 95)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(298, 64)
+        Label1.Size = New Size(445, 96)
         Label1.TabIndex = 64
         Label1.Text = "Landmarks"
         ' 
         ' Landmarks_Alex
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1904, 1041)
+        ClientSize = New Size(1924, 1050)
         Controls.Add(Label9)
         Controls.Add(Label8)
         Controls.Add(Label7)
@@ -297,6 +306,7 @@ Partial Class Landmarks_Alex
         Controls.Add(Label1)
         ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(4, 5, 4, 5)
         Name = "Landmarks_Alex"
         Text = "Landmarks_Alex"
         WindowState = FormWindowState.Maximized
