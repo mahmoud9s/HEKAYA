@@ -380,6 +380,7 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Restaurants_Hurghada_Boska_restaurant"
         Text = "Restaurants_Hurghada_Boska_restaurant"
+        WindowState = FormWindowState.Maximized
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
