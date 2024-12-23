@@ -17,6 +17,7 @@
 
     Private Sub Low_Budget_Cairo_Hotels_Miramar_Downtown_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        AddPageToHistory(Me.Name)
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -34,20 +35,25 @@
         Hide()
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs)
 
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        Dim previousPage As String = GetPreviousPage()
 
-    End Sub
-
-    Private Sub PictureBox13_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
-
-    End Sub
-
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-
+        If Not String.IsNullOrEmpty(previousPage) Then
+            Dim frm As Form = Application.OpenForms.OfType(Of Form)().FirstOrDefault(Function(f) f.Name = previousPage)
+            If frm Is Nothing Then
+                Try
+                    frm = Activator.CreateInstance(Type.GetType(previousPage))
+                    frm.Show()
+                Catch ex As Exception
+                    MessageBox.Show("The previous page cannot be opened " & ex.Message)
+                End Try
+            Else
+                frm.Show()
+            End If
+            Me.Close()
+        Else
+            MessageBox.Show("There's no previous page to go back to.")
+        End If
     End Sub
 End Class

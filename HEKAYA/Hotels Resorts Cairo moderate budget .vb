@@ -137,9 +137,7 @@
 
     End Sub
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
 
-    End Sub
 
     Private Sub PictureBox1_Click_1(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Hotels_Resorts_Cairo_Large_budget.Show()
@@ -154,5 +152,9 @@
     Private Sub Label4_Click_1(sender As Object, e As EventArgs) Handles Label4.Click
         Hotels_Resorts_Cairo_Large_budget.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
     End Sub
 End Class

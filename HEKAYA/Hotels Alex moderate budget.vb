@@ -5,8 +5,8 @@
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-        Moderate_Budget_Blue_Alex_Hotel.Show()
-        Me.Hide()
+        Moderate_Budget_Blue_Alex_Hotel.Show
+        Hide
     End Sub
 
     Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
@@ -107,5 +107,29 @@
         Else
             MessageBox.Show("There's no previous page to go back to.")
         End If
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Hotels_Resorts_Alex_Large_budget.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+        Hotels_Resorts_Alex_Large_budget.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
+        Moderate_Budget_Alex_Hotel_Grand_Plaza_Hotel.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        Moderate_Budget_Alex_Hotel_Eastern_Al_Montazah_Hotel.Show()
+        Me.Hide()
     End Sub
 End Class

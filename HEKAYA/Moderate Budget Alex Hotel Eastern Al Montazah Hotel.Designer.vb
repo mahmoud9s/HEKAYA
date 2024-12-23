@@ -362,6 +362,7 @@ Partial Class Moderate_Budget_Alex_Hotel_Eastern_Al_Montazah_Hotel
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
         Controls.Add(Label2)
         Controls.Add(PictureBox4)

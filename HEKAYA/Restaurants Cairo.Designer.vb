@@ -56,7 +56,7 @@ Partial Class Restaurants_Cairo
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 18F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(576, 643)
+        Label9.Location = New Point(576, 628)
         Label9.Name = "Label9"
         Label9.Size = New Size(363, 224)
         Label9.TabIndex = 80

@@ -143,7 +143,7 @@ Partial Class Restaurants_AlexFish_Market_Restaurant
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label13.ForeColor = Color.White
-        Label13.Location = New Point(1801, 125)
+        Label13.Location = New Point(1788, 127)
         Label13.Name = "Label13"
         Label13.Size = New Size(87, 20)
         Label13.TabIndex = 338

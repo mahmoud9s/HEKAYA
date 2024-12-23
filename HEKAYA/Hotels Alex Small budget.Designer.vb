@@ -48,6 +48,8 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox1 = New PictureBox()
         PictureBox4 = New PictureBox()
         Label1 = New Label()
+        Label5 = New Label()
+        Label15 = New Label()
         CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox11, ComponentModel.ISupportInitialize).BeginInit()
@@ -70,7 +72,7 @@ Partial Class Hotels_Alex_Small_budget
         Label14.Cursor = Cursors.Hand
         Label14.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
         Label14.ForeColor = Color.White
-        Label14.Location = New Point(410, 415)
+        Label14.Location = New Point(410, 211)
         Label14.Name = "Label14"
         Label14.Size = New Size(96, 29)
         Label14.TabIndex = 96
@@ -82,7 +84,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox12.BackgroundImage = My.Resources.Resources.Picture18
         PictureBox12.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox12.Cursor = Cursors.Hand
-        PictureBox12.Location = New Point(340, 368)
+        PictureBox12.Location = New Point(340, 164)
         PictureBox12.Margin = New Padding(3, 2, 3, 2)
         PictureBox12.Name = "PictureBox12"
         PictureBox12.Size = New Size(240, 103)
@@ -95,7 +97,7 @@ Partial Class Hotels_Alex_Small_budget
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1491, 908)
+        Label7.Location = New Point(1511, 715)
         Label7.Name = "Label7"
         Label7.Size = New Size(402, 209)
         Label7.TabIndex = 94
@@ -107,7 +109,7 @@ Partial Class Hotels_Alex_Small_budget
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 18F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(513, 908)
+        Label9.Location = New Point(520, 715)
         Label9.Name = "Label9"
         Label9.Size = New Size(370, 209)
         Label9.TabIndex = 93
@@ -133,7 +135,7 @@ Partial Class Hotels_Alex_Small_budget
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(513, 851)
+        Label13.Location = New Point(520, 658)
         Label13.Name = "Label13"
         Label13.Size = New Size(381, 39)
         Label13.TabIndex = 91
@@ -146,7 +148,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox9.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox9.BorderStyle = BorderStyle.FixedSingle
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1076, 844)
+        PictureBox9.Location = New Point(1083, 651)
         PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(400, 273)
@@ -160,7 +162,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox11.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox11.BorderStyle = BorderStyle.FixedSingle
         PictureBox11.Cursor = Cursors.Hand
-        PictureBox11.Location = New Point(91, 844)
+        PictureBox11.Location = New Point(98, 651)
         PictureBox11.Margin = New Padding(3, 2, 3, 2)
         PictureBox11.Name = "PictureBox11"
         PictureBox11.Size = New Size(400, 273)
@@ -173,7 +175,7 @@ Partial Class Hotels_Alex_Small_budget
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 18F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(1482, 610)
+        Label11.Location = New Point(1502, 417)
         Label11.Name = "Label11"
         Label11.Size = New Size(402, 161)
         Label11.TabIndex = 88
@@ -185,7 +187,7 @@ Partial Class Hotels_Alex_Small_budget
         Label10.Cursor = Cursors.Hand
         Label10.Font = New Font("Microsoft Sans Serif", 18F)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(513, 610)
+        Label10.Location = New Point(520, 417)
         Label10.Name = "Label10"
         Label10.Size = New Size(386, 161)
         Label10.TabIndex = 87
@@ -211,7 +213,7 @@ Partial Class Hotels_Alex_Small_budget
         Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(513, 547)
+        Label6.Location = New Point(520, 354)
         Label6.Name = "Label6"
         Label6.Size = New Size(339, 39)
         Label6.TabIndex = 85
@@ -224,7 +226,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox10.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox10.BorderStyle = BorderStyle.FixedSingle
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1076, 530)
+        PictureBox10.Location = New Point(1083, 337)
         PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
         PictureBox10.Size = New Size(400, 273)
@@ -238,7 +240,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(91, 530)
+        PictureBox3.Location = New Point(98, 337)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(400, 273)
@@ -307,7 +309,7 @@ Partial Class Hotels_Alex_Small_budget
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 18F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(1269, 415)
+        Label4.Location = New Point(1287, 211)
         Label4.Name = "Label4"
         Label4.Size = New Size(144, 29)
         Label4.TabIndex = 78
@@ -321,7 +323,7 @@ Partial Class Hotels_Alex_Small_budget
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 18F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(939, 415)
+        Label3.Location = New Point(953, 211)
         Label3.Name = "Label3"
         Label3.Size = New Size(197, 29)
         Label3.TabIndex = 77
@@ -335,7 +337,7 @@ Partial Class Hotels_Alex_Small_budget
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(676, 415)
+        Label2.Location = New Point(681, 211)
         Label2.Name = "Label2"
         Label2.Size = New Size(149, 29)
         Label2.TabIndex = 76
@@ -348,7 +350,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(917, 368)
+        PictureBox2.Location = New Point(938, 164)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(240, 103)
@@ -361,7 +363,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1218, 368)
+        PictureBox1.Location = New Point(1237, 164)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(240, 103)
@@ -374,7 +376,7 @@ Partial Class Hotels_Alex_Small_budget
         PictureBox4.BackgroundImage = My.Resources.Resources.Picture18
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(633, 368)
+        PictureBox4.Location = New Point(639, 164)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(240, 103)
@@ -388,11 +390,37 @@ Partial Class Hotels_Alex_Small_budget
         Label1.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         Label1.Font = New Font("Mongolian Baiti", 60F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(999, 69)
+        Label1.Location = New Point(932, 77)
         Label1.Name = "Label1"
-        Label1.Size = New Size(642, 85)
+        Label1.Size = New Size(246, 85)
         Label1.TabIndex = 72
-        Label1.Text = "Hotels and Resorts"
+        Label1.Text = "Hotels"
+        ' 
+        ' Label5
+        ' 
+        Label5.Anchor = AnchorStyles.Left
+        Label5.AutoSize = True
+        Label5.Cursor = Cursors.Hand
+        Label5.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
+        Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label5.Location = New Point(1502, 354)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(314, 39)
+        Label5.TabIndex = 97
+        Label5.Text = "Charming Miramar"
+        ' 
+        ' Label15
+        ' 
+        Label15.Anchor = AnchorStyles.Left
+        Label15.AutoSize = True
+        Label15.Cursor = Cursors.Hand
+        Label15.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
+        Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
+        Label15.Location = New Point(1511, 658)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(212, 39)
+        Label15.TabIndex = 98
+        Label15.Text = "Hyat Suites "
         ' 
         ' Hotels_Alex_Small_budget
         ' 
@@ -400,6 +428,8 @@ Partial Class Hotels_Alex_Small_budget
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         ClientSize = New Size(1904, 1041)
+        Controls.Add(Label15)
+        Controls.Add(Label5)
         Controls.Add(Label14)
         Controls.Add(PictureBox12)
         Controls.Add(Label7)
@@ -470,4 +500,6 @@ Partial Class Hotels_Alex_Small_budget
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label15 As Label
 End Class

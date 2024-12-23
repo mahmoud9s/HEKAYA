@@ -1,4 +1,6 @@
 ﻿Public Class High_Budget_Cairo_Hotels_Hilton_Cairo
+
+
     Private Sub High_Budget_Cairo_Hotels_Hilton_Cairo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         AddPageToHistory(Me.Name)
     End Sub
@@ -52,5 +54,9 @@
         Else
             MessageBox.Show("There's no previous page to go back to.")
         End If
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
     End Sub
 End Class

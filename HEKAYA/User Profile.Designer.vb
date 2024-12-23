@@ -131,6 +131,7 @@ Partial Class User_Profile
         ' Label7
         ' 
         Label7.AutoSize = True
+        Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Segoe UI", 19F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label7.Location = New Point(1480, 812)
@@ -142,6 +143,7 @@ Partial Class User_Profile
         ' Label8
         ' 
         Label8.AutoSize = True
+        Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Segoe UI", 19F, FontStyle.Bold)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label8.Location = New Point(863, 812)
@@ -153,6 +155,7 @@ Partial Class User_Profile
         ' Label9
         ' 
         Label9.AutoSize = True
+        Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Segoe UI", 19F, FontStyle.Bold)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label9.Location = New Point(137, 812)
@@ -167,6 +170,7 @@ Partial Class User_Profile
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox2.BorderStyle = BorderStyle.FixedSingle
+        PictureBox2.Cursor = Cursors.Hand
         PictureBox2.Location = New Point(1336, 538)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
@@ -180,6 +184,7 @@ Partial Class User_Profile
         PictureBox3.BackgroundImage = My.Resources.Resources.Masa
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
+        PictureBox3.Cursor = Cursors.Hand
         PictureBox3.Location = New Point(695, 538)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
@@ -193,6 +198,7 @@ Partial Class User_Profile
         PictureBox4.BackgroundImage = My.Resources.Resources.revolving_restaurant_F_875x323
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
+        PictureBox4.Cursor = Cursors.Hand
         PictureBox4.Location = New Point(50, 538)
         PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
@@ -277,6 +283,7 @@ Partial Class User_Profile
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Cursor = Cursors.Hand
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(3, 2, 3, 2)
         Name = "User_Profile"

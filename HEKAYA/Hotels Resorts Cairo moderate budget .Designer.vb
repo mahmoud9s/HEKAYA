@@ -386,11 +386,11 @@ Partial Class Hotels_Resorts_Cairo
         Label5.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         Label5.Font = New Font("Mongolian Baiti", 60F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(720, 69)
+        Label5.Location = New Point(924, 75)
         Label5.Name = "Label5"
-        Label5.Size = New Size(642, 85)
+        Label5.Size = New Size(246, 85)
         Label5.TabIndex = 109
-        Label5.Text = "Hotels and Resorts"
+        Label5.Text = "Hotels"
         ' 
         ' Hotels_Resorts_Cairo
         ' 

@@ -23,7 +23,7 @@
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Hotels_Resorts_Cairo.Show()
-        Me.Show()
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
@@ -33,7 +33,7 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs)
         User_Profile.Show()
-        Hide()
+        Me.Hide()
     End Sub
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
@@ -62,7 +62,7 @@
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-        High_Budget_Cairo_Hotels_Hilton_Cairo.Show()
+        High_Budget_Cairo_Hotels_Hilton_Cairo.Show
         Me.Hide()
     End Sub
 
