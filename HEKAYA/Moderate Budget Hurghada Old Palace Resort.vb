@@ -53,4 +53,6 @@
     Private Sub Moderate_Budget_Hurghada_Old_Palace_Resort_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         AddPageToHistory(Me.Name)
     End Sub
+
+
 End Class

@@ -279,7 +279,7 @@ Partial Class Hotels_Hurghada_Small_Budget
         Label1.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         Label1.Font = New Font("Mongolian Baiti", 60F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(833, 70)
+        Label1.Location = New Point(927, 76)
         Label1.Name = "Label1"
         Label1.Size = New Size(246, 85)
         Label1.TabIndex = 97

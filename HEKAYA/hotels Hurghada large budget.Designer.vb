@@ -116,7 +116,7 @@ Partial Class hotels_Hurghada_large_budget
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1482, 759)
+        Label7.Location = New Point(1476, 705)
         Label7.Name = "Label7"
         Label7.Size = New Size(402, 209)
         Label7.TabIndex = 156
@@ -128,7 +128,7 @@ Partial Class hotels_Hurghada_large_budget
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 18F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(497, 759)
+        Label9.Location = New Point(497, 705)
         Label9.Name = "Label9"
         Label9.Size = New Size(473, 209)
         Label9.TabIndex = 155
@@ -141,7 +141,7 @@ Partial Class hotels_Hurghada_large_budget
         Label12.Cursor = Cursors.Hand
         Label12.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(1482, 703)
+        Label12.Location = New Point(1476, 649)
         Label12.Name = "Label12"
         Label12.Size = New Size(416, 39)
         Label12.TabIndex = 154
@@ -154,7 +154,7 @@ Partial Class hotels_Hurghada_large_budget
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(497, 703)
+        Label13.Location = New Point(497, 649)
         Label13.Name = "Label13"
         Label13.Size = New Size(425, 39)
         Label13.TabIndex = 153
@@ -166,7 +166,7 @@ Partial Class hotels_Hurghada_large_budget
         PictureBox9.BackgroundImage = CType(resources.GetObject("PictureBox9.BackgroundImage"), Image)
         PictureBox9.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1076, 695)
+        PictureBox9.Location = New Point(1076, 631)
         PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(400, 273)
@@ -179,7 +179,7 @@ Partial Class hotels_Hurghada_large_budget
         PictureBox11.BackgroundImage = CType(resources.GetObject("PictureBox11.BackgroundImage"), Image)
         PictureBox11.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox11.Cursor = Cursors.Hand
-        PictureBox11.Location = New Point(91, 695)
+        PictureBox11.Location = New Point(91, 631)
         PictureBox11.Margin = New Padding(3, 2, 3, 2)
         PictureBox11.Name = "PictureBox11"
         PictureBox11.Size = New Size(400, 273)
@@ -192,7 +192,7 @@ Partial Class hotels_Hurghada_large_budget
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 18F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(1484, 381)
+        Label11.Location = New Point(1482, 381)
         Label11.Name = "Label11"
         Label11.Size = New Size(402, 193)
         Label11.TabIndex = 150
@@ -215,11 +215,11 @@ Partial Class hotels_Hurghada_large_budget
         Label8.Anchor = AnchorStyles.Right
         Label8.AutoSize = True
         Label8.Cursor = Cursors.Hand
-        Label8.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
+        Label8.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(1484, 339)
+        Label8.Location = New Point(1482, 339)
         Label8.Name = "Label8"
-        Label8.Size = New Size(393, 31)
+        Label8.Size = New Size(411, 32)
         Label8.TabIndex = 148
         Label8.Text = "Baron Palace Sahl Hasheesh"
         ' 
@@ -324,7 +324,7 @@ Partial Class hotels_Hurghada_large_budget
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
         Label4.ForeColor = Color.White
-        Label4.Location = New Point(1280, 212)
+        Label4.Location = New Point(1280, 211)
         Label4.Name = "Label4"
         Label4.Size = New Size(155, 29)
         Label4.TabIndex = 140
@@ -338,7 +338,7 @@ Partial Class hotels_Hurghada_large_budget
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 18F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(960, 212)
+        Label3.Location = New Point(949, 211)
         Label3.Name = "Label3"
         Label3.Size = New Size(197, 29)
         Label3.TabIndex = 139
@@ -364,7 +364,7 @@ Partial Class hotels_Hurghada_large_budget
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(934, 164)
+        PictureBox2.Location = New Point(927, 164)
         PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(240, 103)

@@ -69,11 +69,11 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label5.BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
         Label5.Font = New Font("Mongolian Baiti", 60F)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(817, 82)
+        Label5.Location = New Point(927, 77)
         Label5.Name = "Label5"
-        Label5.Size = New Size(800, 106)
+        Label5.Size = New Size(246, 85)
         Label5.TabIndex = 133
-        Label5.Text = "Hotels and Resorts"
+        Label5.Text = "Hotels"
         ' 
         ' Label14
         ' 
@@ -82,9 +82,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label14.BackColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label14.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
         Label14.ForeColor = Color.White
-        Label14.Location = New Point(465, 267)
+        Label14.Location = New Point(410, 210)
         Label14.Name = "Label14"
-        Label14.Size = New Size(116, 36)
+        Label14.Size = New Size(96, 29)
         Label14.TabIndex = 122
         Label14.Text = "Budget"
         ' 
@@ -94,9 +94,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox12.BackgroundImage = My.Resources.Resources.Picture18
         PictureBox12.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox12.Cursor = Cursors.Hand
-        PictureBox12.Location = New Point(385, 202)
+        PictureBox12.Location = New Point(340, 164)
+        PictureBox12.Margin = New Padding(3, 2, 3, 2)
         PictureBox12.Name = "PictureBox12"
-        PictureBox12.Size = New Size(274, 137)
+        PictureBox12.Size = New Size(240, 103)
         PictureBox12.TabIndex = 119
         PictureBox12.TabStop = False
         ' 
@@ -106,9 +107,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1338, 925)
+        Label7.Location = New Point(1447, 699)
         Label7.Name = "Label7"
-        Label7.Size = New Size(459, 236)
+        Label7.Size = New Size(402, 177)
         Label7.TabIndex = 132
         Label7.Text = "Elaria Hotel Hurghada features a spa, private beach, restaurant, and air-conditioned rooms with city or sea views. It’s 3.1 km from New Marina."
         ' 
@@ -118,9 +119,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label9.Cursor = Cursors.Hand
         Label9.Font = New Font("Microsoft Sans Serif", 18F)
         Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(583, 925)
+        Label9.Location = New Point(474, 699)
         Label9.Name = "Label9"
-        Label9.Size = New Size(507, 309)
+        Label9.Size = New Size(444, 232)
         Label9.TabIndex = 131
         Label9.Text = resources.GetString("Label9.Text")
         ' 
@@ -131,9 +132,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label12.Cursor = Cursors.Hand
         Label12.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(1429, 849)
+        Label12.Location = New Point(1447, 642)
         Label12.Name = "Label12"
-        Label12.Size = New Size(451, 48)
+        Label12.Size = New Size(374, 39)
         Label12.TabIndex = 130
         Label12.Text = "Elaria Hotel Hurghada"
         ' 
@@ -144,9 +145,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(583, 849)
+        Label13.Location = New Point(474, 642)
         Label13.Name = "Label13"
-        Label13.Size = New Size(686, 48)
+        Label13.Size = New Size(564, 39)
         Label13.TabIndex = 129
         Label13.Text = "Sunny Days Mirette Family Resort"
         ' 
@@ -157,9 +158,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox9.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox9.BorderStyle = BorderStyle.FixedSingle
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1226, 839)
+        PictureBox9.Location = New Point(1041, 634)
+        PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(457, 363)
+        PictureBox9.Size = New Size(400, 273)
         PictureBox9.TabIndex = 128
         PictureBox9.TabStop = False
         ' 
@@ -170,9 +172,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox11.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox11.BorderStyle = BorderStyle.FixedSingle
         PictureBox11.Cursor = Cursors.Hand
-        PictureBox11.Location = New Point(147, 839)
+        PictureBox11.Location = New Point(93, 634)
+        PictureBox11.Margin = New Padding(3, 2, 3, 2)
         PictureBox11.Name = "PictureBox11"
-        PictureBox11.Size = New Size(410, 363)
+        PictureBox11.Size = New Size(359, 273)
         PictureBox11.TabIndex = 127
         PictureBox11.TabStop = False
         ' 
@@ -182,9 +185,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 18F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(1438, 527)
+        Label11.Location = New Point(1454, 400)
         Label11.Name = "Label11"
-        Label11.Size = New Size(459, 257)
+        Label11.Size = New Size(402, 193)
         Label11.TabIndex = 126
         Label11.Text = "Old Palace Resort in Sahl Hasheesh offers a private beach, spacious rooms, 3 restaurants, 4 bars, a heated pool, and a hot tub."
         ' 
@@ -194,9 +197,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label10.Cursor = Cursors.Hand
         Label10.Font = New Font("Microsoft Sans Serif", 18F)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(583, 527)
+        Label10.Location = New Point(474, 400)
         Label10.Name = "Label10"
-        Label10.Size = New Size(440, 257)
+        Label10.Size = New Size(385, 193)
         Label10.TabIndex = 125
         Label10.Text = resources.GetString("Label10.Text")
         ' 
@@ -207,9 +210,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(1690, 443)
+        Label8.Location = New Point(1447, 349)
         Label8.Name = "Label8"
-        Label8.Size = New Size(376, 48)
+        Label8.Size = New Size(310, 39)
         Label8.TabIndex = 124
         Label8.Text = "Old Palace Resort"
         ' 
@@ -220,9 +223,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Microsoft Sans Serif", 25F, FontStyle.Bold)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(583, 443)
+        Label6.Location = New Point(474, 337)
         Label6.Name = "Label6"
-        Label6.Size = New Size(550, 48)
+        Label6.Size = New Size(454, 39)
         Label6.TabIndex = 123
         Label6.Text = "Kempinski Hotel Soma Bay"
         ' 
@@ -233,9 +236,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox10.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox10.BorderStyle = BorderStyle.FixedSingle
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1226, 421)
+        PictureBox10.Location = New Point(1041, 320)
+        PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(457, 363)
+        PictureBox10.Size = New Size(400, 273)
         PictureBox10.TabIndex = 121
         PictureBox10.TabStop = False
         ' 
@@ -246,9 +250,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(147, 421)
+        PictureBox3.Location = New Point(93, 321)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(410, 363)
+        PictureBox3.Size = New Size(359, 273)
         PictureBox3.TabIndex = 120
         PictureBox3.TabStop = False
         ' 
@@ -258,9 +263,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(8, 5)
+        PictureBox8.Location = New Point(12, 11)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 52)
+        PictureBox8.Size = New Size(70, 39)
         PictureBox8.TabIndex = 118
         PictureBox8.TabStop = False
         ' 
@@ -270,9 +276,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox6.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(106, 5)
+        PictureBox6.Location = New Point(93, 11)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(63, 52)
+        PictureBox6.Size = New Size(55, 39)
         PictureBox6.TabIndex = 117
         PictureBox6.TabStop = False
         ' 
@@ -283,9 +290,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox7.BackgroundImage = My.Resources.Resources.love
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(1759, 5)
+        PictureBox7.Location = New Point(1832, 11)
+        PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(69, 52)
+        PictureBox7.Size = New Size(60, 39)
         PictureBox7.TabIndex = 116
         PictureBox7.TabStop = False
         ' 
@@ -296,9 +304,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox5.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox5.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(1734, 5)
+        PictureBox5.Location = New Point(1766, 11)
+        PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(63, 52)
+        PictureBox5.Size = New Size(55, 39)
         PictureBox5.TabIndex = 115
         PictureBox5.TabStop = False
         ' 
@@ -310,9 +319,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 18F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(1442, 267)
+        Label4.Location = New Point(1274, 210)
         Label4.Name = "Label4"
-        Label4.Size = New Size(177, 36)
+        Label4.Size = New Size(144, 29)
         Label4.TabIndex = 114
         Label4.Text = "High budget"
         ' 
@@ -322,11 +331,11 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label3.AutoSize = True
         Label3.BackColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
         Label3.Cursor = Cursors.Hand
-        Label3.Font = New Font("Microsoft Sans Serif", 18F, FontStyle.Bold)
+        Label3.Font = New Font("Microsoft Sans Serif", 16F, FontStyle.Bold)
         Label3.ForeColor = Color.White
-        Label3.Location = New Point(1081, 267)
+        Label3.Location = New Point(949, 210)
         Label3.Name = "Label3"
-        Label3.Size = New Size(255, 36)
+        Label3.Size = New Size(190, 26)
         Label3.TabIndex = 113
         Label3.Text = "Moderate budget"
         ' 
@@ -338,9 +347,9 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 18F)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(769, 267)
+        Label2.Location = New Point(686, 210)
         Label2.Name = "Label2"
-        Label2.Size = New Size(171, 36)
+        Label2.Size = New Size(139, 29)
         Label2.TabIndex = 112
         Label2.Text = "Low budget"
         ' 
@@ -350,9 +359,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1052, 202)
+        PictureBox2.Location = New Point(927, 163)
+        PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(274, 137)
+        PictureBox2.Size = New Size(240, 103)
         PictureBox2.TabIndex = 111
         PictureBox2.TabStop = False
         ' 
@@ -362,9 +372,10 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1386, 202)
+        PictureBox1.Location = New Point(1218, 164)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(274, 137)
+        PictureBox1.Size = New Size(240, 103)
         PictureBox1.TabIndex = 110
         PictureBox1.TabStop = False
         ' 
@@ -374,18 +385,19 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(719, 202)
+        PictureBox4.Location = New Point(637, 164)
+        PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(274, 137)
+        PictureBox4.Size = New Size(240, 103)
         PictureBox4.TabIndex = 109
         PictureBox4.TabStop = False
         ' 
         ' Hotels_Hurghada_Moderate_Budget
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1902, 1033)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(Label5)
         Controls.Add(Label14)
         Controls.Add(PictureBox12)
@@ -412,6 +424,7 @@ Partial Class Hotels_Hurghada_Moderate_Budget
         Controls.Add(PictureBox1)
         Controls.Add(PictureBox4)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Hotels_Hurghada_Moderate_Budget"
         Text = "Hotels_Hurghada_Moderate_Budget"
         WindowState = FormWindowState.Maximized

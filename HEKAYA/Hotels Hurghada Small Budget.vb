@@ -74,10 +74,6 @@
         Hide()
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
         Dim previousPage As String = GetPreviousPage()
 

@@ -53,4 +53,8 @@
     Private Sub Moderate_Budget_Hurghada_Elaria_Hotel_Hurghada_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         AddPageToHistory(Me.Name)
     End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+
+    End Sub
 End Class

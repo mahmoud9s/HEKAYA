@@ -66,9 +66,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label13.ForeColor = Color.White
-        Label13.Location = New Point(1795, 130)
+        Label13.Location = New Point(1788, 98)
         Label13.Name = "Label13"
-        Label13.Size = New Size(106, 25)
+        Label13.Size = New Size(87, 20)
         Label13.TabIndex = 371
         Label13.Text = "Book now"
         ' 
@@ -78,9 +78,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1767, 113)
+        PictureBox4.Location = New Point(1763, 85)
+        PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(142, 65)
+        PictureBox4.Size = New Size(124, 49)
         PictureBox4.TabIndex = 370
         PictureBox4.TabStop = False
         ' 
@@ -90,9 +91,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1625, 122)
+        PictureBox2.Location = New Point(1656, 86)
+        PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(53, 43)
+        PictureBox2.Size = New Size(49, 46)
         PictureBox2.TabIndex = 369
         PictureBox2.TabStop = False
         ' 
@@ -102,9 +104,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1698, 119)
+        PictureBox3.Location = New Point(1711, 85)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(51, 51)
+        PictureBox3.Size = New Size(46, 47)
         PictureBox3.TabIndex = 368
         PictureBox3.TabStop = False
         ' 
@@ -114,9 +117,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label16.AutoSize = True
         Label16.Font = New Font("Microsoft Sans Serif", 20F)
         Label16.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label16.Location = New Point(74, 749)
+        Label16.Location = New Point(59, 764)
         Label16.Name = "Label16"
-        Label16.Size = New Size(269, 39)
+        Label16.Size = New Size(215, 31)
         Label16.TabIndex = 367
         Label16.Text = "Japanese, Asian"
         ' 
@@ -126,9 +129,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label15.AutoSize = True
         Label15.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label15.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label15.Location = New Point(46, 683)
+        Label15.Location = New Point(34, 714)
         Label15.Name = "Label15"
-        Label15.Size = New Size(181, 46)
+        Label15.Size = New Size(147, 37)
         Label15.TabIndex = 366
         Label15.Text = "Cuisines"
         ' 
@@ -138,9 +141,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label14.AutoSize = True
         Label14.Font = New Font("Microsoft Sans Serif", 20F, FontStyle.Bold)
         Label14.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Location = New Point(54, 901)
+        Label14.Location = New Point(47, 676)
         Label14.Name = "Label14"
-        Label14.Size = New Size(0, 39)
+        Label14.Size = New Size(0, 31)
         Label14.TabIndex = 365
         ' 
         ' Label11
@@ -149,9 +152,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label11.AutoSize = True
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(85, 907)
+        Label11.Location = New Point(68, 882)
         Label11.Name = "Label11"
-        Label11.Size = New Size(392, 39)
+        Label11.Size = New Size(313, 31)
         Label11.TabIndex = 364
         Label11.Text = "Halal, vegetarian options"
         ' 
@@ -161,9 +164,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(53, 845)
+        Label10.Location = New Point(40, 836)
         Label10.Name = "Label10"
-        Label10.Size = New Size(267, 46)
+        Label10.Size = New Size(215, 37)
         Label10.TabIndex = 363
         Label10.Text = "Special Diets"
         ' 
@@ -173,9 +176,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label8.AutoSize = True
         Label8.Font = New Font("Microsoft Sans Serif", 20F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(85, 618)
+        Label8.Location = New Point(68, 666)
         Label8.Name = "Label8"
-        Label8.Size = New Size(159, 39)
+        Label8.Size = New Size(126, 31)
         Label8.TabIndex = 362
         Label8.Text = "$16 – $39"
         ' 
@@ -185,9 +188,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(52, 554)
+        Label7.Location = New Point(40, 618)
         Label7.Name = "Label7"
-        Label7.Size = New Size(251, 46)
+        Label7.Size = New Size(202, 37)
         Label7.TabIndex = 361
         Label7.Text = "Price Range"
         ' 
@@ -197,9 +200,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(81, 103)
+        Label4.Location = New Point(100, 77)
         Label4.Name = "Label4"
-        Label4.Size = New Size(133, 25)
+        Label4.Size = New Size(110, 20)
         Label4.TabIndex = 360
         Label4.Text = "Restaurants >"
         ' 
@@ -209,9 +212,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(202, 103)
+        Label3.Location = New Point(205, 77)
         Label3.Name = "Label3"
-        Label3.Size = New Size(159, 25)
+        Label3.Size = New Size(131, 20)
         Label3.TabIndex = 359
         Label3.Text = "Boska restaurant"
         ' 
@@ -219,9 +222,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 22.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(46, 310)
+        Label6.Location = New Point(40, 232)
         Label6.Name = "Label6"
-        Label6.Size = New Size(1211, 512)
+        Label6.Size = New Size(928, 373)
         Label6.TabIndex = 358
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -230,9 +233,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
         LinkLabel1.LinkColor = SystemColors.HotTrack
-        LinkLabel1.Location = New Point(63, 258)
+        LinkLabel1.Location = New Point(55, 194)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(495, 46)
+        LinkLabel1.Size = New Size(394, 37)
         LinkLabel1.TabIndex = 357
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Bowling Street, Hurghada Egypt"
@@ -243,9 +246,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(6, 259)
+        PictureBox6.Location = New Point(5, 194)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(50, 48)
+        PictureBox6.Size = New Size(44, 36)
         PictureBox6.TabIndex = 356
         PictureBox6.TabStop = False
         ' 
@@ -255,9 +259,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label5.AutoSize = True
         Label5.Font = New Font("Mongolian Baiti", 46F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(22, 143)
+        Label5.Location = New Point(19, 107)
         Label5.Name = "Label5"
-        Label5.Size = New Size(561, 82)
+        Label5.Size = New Size(454, 66)
         Label5.TabIndex = 355
         Label5.Text = "Boska restaurant"
         ' 
@@ -265,9 +269,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         ' 
         PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(880, 183)
+        PictureBox5.Location = New Point(985, 136)
+        PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(1029, 1056)
+        PictureBox5.Size = New Size(900, 792)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 354
         PictureBox5.TabStop = False
@@ -280,9 +285,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1797, 103)
+        Label2.Location = New Point(1789, 77)
         Label2.Name = "Label2"
-        Label2.Size = New Size(0, 25)
+        Label2.Size = New Size(0, 20)
         Label2.TabIndex = 353
         ' 
         ' Label1
@@ -291,9 +296,9 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(12, 103)
+        Label1.Location = New Point(10, 77)
         Label1.Name = "Label1"
-        Label1.Size = New Size(120, 25)
+        Label1.Size = New Size(97, 20)
         Label1.TabIndex = 351
         Label1.Text = "Hurghada > "
         ' 
@@ -303,9 +308,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(18, 9)
+        PictureBox8.Location = New Point(12, 11)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 51)
+        PictureBox8.Size = New Size(70, 38)
         PictureBox8.TabIndex = 350
         PictureBox8.TabStop = False
         ' 
@@ -315,9 +321,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(116, 9)
+        PictureBox7.Location = New Point(88, 11)
+        PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(63, 51)
+        PictureBox7.Size = New Size(55, 38)
         PictureBox7.TabIndex = 349
         PictureBox7.TabStop = False
         ' 
@@ -328,9 +335,10 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1757, 6)
+        PictureBox9.Location = New Point(1771, 11)
+        PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(69, 51)
+        PictureBox9.Size = New Size(60, 38)
         PictureBox9.TabIndex = 348
         PictureBox9.TabStop = False
         ' 
@@ -341,18 +349,19 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1846, 6)
+        PictureBox10.Location = New Point(1837, 11)
+        PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(63, 51)
+        PictureBox10.Size = New Size(55, 38)
         PictureBox10.TabIndex = 347
         PictureBox10.TabStop = False
         ' 
         ' Restaurants_Hurghada_Boska_restaurant
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1902, 1033)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(Label13)
         Controls.Add(PictureBox4)
         Controls.Add(PictureBox2)
@@ -378,6 +387,7 @@ Partial Class Restaurants_Hurghada_Boska_restaurant
         Controls.Add(PictureBox9)
         Controls.Add(PictureBox10)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Restaurants_Hurghada_Boska_restaurant"
         Text = "Restaurants_Hurghada_Boska_restaurant"
         WindowState = FormWindowState.Maximized

@@ -53,4 +53,6 @@
     Private Sub High_Budget_Hurghada_Sunrise_Aqua_Joy_Resort_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         AddPageToHistory(Me.Name)
     End Sub
+
+   
 End Class

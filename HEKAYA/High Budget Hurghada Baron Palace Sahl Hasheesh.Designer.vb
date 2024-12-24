@@ -32,8 +32,6 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label12 = New Label()
         Label11 = New Label()
         Label10 = New Label()
-        Label9 = New Label()
-        Label8 = New Label()
         Label7 = New Label()
         Label6 = New Label()
         LinkLabel1 = New LinkLabel()
@@ -67,9 +65,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox13.BackgroundImage = My.Resources.Resources.love
         PictureBox13.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox13.Cursor = Cursors.Hand
-        PictureBox13.Location = New Point(1777, 1)
+        PictureBox13.Location = New Point(1771, 11)
+        PictureBox13.Margin = New Padding(3, 2, 3, 2)
         PictureBox13.Name = "PictureBox13"
-        PictureBox13.Size = New Size(69, 52)
+        PictureBox13.Size = New Size(60, 39)
         PictureBox13.TabIndex = 187
         PictureBox13.TabStop = False
         ' 
@@ -80,9 +79,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox16.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox16.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox16.Cursor = Cursors.Hand
-        PictureBox16.Location = New Point(1835, 1)
+        PictureBox16.Location = New Point(1837, 11)
+        PictureBox16.Margin = New Padding(3, 2, 3, 2)
         PictureBox16.Name = "PictureBox16"
-        PictureBox16.Size = New Size(63, 52)
+        PictureBox16.Size = New Size(55, 39)
         PictureBox16.TabIndex = 186
         PictureBox16.TabStop = False
         ' 
@@ -92,9 +92,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox11.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox11.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox11.Cursor = Cursors.Hand
-        PictureBox11.Location = New Point(11, 7)
+        PictureBox11.Location = New Point(12, 11)
+        PictureBox11.Margin = New Padding(3, 2, 3, 2)
         PictureBox11.Name = "PictureBox11"
-        PictureBox11.Size = New Size(80, 52)
+        PictureBox11.Size = New Size(70, 39)
         PictureBox11.TabIndex = 185
         PictureBox11.TabStop = False
         ' 
@@ -104,9 +105,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox12.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox12.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox12.Cursor = Cursors.Hand
-        PictureBox12.Location = New Point(120, 7)
+        PictureBox12.Location = New Point(88, 11)
+        PictureBox12.Margin = New Padding(3, 2, 3, 2)
         PictureBox12.Name = "PictureBox12"
-        PictureBox12.Size = New Size(63, 52)
+        PictureBox12.Size = New Size(55, 39)
         PictureBox12.TabIndex = 184
         PictureBox12.TabStop = False
         ' 
@@ -116,9 +118,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label14.Cursor = Cursors.Hand
         Label14.Font = New Font("Microsoft Sans Serif", 18F)
         Label14.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label14.Location = New Point(9, 1181)
+        Label14.Location = New Point(63, 871)
         Label14.Name = "Label14"
-        Label14.Size = New Size(589, 49)
+        Label14.Size = New Size(515, 37)
         Label14.TabIndex = 183
         Label14.Text = "start from ($250–$500 USD) per night"
         ' 
@@ -128,9 +130,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label13.Cursor = Cursors.Hand
         Label13.Font = New Font("Microsoft Sans Serif", 18F)
         Label13.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label13.Location = New Point(303, 932)
+        Label13.Location = New Point(332, 623)
         Label13.Name = "Label13"
-        Label13.Size = New Size(371, 204)
+        Label13.Size = New Size(325, 153)
         Label13.TabIndex = 182
         Label13.Text = "5 swimming pools" & vbCrLf & " free wifi" & vbCrLf & "airport shuttle" & vbCrLf & "family rooms" & vbCrLf & "good breakfast " & vbCrLf
         ' 
@@ -140,9 +142,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label12.Cursor = Cursors.Hand
         Label12.Font = New Font("Microsoft Sans Serif", 18F)
         Label12.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label12.Location = New Point(9, 920)
+        Label12.Location = New Point(63, 623)
         Label12.Name = "Label12"
-        Label12.Size = New Size(301, 215)
+        Label12.Size = New Size(263, 161)
         Label12.TabIndex = 181
         Label12.Text = "spa and wellness center tea" & vbCrLf & "coffee maker in all rooms bar " & vbCrLf & "private beach area" & vbCrLf & "beach front" & vbCrLf & vbCrLf & vbCrLf
         ' 
@@ -152,9 +154,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label11.AutoSize = True
         Label11.Font = New Font("Microsoft Sans Serif", 20F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(77, 1083)
+        Label11.Location = New Point(63, 831)
         Label11.Name = "Label11"
-        Label11.Size = New Size(356, 39)
+        Label11.Size = New Size(283, 31)
         Label11.TabIndex = 180
         Label11.Text = "$132 to $176 per night"
         ' 
@@ -164,33 +166,11 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label10.AutoSize = True
         Label10.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(19, 969)
+        Label10.Location = New Point(63, 784)
         Label10.Name = "Label10"
-        Label10.Size = New Size(251, 46)
+        Label10.Size = New Size(202, 37)
         Label10.TabIndex = 179
         Label10.Text = "Price Range"
-        ' 
-        ' Label9
-        ' 
-        Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
-        Label9.Font = New Font("Microsoft Sans Serif", 20F)
-        Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(429, 696)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(245, 355)
-        Label9.TabIndex = 178
-        Label9.Text = "Fitness center" & vbCrLf & "Spa" & vbCrLf & "Bar" & vbCrLf & "Good Breakfast" & vbCrLf
-        ' 
-        ' Label8
-        ' 
-        Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left
-        Label8.Font = New Font("Microsoft Sans Serif", 20F)
-        Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(77, 696)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(312, 355)
-        Label8.TabIndex = 177
-        Label8.Text = "3 swimming pools" & vbCrLf & "Free Wi-fi" & vbCrLf & " Airport shuttle " & vbCrLf & "Family rooms" & vbCrLf & "Private Parking" & vbCrLf
         ' 
         ' Label7
         ' 
@@ -198,9 +178,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label7.AutoSize = True
         Label7.Font = New Font("Microsoft Sans Serif", 24F, FontStyle.Bold)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(72, 728)
+        Label7.Location = New Point(63, 577)
         Label7.Name = "Label7"
-        Label7.Size = New Size(428, 46)
+        Label7.Size = New Size(348, 37)
         Label7.TabIndex = 176
         Label7.Text = "Most popular facilities"
         ' 
@@ -208,9 +188,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         ' 
         Label6.Font = New Font("Lucida Sans Unicode", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(72, 341)
+        Label6.Location = New Point(63, 256)
         Label6.Name = "Label6"
-        Label6.Size = New Size(1102, 443)
+        Label6.Size = New Size(916, 332)
         Label6.TabIndex = 175
         Label6.Text = resources.GetString("Label6.Text")
         ' 
@@ -218,9 +198,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         ' 
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Segoe UI", 20F)
-        LinkLabel1.Location = New Point(111, 289)
+        LinkLabel1.Location = New Point(97, 217)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(861, 46)
+        LinkLabel1.Size = New Size(688, 37)
         LinkLabel1.TabIndex = 174
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Baron Building, Sahl Hasheesh, Sahl Hasheesh, Hurghada"
@@ -231,9 +211,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), Image)
         PictureBox6.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(34, 289)
+        PictureBox6.Location = New Point(30, 217)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(50, 49)
+        PictureBox6.Size = New Size(44, 37)
         PictureBox6.TabIndex = 173
         PictureBox6.TabStop = False
         ' 
@@ -243,19 +224,19 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label5.AutoSize = True
         Label5.Font = New Font("Mongolian Baiti", 60F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(14, 152)
+        Label5.Location = New Point(12, 114)
         Label5.Name = "Label5"
-        Label5.Size = New Size(1184, 106)
+        Label5.Size = New Size(955, 85)
         Label5.TabIndex = 172
         Label5.Text = "Baron Palace Sahl Hasheesh"
         ' 
         ' PictureBox5
         ' 
-        PictureBox5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(1147, 181)
+        PictureBox5.Location = New Point(985, 136)
+        PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(1029, 1056)
+        PictureBox5.Size = New Size(900, 792)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox5.TabIndex = 171
         PictureBox5.TabStop = False
@@ -266,9 +247,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 12F)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(111, 109)
+        Label4.Location = New Point(30, 90)
         Label4.Name = "Label4"
-        Label4.Size = New Size(84, 25)
+        Label4.Size = New Size(68, 20)
         Label4.TabIndex = 170
         Label4.Text = "Hotels >"
         ' 
@@ -278,9 +259,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 12F)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(305, 109)
+        Label3.Location = New Point(198, 90)
         Label3.Name = "Label3"
-        Label3.Size = New Size(268, 25)
+        Label3.Size = New Size(217, 20)
         Label3.TabIndex = 169
         Label3.Text = "Baron Palace Sahl Hasheesh"
         ' 
@@ -292,9 +273,9 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(1808, 116)
+        Label2.Location = New Point(1771, 99)
         Label2.Name = "Label2"
-        Label2.Size = New Size(106, 25)
+        Label2.Size = New Size(87, 20)
         Label2.TabIndex = 168
         Label2.Text = "Book now"
         ' 
@@ -304,9 +285,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), Image)
         PictureBox4.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(1748, 101)
+        PictureBox4.Location = New Point(1744, 90)
+        PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(161, 56)
+        PictureBox4.Size = New Size(141, 42)
         PictureBox4.TabIndex = 167
         PictureBox4.TabStop = False
         ' 
@@ -316,9 +298,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), Image)
         PictureBox3.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1788, 108)
+        PictureBox3.Location = New Point(1687, 93)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(58, 51)
+        PictureBox3.Size = New Size(51, 38)
         PictureBox3.TabIndex = 166
         PictureBox3.TabStop = False
         ' 
@@ -328,9 +311,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
         PictureBox2.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox2.Cursor = Cursors.Hand
-        PictureBox2.Location = New Point(1701, 108)
+        PictureBox2.Location = New Point(1635, 93)
+        PictureBox2.Margin = New Padding(3, 2, 3, 2)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(53, 51)
+        PictureBox2.Size = New Size(46, 38)
         PictureBox2.TabIndex = 165
         PictureBox2.TabStop = False
         ' 
@@ -341,9 +325,10 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(1407, 116)
+        PictureBox1.Location = New Point(985, 93)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(179, 52)
+        PictureBox1.Size = New Size(157, 39)
         PictureBox1.TabIndex = 164
         PictureBox1.TabStop = False
         ' 
@@ -353,18 +338,18 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Label1.Cursor = Cursors.Hand
         Label1.Font = New Font("Microsoft Sans Serif", 12F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(34, 109)
+        Label1.Location = New Point(104, 90)
         Label1.Name = "Label1"
-        Label1.Size = New Size(120, 25)
+        Label1.Size = New Size(97, 20)
         Label1.TabIndex = 163
         Label1.Text = "Hurghada > "
         ' 
         ' High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1924, 1055)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(PictureBox13)
         Controls.Add(PictureBox16)
         Controls.Add(PictureBox11)
@@ -374,8 +359,6 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Controls.Add(Label12)
         Controls.Add(Label11)
         Controls.Add(Label10)
-        Controls.Add(Label9)
-        Controls.Add(Label8)
         Controls.Add(Label7)
         Controls.Add(Label6)
         Controls.Add(LinkLabel1)
@@ -391,6 +374,7 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh"
         Text = "High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh"
         WindowState = FormWindowState.Maximized
@@ -417,8 +401,6 @@ Partial Class High_Budget_Hurghada_Baron_Palace_Sahl_Hasheesh
     Friend WithEvents Label12 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents LinkLabel1 As LinkLabel

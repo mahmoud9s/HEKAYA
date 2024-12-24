@@ -47,4 +47,19 @@
         Hotels_Siwa_Moderate_Budget.Show()
         Me.Hide()
     End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        Landmarks_Siwa.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+        Landmarks_Siwa.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Restaurants_Siwa.Show()
+        Me.Hide()
+    End Sub
 End Class

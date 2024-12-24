@@ -25,7 +25,6 @@ Partial Class Landmarks_Siwa
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Landmarks_Siwa))
         Label11 = New Label()
         Label10 = New Label()
-        Label9 = New Label()
         Label8 = New Label()
         Label7 = New Label()
         Label6 = New Label()
@@ -58,9 +57,9 @@ Partial Class Landmarks_Siwa
         Label11.Cursor = Cursors.Hand
         Label11.Font = New Font("Microsoft Sans Serif", 18F)
         Label11.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label11.Location = New Point(648, 830)
+        Label11.Location = New Point(576, 632)
         Label11.Name = "Label11"
-        Label11.Size = New Size(415, 193)
+        Label11.Size = New Size(363, 411)
         Label11.TabIndex = 118
         Label11.Text = "Gabal el-Mawta, or ""Mountain of the Dead,"" is a necropolis in the Siwa Oasis, Egypt, with tombs from the 26th Dynasty and the Greco-Roman period, offering insights into ancient burial practices."
         ' 
@@ -70,23 +69,11 @@ Partial Class Landmarks_Siwa
         Label10.Cursor = Cursors.Hand
         Label10.Font = New Font("Microsoft Sans Serif", 18F)
         Label10.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label10.Location = New Point(1651, 830)
+        Label10.Location = New Point(1525, 636)
         Label10.Name = "Label10"
-        Label10.Size = New Size(415, 193)
+        Label10.Size = New Size(363, 411)
         Label10.TabIndex = 117
         Label10.Text = "The Temple of Amun in the Siwa Oasis, Egypt, was dedicated to the god Amun and is historically significant, especially during Alexander the Great's time."
-        ' 
-        ' Label9
-        ' 
-        Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom
-        Label9.Cursor = Cursors.Hand
-        Label9.Font = New Font("Microsoft Sans Serif", 18F)
-        Label9.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label9.Location = New Point(648, 830)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(415, 0)
-        Label9.TabIndex = 116
-        Label9.Text = resources.GetString("Label9.Text")
         ' 
         ' Label8
         ' 
@@ -94,9 +81,9 @@ Partial Class Landmarks_Siwa
         Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Microsoft Sans Serif", 18F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(1651, 264)
+        Label8.Location = New Point(1525, 198)
         Label8.Name = "Label8"
-        Label8.Size = New Size(415, 247)
+        Label8.Size = New Size(363, 206)
         Label8.TabIndex = 115
         Label8.Text = "Geological Nature Dakrour Mountain is composed of limestone and sedimentary rocks, believed to have been part of an ancient seabed."
         ' 
@@ -106,9 +93,9 @@ Partial Class Landmarks_Siwa
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1651, 830)
+        Label7.Location = New Point(1525, 636)
         Label7.Name = "Label7"
-        Label7.Size = New Size(415, 0)
+        Label7.Size = New Size(363, 266)
         Label7.TabIndex = 114
         Label7.Text = "Stanley Bridge, inaugurated in 2001 in Alexandria, is a 400-meter Italian-inspired structure on the Corniche. It eases traffic, offers Mediterranean views, and is popular with tourists and locals."
         ' 
@@ -118,9 +105,9 @@ Partial Class Landmarks_Siwa
         Label6.Cursor = Cursors.Hand
         Label6.Font = New Font("Microsoft Sans Serif", 18F)
         Label6.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label6.Location = New Point(648, 264)
+        Label6.Location = New Point(576, 218)
         Label6.Name = "Label6"
-        Label6.Size = New Size(415, 261)
+        Label6.Size = New Size(363, 224)
         Label6.TabIndex = 113
         Label6.Text = "Cleopatra’s Bath is a famous spring in the Siwa Oasis, Egypt, popular for its clear, mineral-rich waters. Despite its name, there’s no evidence Cleopatra visited it."
         ' 
@@ -131,9 +118,9 @@ Partial Class Landmarks_Siwa
         Label4.Cursor = Cursors.Hand
         Label4.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label4.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label4.Location = New Point(648, 768)
+        Label4.Location = New Point(576, 590)
         Label4.Name = "Label4"
-        Label4.Size = New Size(277, 39)
+        Label4.Size = New Size(230, 32)
         Label4.TabIndex = 112
         Label4.Text = "Gabal El-Mawta"
         ' 
@@ -144,9 +131,9 @@ Partial Class Landmarks_Siwa
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(1651, 768)
+        Label3.Location = New Point(1525, 590)
         Label3.Name = "Label3"
-        Label3.Size = New Size(285, 39)
+        Label3.Size = New Size(235, 32)
         Label3.TabIndex = 111
         Label3.Text = "Temple of Amun"
         ' 
@@ -157,9 +144,9 @@ Partial Class Landmarks_Siwa
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(1651, 205)
+        Label2.Location = New Point(1525, 154)
         Label2.Name = "Label2"
-        Label2.Size = New Size(436, 39)
+        Label2.Size = New Size(362, 32)
         Label2.TabIndex = 110
         Label2.Text = "Dakrour Mountain in Siwa"
         ' 
@@ -170,9 +157,9 @@ Partial Class Landmarks_Siwa
         Label5.Cursor = Cursors.Hand
         Label5.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label5.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label5.Location = New Point(648, 205)
+        Label5.Location = New Point(576, 174)
         Label5.Name = "Label5"
-        Label5.Size = New Size(320, 39)
+        Label5.Size = New Size(266, 32)
         Label5.TabIndex = 109
         Label5.Text = "Cleopatra’s Spring"
         ' 
@@ -182,9 +169,10 @@ Partial Class Landmarks_Siwa
         PictureBox8.BackgroundImage = My.Resources.Resources.Picture7
         PictureBox8.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox8.Cursor = Cursors.Hand
-        PictureBox8.Location = New Point(4, 9)
+        PictureBox8.Location = New Point(4, 7)
+        PictureBox8.Margin = New Padding(3, 2, 3, 2)
         PictureBox8.Name = "PictureBox8"
-        PictureBox8.Size = New Size(80, 52)
+        PictureBox8.Size = New Size(70, 39)
         PictureBox8.TabIndex = 108
         PictureBox8.TabStop = False
         ' 
@@ -194,9 +182,10 @@ Partial Class Landmarks_Siwa
         PictureBox7.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox7.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox7.Cursor = Cursors.Hand
-        PictureBox7.Location = New Point(102, 9)
+        PictureBox7.Location = New Point(89, 7)
+        PictureBox7.Margin = New Padding(3, 2, 3, 2)
         PictureBox7.Name = "PictureBox7"
-        PictureBox7.Size = New Size(63, 52)
+        PictureBox7.Size = New Size(55, 39)
         PictureBox7.TabIndex = 107
         PictureBox7.TabStop = False
         ' 
@@ -207,9 +196,10 @@ Partial Class Landmarks_Siwa
         PictureBox9.BackgroundImage = My.Resources.Resources.love
         PictureBox9.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox9.Cursor = Cursors.Hand
-        PictureBox9.Location = New Point(1734, 9)
+        PictureBox9.Location = New Point(1757, 7)
+        PictureBox9.Margin = New Padding(3, 2, 3, 2)
         PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(69, 52)
+        PictureBox9.Size = New Size(60, 39)
         PictureBox9.TabIndex = 106
         PictureBox9.TabStop = False
         ' 
@@ -220,9 +210,10 @@ Partial Class Landmarks_Siwa
         PictureBox10.BackgroundImage = My.Resources.Resources.Picture9
         PictureBox10.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox10.Cursor = Cursors.Hand
-        PictureBox10.Location = New Point(1820, 9)
+        PictureBox10.Location = New Point(1832, 7)
+        PictureBox10.Margin = New Padding(3, 2, 3, 2)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(63, 52)
+        PictureBox10.Size = New Size(55, 39)
         PictureBox10.TabIndex = 105
         PictureBox10.TabStop = False
         ' 
@@ -233,9 +224,10 @@ Partial Class Landmarks_Siwa
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.BorderStyle = BorderStyle.FixedSingle
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(1094, 768)
+        PictureBox6.Location = New Point(1029, 576)
+        PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(549, 501)
+        PictureBox6.Size = New Size(481, 376)
         PictureBox6.TabIndex = 104
         PictureBox6.TabStop = False
         ' 
@@ -246,9 +238,10 @@ Partial Class Landmarks_Siwa
         PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox4.BorderStyle = BorderStyle.FixedSingle
         PictureBox4.Cursor = Cursors.Hand
-        PictureBox4.Location = New Point(92, 768)
+        PictureBox4.Location = New Point(89, 576)
+        PictureBox4.Margin = New Padding(3, 2, 3, 2)
         PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(549, 501)
+        PictureBox4.Size = New Size(481, 376)
         PictureBox4.TabIndex = 103
         PictureBox4.TabStop = False
         ' 
@@ -259,9 +252,10 @@ Partial Class Landmarks_Siwa
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1094, 205)
+        PictureBox3.Location = New Point(1029, 154)
+        PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(549, 501)
+        PictureBox3.Size = New Size(481, 376)
         PictureBox3.TabIndex = 102
         PictureBox3.TabStop = False
         ' 
@@ -272,9 +266,10 @@ Partial Class Landmarks_Siwa
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.BorderStyle = BorderStyle.FixedSingle
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(92, 205)
+        PictureBox1.Location = New Point(89, 154)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(549, 501)
+        PictureBox1.Size = New Size(481, 376)
         PictureBox1.TabIndex = 101
         PictureBox1.TabStop = False
         ' 
@@ -284,21 +279,20 @@ Partial Class Landmarks_Siwa
         Label1.AutoSize = True
         Label1.Font = New Font("Mongolian Baiti", 45F)
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(887, 49)
+        Label1.Location = New Point(856, 39)
         Label1.Name = "Label1"
-        Label1.Size = New Size(372, 80)
+        Label1.Size = New Size(298, 64)
         Label1.TabIndex = 100
         Label1.Text = "Landmarks"
         ' 
         ' Landmarks_Siwa
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(239), CByte(235), CByte(229))
-        ClientSize = New Size(1902, 1033)
+        ClientSize = New Size(1904, 1041)
         Controls.Add(Label11)
         Controls.Add(Label10)
-        Controls.Add(Label9)
         Controls.Add(Label8)
         Controls.Add(Label7)
         Controls.Add(Label6)
@@ -316,6 +310,7 @@ Partial Class Landmarks_Siwa
         Controls.Add(PictureBox1)
         Controls.Add(Label1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Landmarks_Siwa"
         Text = "Landmarks_Siwa"
         WindowState = FormWindowState.Maximized
@@ -333,7 +328,6 @@ Partial Class Landmarks_Siwa
 
     Friend WithEvents Label11 As Label
     Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label

@@ -339,7 +339,7 @@ Partial Class High_Budget_Hurghada_Steigenberger_Aldau_Beach_Hotel
         PictureBox12.BackgroundImage = My.Resources.Resources.Picture6
         PictureBox12.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox12.Cursor = Cursors.Hand
-        PictureBox12.Location = New Point(107, 11)
+        PictureBox12.Location = New Point(88, 11)
         PictureBox12.Margin = New Padding(3, 2, 3, 2)
         PictureBox12.Name = "PictureBox12"
         PictureBox12.Size = New Size(55, 39)

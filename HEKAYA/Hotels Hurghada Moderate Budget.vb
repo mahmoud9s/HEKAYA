@@ -35,12 +35,12 @@
     End Sub
 
     Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
-        Moderate_Budget_Hurghada_Kempinski_Hotel_Soma_Bay.Show()
+        Moderate_Budget_Hurghada_Old_Palace_Resort.Show()
         Me.Hide()
     End Sub
 
     Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
-        Moderate_Budget_Hurghada_Kempinski_Hotel_Soma_Bay.Show()
+        Moderate_Budget_Hurghada_Old_Palace_Resort.Show()
         Me.Hide()
     End Sub
 

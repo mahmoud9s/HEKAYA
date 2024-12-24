@@ -43,7 +43,7 @@ Partial Class Strat_Page
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Calisto MT", 22.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.White
-        Label3.Location = New Point(726, 636)
+        Label3.Location = New Point(718, 636)
         Label3.Name = "Label3"
         Label3.Size = New Size(422, 31)
         Label3.TabIndex = 9
@@ -57,7 +57,7 @@ Partial Class Strat_Page
         Button1.BackColor = Color.White
         Button1.Font = New Font("Nirmala UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Button1.Location = New Point(844, 876)
+        Button1.Location = New Point(821, 743)
         Button1.Margin = New Padding(3, 2, 3, 2)
         Button1.Name = "Button1"
         Button1.Size = New Size(216, 42)
@@ -86,7 +86,7 @@ Partial Class Strat_Page
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Copperplate Gothic Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
-        Label1.Location = New Point(729, 140)
+        Label1.Location = New Point(720, 140)
         Label1.Name = "Label1"
         Label1.Size = New Size(419, 41)
         Label1.TabIndex = 6
@@ -103,7 +103,7 @@ Partial Class Strat_Page
         Label4.Name = "Label4"
         Label4.Size = New Size(44, 46)
         Label4.TabIndex = 13
-        Label4.Text = "AR"
+        Label4.Text = "EN"
         Label4.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' PictureBox3

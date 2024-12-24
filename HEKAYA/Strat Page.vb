@@ -41,6 +41,7 @@
     End Sub
 
     Private Sub Strat_Page_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        AddPageToHistory(Me.Name)
 
     End Sub
 End Class

@@ -98,14 +98,15 @@ Public Class Hotels_Hurghada_large_budget
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-        hotels_Hurghaba_moderate_budget.Show()
+        Hotels_Hurghada_Moderate_Budget.Show()
         Me.Hide()
 
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
-        hotels_Hurghaba_moderate_budget.Show()
+        Hotels_Hurghada_Moderate_Budget.Show()
         Me.Hide()
+
     End Sub
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
@@ -118,7 +119,7 @@ Public Class Hotels_Hurghada_large_budget
         Me.Hide()
     End Sub
 
-    Private Sub hotels_Hurghada_large_budget_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Hotels_Hurghada_Large_Budget_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         AddPageToHistory(Me.Name)
     End Sub
 End Class

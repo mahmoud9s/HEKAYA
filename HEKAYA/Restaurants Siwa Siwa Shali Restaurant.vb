@@ -1,7 +1,7 @@
 ﻿Public Class Restaurants_Siwa_Siwa_Shali_Restaurant
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
         Choosse_Your_Distination.Show()
-        Me.Hide()
+        Hide()
     End Sub
 
     Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
@@ -30,10 +30,10 @@
     End Sub
 
     Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
-        Dim previousPage As String = GetPreviousPage()
+        Dim previousPage = GetPreviousPage()
 
         If Not String.IsNullOrEmpty(previousPage) Then
-            Dim frm As Form = Application.OpenForms.OfType(Of Form)().FirstOrDefault(Function(f) f.Name = previousPage)
+            Dim frm = Application.OpenForms.OfType(Of Form).FirstOrDefault(Function(f) f.Name = previousPage)
             If frm Is Nothing Then
                 Try
                     frm = Activator.CreateInstance(Type.GetType(previousPage))
@@ -44,7 +44,7 @@
             Else
                 frm.Show()
             End If
-            Me.Close()
+            Close()
         Else
             MessageBox.Show("There's no previous page to go back to.")
         End If

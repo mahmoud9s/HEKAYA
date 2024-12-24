@@ -52,7 +52,7 @@ Partial Class Choosse_Your_Distination
         Label1.AutoSize = True
         Label1.Font = New Font("Mongolian Baiti", 60F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label1.Location = New Point(564, 64)
+        Label1.Location = New Point(521, 65)
         Label1.Name = "Label1"
         Label1.Size = New Size(834, 85)
         Label1.TabIndex = 0
@@ -65,7 +65,7 @@ Partial Class Choosse_Your_Distination
         PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.BorderStyle = BorderStyle.FixedSingle
         PictureBox1.Cursor = Cursors.Hand
-        PictureBox1.Location = New Point(268, 174)
+        PictureBox1.Location = New Point(348, 174)
         PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(396, 285)
@@ -78,7 +78,7 @@ Partial Class Choosse_Your_Distination
         LinkLabel1.AutoSize = True
         LinkLabel1.Font = New Font("Mongolian Baiti", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         LinkLabel1.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel1.Location = New Point(373, 489)
+        LinkLabel1.Location = New Point(473, 489)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(146, 29)
         LinkLabel1.TabIndex = 11
@@ -91,7 +91,7 @@ Partial Class Choosse_Your_Distination
         LinkLabel3.AutoSize = True
         LinkLabel3.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel3.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel3.Location = New Point(1360, 489)
+        LinkLabel3.Location = New Point(1250, 489)
         LinkLabel3.Name = "LinkLabel3"
         LinkLabel3.Size = New Size(79, 29)
         LinkLabel3.TabIndex = 13
@@ -104,7 +104,7 @@ Partial Class Choosse_Your_Distination
         LinkLabel5.AutoSize = True
         LinkLabel5.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel5.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel5.Location = New Point(401, 926)
+        LinkLabel5.Location = New Point(481, 926)
         LinkLabel5.Name = "LinkLabel5"
         LinkLabel5.Size = New Size(130, 29)
         LinkLabel5.TabIndex = 15
@@ -117,7 +117,7 @@ Partial Class Choosse_Your_Distination
         LinkLabel6.AutoSize = True
         LinkLabel6.Font = New Font("Mongolian Baiti", 20F, FontStyle.Bold)
         LinkLabel6.LinkColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        LinkLabel6.Location = New Point(1363, 926)
+        LinkLabel6.Location = New Point(1253, 926)
         LinkLabel6.Name = "LinkLabel6"
         LinkLabel6.Size = New Size(72, 29)
         LinkLabel6.TabIndex = 16
@@ -131,7 +131,7 @@ Partial Class Choosse_Your_Distination
         PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox3.BorderStyle = BorderStyle.FixedSingle
         PictureBox3.Cursor = Cursors.Hand
-        PictureBox3.Location = New Point(1201, 174)
+        PictureBox3.Location = New Point(1091, 174)
         PictureBox3.Margin = New Padding(3, 2, 3, 2)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(396, 285)
@@ -145,7 +145,7 @@ Partial Class Choosse_Your_Distination
         PictureBox5.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox5.BorderStyle = BorderStyle.FixedSingle
         PictureBox5.Cursor = Cursors.Hand
-        PictureBox5.Location = New Point(268, 605)
+        PictureBox5.Location = New Point(348, 605)
         PictureBox5.Margin = New Padding(3, 2, 3, 2)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(396, 285)
@@ -159,7 +159,7 @@ Partial Class Choosse_Your_Distination
         PictureBox6.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox6.BorderStyle = BorderStyle.FixedSingle
         PictureBox6.Cursor = Cursors.Hand
-        PictureBox6.Location = New Point(1201, 605)
+        PictureBox6.Location = New Point(1091, 605)
         PictureBox6.Margin = New Padding(3, 2, 3, 2)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(396, 285)
