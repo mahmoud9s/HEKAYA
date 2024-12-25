@@ -1,12 +1,12 @@
 ﻿Public Class Favorites_List
     Private Sub Button2_Click(sender As Object, e As EventArgs)
         Choosse_Your_Distination.Show
-        Hide
+        Me.Hide()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs)
         User_Profile.Show
-        Show
+        Me.Show()
 
     End Sub
 
@@ -20,7 +20,7 @@
     End Sub
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
-        Choosse_Your_Distination.Show()
+        Choosse_Your_Distination.Show
         Me.Hide()
     End Sub
 
@@ -28,7 +28,7 @@
         AddPageToHistory(Me.Name)
     End Sub
 
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -70,5 +70,35 @@
         Else
             MessageBox.Show("There's no previous page to go back to.")
         End If
+    End Sub
+
+    Private Sub PictureBox1_Click_1(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Restaurants_Cairo_Sequoia.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        Restaurants_Cairo_Sequoia.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+        Restaurants_Cairo_Sequoia.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
+        High_Budget_Cairo_Hotels_Waldorf_Astoria_Cairo_Heliopolis.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label13_Click(sender As Object, e As EventArgs) Handles Label13.Click
+        High_Budget_Cairo_Hotels_Waldorf_Astoria_Cairo_Heliopolis.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+        High_Budget_Cairo_Hotels_Waldorf_Astoria_Cairo_Heliopolis.Show()
+        Me.Hide()
     End Sub
 End Class

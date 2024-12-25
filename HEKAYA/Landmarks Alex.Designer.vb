@@ -68,7 +68,7 @@ Partial Class Landmarks_Alex
         Label8.Cursor = Cursors.Hand
         Label8.Font = New Font("Microsoft Sans Serif", 18F)
         Label8.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label8.Location = New Point(1505, 218)
+        Label8.Location = New Point(1511, 218)
         Label8.Name = "Label8"
         Label8.Size = New Size(363, 193)
         Label8.TabIndex = 79
@@ -80,7 +80,7 @@ Partial Class Landmarks_Alex
         Label7.Cursor = Cursors.Hand
         Label7.Font = New Font("Microsoft Sans Serif", 18F)
         Label7.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label7.Location = New Point(1505, 652)
+        Label7.Location = New Point(1511, 652)
         Label7.Name = "Label7"
         Label7.Size = New Size(363, 245)
         Label7.TabIndex = 78
@@ -118,7 +118,7 @@ Partial Class Landmarks_Alex
         Label3.Cursor = Cursors.Hand
         Label3.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label3.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label3.Location = New Point(1505, 605)
+        Label3.Location = New Point(1511, 605)
         Label3.Name = "Label3"
         Label3.Size = New Size(214, 32)
         Label3.TabIndex = 75
@@ -131,7 +131,7 @@ Partial Class Landmarks_Alex
         Label2.Cursor = Cursors.Hand
         Label2.Font = New Font("Microsoft Sans Serif", 21F, FontStyle.Bold)
         Label2.ForeColor = Color.FromArgb(CByte(98), CByte(62), CByte(42))
-        Label2.Location = New Point(1505, 174)
+        Label2.Location = New Point(1511, 174)
         Label2.Name = "Label2"
         Label2.Size = New Size(324, 32)
         Label2.TabIndex = 74
