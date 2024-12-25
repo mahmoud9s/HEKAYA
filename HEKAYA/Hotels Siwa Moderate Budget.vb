@@ -110,12 +110,12 @@
     End Sub
 
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-        hotels_Hurghada_large_budget.Show()
+        Hotels_Siwa_Large_budget.Show()
         Me.Hide()
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        hotels_Hurghada_large_budget.Show()
+        Hotels_Siwa_Large_budget.Show()
         Me.Hide()
     End Sub
 End Class
